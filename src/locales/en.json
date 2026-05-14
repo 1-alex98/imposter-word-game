@@ -30,7 +30,7 @@
   "player": {
     "pickName": "Tap your name",
     "youAre": "You are",
-    "showRole": "Show my word / role",
+    "showRole": "Show word",
     "showRoleAgain": "Show my word again",
     "hide": "Hide",
     "imposter": "You are the imposter",
