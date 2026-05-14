@@ -1,5 +1,1955 @@
 [
   {
+    "word": "Uhr",
+    "hint": "Haushalt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kind",
+    "hint": "Familie",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Geld",
+    "hint": "Finanzen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Spiel",
+    "hint": "Freizeit",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Land",
+    "hint": "Geografie",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Familie",
+    "hint": "Gemeinschaft",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Haus",
+    "hint": "Gebäude",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bild",
+    "hint": "Kunst",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Minute",
+    "hint": "Zeit",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Polizei",
+    "hint": "Beruf",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tag",
+    "hint": "Zeit",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schule",
+    "hint": "Bildung",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Musik",
+    "hint": "Kunst",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wasser",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Auto",
+    "hint": "Fahrzeug",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hand",
+    "hint": "Körper",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kopf",
+    "hint": "Körper",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Strasse",
+    "hint": "Verkehr",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eltern",
+    "hint": "Familie",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Mutter",
+    "hint": "Familie",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Auge",
+    "hint": "Körper",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Stadt",
+    "hint": "Geografie",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Arbeit",
+    "hint": "Beruf",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Geschichte",
+    "hint": "Bildung",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Stunde",
+    "hint": "Zeit",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Unternehmen",
+    "hint": "Wirtschaft",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Gesellschaft",
+    "hint": "Gemeinschaft",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Woche",
+    "hint": "Zeit",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Million",
+    "hint": "Finanzen",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Artikel",
+    "hint": "Medien",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Film",
+    "hint": "Medien",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Internet",
+    "hint": "Technologie",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Buch",
+    "hint": "Medien",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sohn",
+    "hint": "Familie",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Mädchen",
+    "hint": "Person",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Vater",
+    "hint": "Familie",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Freund",
+    "hint": "Beziehung",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kirche",
+    "hint": "Gebäude",
+    "difficulty": "easy"
+  },
+  {
+    "word": "März",
+    "hint": "Kalender",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Preis",
+    "hint": "Wirtschaft",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tod",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Video",
+    "hint": "Medien",
+    "difficulty": "easy"
+  },
+  {
+    "word": "November",
+    "hint": "Kalender",
+    "difficulty": "medium"
+  },
+  {
+    "word": "April",
+    "hint": "Kalender",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Raum",
+    "hint": "Gebäude",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Juli",
+    "hint": "Kalender",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Juni",
+    "hint": "Kalender",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Oktober",
+    "hint": "Kalender",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sommer",
+    "hint": "Jahreszeit",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Titel",
+    "hint": "Medien",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tochter",
+    "hint": "Familie",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wohnung",
+    "hint": "Zuhause",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kunst",
+    "hint": "Kultur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sprache",
+    "hint": "Kommunikation",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Band",
+    "hint": "Musik",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Job",
+    "hint": "Beruf",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Höhe",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Klasse",
+    "hint": "Schule",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Gesicht",
+    "hint": "Körperteil",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Herz",
+    "hint": "Körperteil",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Foto",
+    "hint": "Medien",
+    "difficulty": "easy"
+  },
+  {
+    "word": "König",
+    "hint": "Person",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Luft",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Boden",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bruder",
+    "hint": "Familie",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fussball",
+    "hint": "Sport",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kreis",
+    "hint": "Form",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Körper",
+    "hint": "Mensch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Nachricht",
+    "hint": "Kommunikation",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Verein",
+    "hint": "Organisation",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Licht",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Markt",
+    "hint": "Wirtschaft",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Zeitung",
+    "hint": "Medien",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schüler",
+    "hint": "Schule",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sport",
+    "hint": "Freizeit",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Projekt",
+    "hint": "Arbeit",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Punkt",
+    "hint": "Form",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Freundin",
+    "hint": "Person",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Programm",
+    "hint": "Medien",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Saison",
+    "hint": "Zeit",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Dezember",
+    "hint": "Monat",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Januar",
+    "hint": "Monat",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Februar",
+    "hint": "Monat",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Firma",
+    "hint": "Wirtschaft",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ausbildung",
+    "hint": "Beruf",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Gesicht",
+    "hint": "Körperteil",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Herz",
+    "hint": "Körperteil",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Foto",
+    "hint": "Medien",
+    "difficulty": "easy"
+  },
+  {
+    "word": "König",
+    "hint": "Person",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Luft",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Boden",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bruder",
+    "hint": "Familie",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fussball",
+    "hint": "Sport",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kreis",
+    "hint": "Form",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Körper",
+    "hint": "Mensch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Nachricht",
+    "hint": "Kommunikation",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Verein",
+    "hint": "Organisation",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Licht",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Markt",
+    "hint": "Wirtschaft",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Zeitung",
+    "hint": "Medien",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schüler",
+    "hint": "Schule",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sport",
+    "hint": "Freizeit",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Projekt",
+    "hint": "Arbeit",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Punkt",
+    "hint": "Form",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Freundin",
+    "hint": "Person",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Programm",
+    "hint": "Medien",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Saison",
+    "hint": "Zeit",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Dezember",
+    "hint": "Monat",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Januar",
+    "hint": "Monat",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Februar",
+    "hint": "Monat",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Firma",
+    "hint": "Wirtschaft",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ausbildung",
+    "hint": "Beruf",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Zimmer",
+    "hint": "Wohnen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Stimme",
+    "hint": "Kommunikation",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Wochenende",
+    "hint": "Zeit",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Falle",
+    "hint": "Jagd",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schritt",
+    "hint": "Bewegung",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Angebot",
+    "hint": "Handel",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bett",
+    "hint": "Möbel",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Gefahr",
+    "hint": "Sicherheit",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Natur",
+    "hint": "Umwelt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Mannschaft",
+    "hint": "Sport",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ordnung",
+    "hint": "Haushalt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Rot",
+    "hint": "Farbe",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Samstag",
+    "hint": "Zeit",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Chef",
+    "hint": "Beruf",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Dollar",
+    "hint": "Finanzen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Lehrer",
+    "hint": "Beruf",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Runde",
+    "hint": "Sport",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bank",
+    "hint": "Finanzen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Gebäude",
+    "hint": "Architektur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Gesetz",
+    "hint": "Recht",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Hotel",
+    "hint": "Reise",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zug",
+    "hint": "Fahrzeug",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Erde",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Gold",
+    "hint": "Material",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Reise",
+    "hint": "Freizeit",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sieg",
+    "hint": "Sport",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tür",
+    "hint": "Gebäude",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Universität",
+    "hint": "Bildung",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Besuch",
+    "hint": "Soziales",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Fenster",
+    "hint": "Gebäude",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zeichen",
+    "hint": "Kommunikation",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Auswahl",
+    "hint": "Handel",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Arzt",
+    "hint": "Beruf",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Grenze",
+    "hint": "Geographie",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Hund",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Karte",
+    "hint": "Papier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Meister",
+    "hint": "Beruf",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sonne",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tier",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Handy",
+    "hint": "Technik",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kaffee",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wagen",
+    "hint": "Fahrzeug",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Winter",
+    "hint": "Jahreszeit",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kollege",
+    "hint": "Beruf",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tisch",
+    "hint": "Möbel",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Urlaub",
+    "hint": "Freizeit",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bier",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Gericht",
+    "hint": "Essen",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Himmel",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Patient",
+    "hint": "Gesundheit",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Energie",
+    "hint": "Physik",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kilometer",
+    "hint": "Maß",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Wald",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Trainer",
+    "hint": "Sport",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Gespräch",
+    "hint": "Kommunikation",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Richter",
+    "hint": "Beruf",
+    "difficulty": "medium"
+  },
+  {
+    "word": "See",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tor",
+    "hint": "Sport",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Soldat",
+    "hint": "Beruf",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Rennen",
+    "hint": "Sport",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sekunde",
+    "hint": "Zeit",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Geburtstag",
+    "hint": "Feier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Insel",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schwester",
+    "hint": "Familie",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Feuer",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Halle",
+    "hint": "Gebäude",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kamera",
+    "hint": "Technik",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Telefon",
+    "hint": "Technik",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wetter",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Album",
+    "hint": "Musik",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Flughafen",
+    "hint": "Reise",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Krankenhaus",
+    "hint": "Gebäude",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Mund",
+    "hint": "Körper",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Verkehr",
+    "hint": "Straße",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Armee",
+    "hint": "Militär",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Blut",
+    "hint": "Körper",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bürgermeister",
+    "hint": "Beruf",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Büro",
+    "hint": "Arbeitsplatz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Farbe",
+    "hint": "Kunst",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Garten",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Lied",
+    "hint": "Musik",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Meer",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Museum",
+    "hint": "Gebäude",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Park",
+    "hint": "Ort",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Spiegel",
+    "hint": "Haushalt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Theater",
+    "hint": "Kultur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Traum",
+    "hint": "Schlaf",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bus",
+    "hint": "Fahrzeug",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fernsehen",
+    "hint": "Medien",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Finale",
+    "hint": "Sport",
+    "difficulty": "medium"
+  },
+  {
+    "word": "General",
+    "hint": "Militär",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kaiser",
+    "hint": "Geschichte",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Karriere",
+    "hint": "Beruf",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Polizist",
+    "hint": "Beruf",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Seele",
+    "hint": "Religion",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Strom",
+    "hint": "Energie",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Waffe",
+    "hint": "Militär",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Brief",
+    "hint": "Kommunikation",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Modell",
+    "hint": "Kunst",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Produkt",
+    "hint": "Handel",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Angriff",
+    "hint": "Militär",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Forschung",
+    "hint": "Wissenschaft",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Material",
+    "hint": "Handwerk",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Unfall",
+    "hint": "Ereignis",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ausstellung",
+    "hint": "Kultur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Geschäft",
+    "hint": "Handel",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wind",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Gesundheit",
+    "hint": "Körper",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Mama",
+    "hint": "Familie",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Presse",
+    "hint": "Medien",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Radio",
+    "hint": "Medien",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wand",
+    "hint": "Gebäude",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wissenschaft",
+    "hint": "Wissen",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bahnhof",
+    "hint": "Verkehr",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Küche",
+    "hint": "Haushalt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schiff",
+    "hint": "Fahrzeug",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Beruf",
+    "hint": "Arbeit",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Computer",
+    "hint": "Technik",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Finger",
+    "hint": "Körper",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fleisch",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fliege",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Roman",
+    "hint": "Literatur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Stein",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Alkohol",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Handel",
+    "hint": "Wirtschaft",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Institut",
+    "hint": "Bildung",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kurs",
+    "hint": "Bildung",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Lager",
+    "hint": "Gebäude",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schlag",
+    "hint": "Bewegung",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Student",
+    "hint": "Bildung",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Veranstaltung",
+    "hint": "Ereignis",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ball",
+    "hint": "Sport",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Holz",
+    "hint": "Material",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Risiko",
+    "hint": "Entscheidung",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Stimmung",
+    "hint": "Gefühl",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Täter",
+    "hint": "Verbrechen",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Wein",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zuschauer",
+    "hint": "Veranstaltung",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Besucher",
+    "hint": "Veranstaltung",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Feld",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kino",
+    "hint": "Freizeit",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Nase",
+    "hint": "Körper",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pause",
+    "hint": "Alltag",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Prüfung",
+    "hint": "Schule",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Regen",
+    "hint": "Wetter",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tradition",
+    "hint": "Kultur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Umwelt",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Weihnachten",
+    "hint": "Fest",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Baum",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Berg",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bühne",
+    "hint": "Theater",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Haar",
+    "hint": "Körper",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schuh",
+    "hint": "Kleidung",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Brücke",
+    "hint": "Bauwerk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Glas",
+    "hint": "Haushalt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Konzert",
+    "hint": "Musik",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Nachbar",
+    "hint": "Zuhause",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Publikum",
+    "hint": "Veranstaltung",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Rechnung",
+    "hint": "Finanzen",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Streit",
+    "hint": "Beziehung",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Verkauf",
+    "hint": "Handel",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schlaf",
+    "hint": "Körper",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Silber",
+    "hint": "Material",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tasche",
+    "hint": "Accessoire",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Anwalt",
+    "hint": "Beruf",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Milch",
+    "hint": "Lebensmittel",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Strafe",
+    "hint": "Recht",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sturm",
+    "hint": "Wetter",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Brot",
+    "hint": "Lebensmittel",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Frühstück",
+    "hint": "Mahlzeit",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kreuz",
+    "hint": "Symbol",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schatten",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Stern",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Verbrechen",
+    "hint": "Recht",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Feuerwehr",
+    "hint": "Beruf",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Flug",
+    "hint": "Reise",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Katze",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Messer",
+    "hint": "Haushalt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Operation",
+    "hint": "Medizin",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Pfarrer",
+    "hint": "Beruf",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Fahrrad",
+    "hint": "Fahrzeug",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Festival",
+    "hint": "Veranstaltung",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Beweis",
+    "hint": "Recht",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Droge",
+    "hint": "Substanz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Geschenk",
+    "hint": "Anlass",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Manager",
+    "hint": "Beruf",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Revolution",
+    "hint": "Geschichte",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schauspieler",
+    "hint": "Beruf",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Temperatur",
+    "hint": "Wetter",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Uni",
+    "hint": "Bildung",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wettbewerb",
+    "hint": "Sport",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Fahrzeug",
+    "hint": "Transport",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Flucht",
+    "hint": "Aktion",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Maschine",
+    "hint": "Technik",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ring",
+    "hint": "Schmuck",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Übersetzung",
+    "hint": "Sprache",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Debatte",
+    "hint": "Kommunikation",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ei",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Gas",
+    "hint": "Haushalt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Geschmack",
+    "hint": "Sinne",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Journalist",
+    "hint": "Beruf",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Mord",
+    "hint": "Verbrechen",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schmerz",
+    "hint": "Körper",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Spur",
+    "hint": "Ermittlung",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Boot",
+    "hint": "Fahrzeug",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Gemeinschaft",
+    "hint": "Gesellschaft",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kochen",
+    "hint": "Küche",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Musiker",
+    "hint": "Beruf",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eis",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Krankheit",
+    "hint": "Medizin",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Papier",
+    "hint": "Haushalt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pflanze",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Rock",
+    "hint": "Kleidung",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Keller",
+    "hint": "Gebäude",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bein",
+    "hint": "Körper",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Dach",
+    "hint": "Gebäude",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Gewicht",
+    "hint": "Körper",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Unterricht",
+    "hint": "Schule",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Adresse",
+    "hint": "Haushalt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Fläche",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Medizin",
+    "hint": "Beruf",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Zucker",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schlüssel",
+    "hint": "Haushalt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Flasche",
+    "hint": "Haushalt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pferd",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bibliothek",
+    "hint": "Gebäude",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ernährung",
+    "hint": "Gesundheit",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Held",
+    "hint": "Figur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sänger",
+    "hint": "Beruf",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tanzen",
+    "hint": "Freizeit",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Versprechen",
+    "hint": "Sprache",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Einladung",
+    "hint": "Soziales",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Magazin",
+    "hint": "Medien",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Messe",
+    "hint": "Veranstaltung",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Rad",
+    "hint": "Fahrzeug",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Chemie",
+    "hint": "Schule",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kandidat",
+    "hint": "Politik",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Atmosphäre",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Umfrage",
+    "hint": "Medien",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Akademie",
+    "hint": "Bildung",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schnee",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tee",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hose",
+    "hint": "Kleidung",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Strand",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Blume",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fuß",
+    "hint": "Körper",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Gehirn",
+    "hint": "Körper",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Gymnasium",
+    "hint": "Bildung",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mauer",
+    "hint": "Bauwerk",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Turnier",
+    "hint": "Sport",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Klinik",
+    "hint": "Gesundheit",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Konto",
+    "hint": "Finanzen",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Autobahn",
+    "hint": "Verkehr",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bauer",
+    "hint": "Beruf",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Konkurrenz",
+    "hint": "Wirtschaft",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Landwirtschaft",
+    "hint": "Beruf",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Vorbild",
+    "hint": "Person",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Song",
+    "hint": "Musik",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Überraschung",
+    "hint": "Gefühl",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Zucker",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schlüssel",
+    "hint": "Haushalt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Flasche",
+    "hint": "Haushalt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pferd",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bibliothek",
+    "hint": "Gebäude",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ernährung",
+    "hint": "Gesundheit",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Held",
+    "hint": "Figur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sänger",
+    "hint": "Beruf",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tanzen",
+    "hint": "Freizeit",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Versprechen",
+    "hint": "Sprache",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Einladung",
+    "hint": "Soziales",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Magazin",
+    "hint": "Medien",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Messe",
+    "hint": "Veranstaltung",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Rad",
+    "hint": "Fahrzeug",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Chemie",
+    "hint": "Schule",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kandidat",
+    "hint": "Politik",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Atmosphäre",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Umfrage",
+    "hint": "Medien",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Akademie",
+    "hint": "Bildung",
+    "difficulty": "medium"
+  },
+  {
     "word": "Krankenwagen",
     "hint": "Fahrzeug",
     "difficulty": "medium"
