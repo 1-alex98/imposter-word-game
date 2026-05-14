@@ -1,0 +1,4517 @@
+[
+  {
+    "word": "Krankenwagen",
+    "hint": "Fahrzeug",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Giraffe",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pizza",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Berg",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kaffee",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Adler",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tisch",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Brot",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Traktor",
+    "hint": "Fahrzeug",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Pinguin",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Butter",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "See",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wasser",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tiger",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bett",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Griff",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Vogel",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kraut",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wind",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zwiebel",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pferd",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hammer",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Stiel",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kälte",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Becher",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wiese",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fisch",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Nagel",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Stengel",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fluss",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Unkraut",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ast",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kirche",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Rad",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Hoffnung",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Finsternis",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Lanze",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Moor",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Liebe",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Wald",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Trauer",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bär",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Riegel",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schaf",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hitze",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Karotte",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schwein",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Spaten",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Knospe",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Spiegel",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Katze",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Weizen",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Freude",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wald",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wurzel",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pferd",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Messer",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Blatt",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hoffnung",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bach",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Adler",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Krug",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Dorn",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tal",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Angst",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Feuer",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schlange",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Stamm",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "See",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Lanze",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Wolf",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schmerz",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Gebirge",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Pracht",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Becher",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Hirsch",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Rinde",
+    "hint": "Organisch",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schlucht",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Weisheit",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Krone",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Rabe",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Melancholie",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bucht",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kelch",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kamm",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fasan",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Samen",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Liebe",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Strand",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Gras",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fisch",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bogen",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zwiebel",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Mut",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hügel",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Löwe",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schild",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pilz",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Trauer",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Quelle",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ring",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Esel",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Strauch",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wahrheit",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Gott",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schaf",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Frucht",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tor",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fluss",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schwert",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Wildschwein",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Farne",
+    "hint": "Organisch",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ehre",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schacht",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Helm",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Falke",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schöpfung",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Moor",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Hals",
+    "hint": "Organisch",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Amulett",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Otter",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bestimmung",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kapelle",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kern",
+    "hint": "Organisch",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Leuchter",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Auerhahn",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Fluch",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mausoleum",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Öl",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Anker",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Segen",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Otter",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Grille",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Leder",
+    "hint": "Organisch",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Satteltasche",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sperber",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Maulwurf",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Metall",
+    "hint": "Organisch",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Eidechse",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tinte",
+    "hint": "Organisch",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Degen",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Aprikose",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Spule",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Melisse",
+    "hint": "Organisch",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bienenstock",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Stille",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Topf",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hügel",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hund",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Löffel",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Dorn",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "See",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Farne",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Keim",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kapelle",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Seil",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Freundschaft",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Verwirrung",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schwert",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sumpf",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mut",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Berg",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Verwirrung",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Luchs",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Wurst",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sonne",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Spiegel",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Lastwagen",
+    "hint": "Fahrzeug",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Rabe",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Honig",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Strand",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bier",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fuchs",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Stuhl",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fleisch",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schnee",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kerzenständer",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Friedhof",
+    "hint": "Ort",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schwalbe",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bremse",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schmetterling",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zucker",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Echo",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Minze",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pferd",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schlüssel",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Honig",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Diamant",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fenster",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Brücke",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Adler",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kompass",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Regenbogen",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fluss",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zitrone",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pflanze",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Labyrinth",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Feuer",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kristall",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Stille",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Spiegel",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schatten",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Turm",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Netz",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kreis",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Dämmerung",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Zahnrad",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kolibri",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pilz",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Donner",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Basilikum",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Salamander",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kette",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Korn",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Meteor",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ring",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Klippe",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sperling",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Anker",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Blatt",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Brunnen",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Nelke",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Moos",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Amphitheater",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Pendel",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Gewalt",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Staub",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Monolith",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Strudel",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Symmetrie",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schraube",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Nachtigall",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Flechte",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Blitz",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Thymian",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Storch",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Degen",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Samen",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Nebel",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kelch",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schlucht",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fledermaus",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schwert",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Rinde",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Quelle",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Farn",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Frucht",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kolosseum",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Prisma",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Trauer",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tiefe",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Abgrund",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Harmonie",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schlucht",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ekstase",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schakal",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Hebel",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ente",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Blume",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Regen",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Salat",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hase",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Messer",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Blatt",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schnee",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Glas",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Garten",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Katze",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kerze",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Gras",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bach",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Baum",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wurzel",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schloss",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Hebel",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Angst",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Dunkelheit",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Spiegel",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sumpf",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Freude",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schlucht",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schmerz",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Fuchs",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Grat",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Lied",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Panther",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kompass",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kaktus",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Museum",
+    "hint": "Ort",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Trank",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Gemüse",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Basilika",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Hubschrauber",
+    "hint": "Fahrzeug",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Flöte",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Blizzard",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Observatorium",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tal",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Barometer",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Zollhaus",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mandoline",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Luchs",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Park",
+    "hint": "Ort",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schlange",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Stuhl",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Blume",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Markt",
+    "hint": "Ort",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Milch",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Motorrad",
+    "hint": "Fahrzeug",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bär",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Käse",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ozean",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Saft",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wolf",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sofa",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fisch",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Regenbogen",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bild",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Strand",
+    "hint": "Ort",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eule",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Uhr",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Gras",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schule",
+    "hint": "Ort",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wein",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kartoffel",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kathedrale",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Rakete",
+    "hint": "Fahrzeug",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Harfe",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Erdbeben",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Festspielhaus",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Fjord",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Thermometer",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Flugplatz",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Klarinette",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Antilope",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Nuß",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tempel",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Unterseeboot",
+    "hint": "Fahrzeug",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Gitarre",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tornado",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Festung",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Moor",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Fernglas",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Hafen",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Trompete",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Leopard",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mond",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tür",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Küche",
+    "hint": "Ort",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Vogel",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kerze",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wiese",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Büro",
+    "hint": "Ort",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Limonade",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Apfel",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Palast",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Zeppelin",
+    "hint": "Fahrzeug",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Violine",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Vulkan",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mausoleum",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sumpf",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sextant",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bahnhof",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Oboe",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Zebra",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Feuerwehr",
+    "hint": "Fahrzeug",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Elephant",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schokolade",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fluss",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tee",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Löwe",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Stuhl",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Käse",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Stern",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fenster",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Toilette",
+    "hint": "Ort",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fisch",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Lampe",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wald",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zimmer",
+    "hint": "Ort",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Orangensaft",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ei",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schloss",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Hubschrauber",
+    "hint": "Fahrzeug",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Klavier",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Geysir",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Friedhof",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Regenwald",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kompass",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Flughafen",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Saxophon",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Giraffe",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Pizza",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Strand",
+    "hint": "Ort",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Regenbogen",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kaffee",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hund",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Auto",
+    "hint": "Fahrzeug",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Apfel",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Burg",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "U-Boot",
+    "hint": "Fahrzeug",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Vulkan",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bibliothek",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Leuchtturm",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Trompete",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Pyramide",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Banane",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Katze",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Buch",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sonne",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Haus",
+    "hint": "Ort",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fahrrad",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wasser",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Baum",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ball",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tisch",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Blume",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schule",
+    "hint": "Ort",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zug",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Brot",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Mond",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schere",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Milch",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Vogel",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Berg",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Supermarkt",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Flugzeug",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Gitarre",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Museum",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Wasserfall",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Käse",
+    "hint": "Essen",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schmetterling",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Brücke",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tee",
+    "hint": "Getränk",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Wolkenkratzer",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Pinguin",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kompass",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Wüste",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kalender",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Delfin",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Rathaus",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Zitrone",
+    "hint": "Essen",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Satellit",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Hai",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Markt",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Saft",
+    "hint": "Getränk",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Feuerwehr",
+    "hint": "Fahrzeug",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Iglu",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kakao",
+    "hint": "Getränk",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Laterne",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Krankenhaus",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Baguette",
+    "hint": "Essen",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Krokodil",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Lampe",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Stuhl",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Regen",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schloss",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schiff",
+    "hint": "Fahrzeug",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ei",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fisch",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schokolade",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fenster",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Rakete",
+    "hint": "Fahrzeug",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kaktus",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Geige",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Labyrinth",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tintenfisch",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bier",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wein",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Motorrad",
+    "hint": "Fahrzeug",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fuchs",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Uhr",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wolke",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hut",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eis",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Drachen",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "See",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Klavier",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fluss",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Stern",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ozean",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Messer",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kerze",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hammer",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Rucksack",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Stift",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tür",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sofa",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pferd",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Löwe",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hubschrauber",
+    "hint": "Fahrzeug",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Elefant",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Adler",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tiger",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Känguru",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Gorilla",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Pfau",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Segelboot",
+    "hint": "Fahrzeug",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Windmühle",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Dschungel",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Insel",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tornado",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kamin",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Brunnen",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Leiter",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Spiegel",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mikroskop",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Landkarte",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Fallschirm",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Koffer",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schwert",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Zelt",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Thron",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Diamant",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Feuerstelle",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Fernglas",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Hängematte",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sumpf",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Terrasse",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Feuchtgebiet",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sanduhr",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tomate",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kartoffel",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zwiebel",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Erdbeere",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kirsche",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Trauben",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kürbis",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Möhre",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Spinat",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Suppe",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kuchen",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Würstchen",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hähnchen",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Nudeln",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Reis",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Limonade",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Apfelsaft",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eistee",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zebra",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Affe",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bär",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eule",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Frosch",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schildkröte",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kaninchen",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ente",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Gans",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schwein",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kuh",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schaf",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ziege",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Esel",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schnecke",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Spinne",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Biene",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ameise",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schmied",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Pirat",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ritterrüstung",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Leuchtrakete",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schatzkarte",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bumerang",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Floß",
+    "hint": "Fahrzeug",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kutsche",
+    "hint": "Fahrzeug",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kanufahrt",
+    "hint": "Fahrzeug",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ampel",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Briefkasten",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Regenschirm",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Wecker",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schubkarre",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Heißluftballon",
+    "hint": "Fahrzeug",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tanker",
+    "hint": "Fahrzeug",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Rodschlitten",
+    "hint": "Fahrzeug",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Rolltreppe",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Staudamm",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Leuchtbake",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Qualle",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Seepferdchen",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Elch",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bison",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Lama",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Flamingo",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Pelikan",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Koala",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Panda",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Leopard",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Gepard",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Hyäne",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Nashorn",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Nilpferd",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schimpanse",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sandsturm",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Blizzard",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Monsun",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tomate",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kartoffel",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zwiebel",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Erdbeere",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kirsche",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kürbis",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Möhre",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wassermelone",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Birne",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pfirsich",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Mango",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ananas",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Suppe",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kuchen",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Würstchen",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hähnchen",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Nudeln",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Reis",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Spaghetti",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Waffel",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pfannkuchen",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sushi",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Taco",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Burger",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sandwich",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Milchshake",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Limonade",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Smoothie",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Apfelsaft",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eistee",
+    "hint": "Getränk",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Affe",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bär",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eule",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Frosch",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schildkröte",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kaninchen",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ente",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schwein",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kuh",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schaf",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ziege",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schlange",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hamster",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Papagei",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Huhn",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zebra",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Panda",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Koala",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Flamingo",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Lama",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Elch",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Leopard",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Gepard",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Hyäne",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Nashorn",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Nilpferd",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schimpanse",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Qualle",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Seepferdchen",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Otter",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Iguana",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Chamäleon",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Stachelschwein",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Faultier",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Walross",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Warzenschwein",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Erdmännchen",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Strauß",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Gepard",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Jaguar",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Stingray",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Socke",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Löffel",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Teller",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tasse",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bett",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Handtuch",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bürste",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kamm",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Handschuh",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schal",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Jacke",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schuh",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schlüssel",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Telefon",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Flasche",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kissen",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Seil",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Gabel",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Heißluftballon",
+    "hint": "Fahrzeug",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Floß",
+    "hint": "Fahrzeug",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kutsche",
+    "hint": "Fahrzeug",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tanker",
+    "hint": "Fahrzeug",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Gondel",
+    "hint": "Fahrzeug",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bus",
+    "hint": "Fahrzeug",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Taxi",
+    "hint": "Fahrzeug",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Roller",
+    "hint": "Fahrzeug",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Straßenbahn",
+    "hint": "Fahrzeug",
+    "difficulty": "easy"
+  },
+  {
+    "word": "LKW",
+    "hint": "Fahrzeug",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Park",
+    "hint": "Ort",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zoo",
+    "hint": "Ort",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wald",
+    "hint": "Ort",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Höhle",
+    "hint": "Ort",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hotel",
+    "hint": "Ort",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bauernhof",
+    "hint": "Ort",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Flughafen",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Hafen",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Stadion",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Theater",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Dachboden",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Keller",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Gewächshaus",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Innenhof",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schrein",
+    "hint": "Ort",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schlucht",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Riff",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Krater",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Düne",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Wiese",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schlucht",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sumpf",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Nebel",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Frost",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Armbrust",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schleuder",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Trampolin",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Periskop",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schreibmaschine",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Abakus",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Frieden",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Freiheit",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mut",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Vertrauen",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Hoffnung",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Trauer",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Freude",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Angst",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eifersucht",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Einsamkeit",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sehnsucht",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Scham",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Stolz",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Neid",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Langeweile",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Überraschung",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Begeisterung",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Laufen",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schwimmen",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Klettern",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Singen",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tanzen",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schlafen",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kochen",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Lesen",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Flüstern",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Träumen",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zaubern",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schmuggeln",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Verhandeln",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Komponieren",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Navigieren",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schmelzen",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Explodieren",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schweigen",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Lügen",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Malerei",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Skulptur",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Fotografie",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ballett",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Oper",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Graffiti",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Karikatur",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Origami",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kaleidoskop",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Marionette",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Dominosteine",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Würfel",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Dartscheibe",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schachbrett",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Puzzlestück",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Konfetti",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Glühbirne",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Steckdose",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Batterie",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Magnet",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Lupe",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Trichter",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kreisel",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bumerang",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Pfeife",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Mundharmonika",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Akkordeon",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Trommel",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Xylophon",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Flöte",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Harfe",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Impfung",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Demokratie",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Monarchie",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Revolution",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tradition",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ritual",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tabu",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Aberglaube",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Legende",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sage",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Märchen",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fabel",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Detektiv",
+    "hint": "Person",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ritter",
+    "hint": "Person",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zauberer",
+    "hint": "Person",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pirat",
+    "hint": "Person",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Astronaut",
+    "hint": "Person",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Dirigent",
+    "hint": "Person",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Friseur",
+    "hint": "Person",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bäcker",
+    "hint": "Person",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schreiner",
+    "hint": "Person",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schmied",
+    "hint": "Person",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Gärtner",
+    "hint": "Person",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kapitän",
+    "hint": "Person",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sheriff",
+    "hint": "Person",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Einwanderer",
+    "hint": "Person",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Nomade",
+    "hint": "Person",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Einsiedler",
+    "hint": "Person",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Marmelade",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Honig",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pommes",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Joghurt",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Brötchen",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Müsli",
+    "hint": "Essen",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wolf",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hirsch",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eichhörnchen",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hase",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Biber",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Libelle",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tukan",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Flagge",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Globus",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Prisma",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Wetterhahn",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schnee",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Feld",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Steppe",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Torfmoor",
+    "hint": "Natur",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Garten",
+    "hint": "Ort",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kirche",
+    "hint": "Ort",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Freundschaft",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Liebe",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Glück",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Abenteuer",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Expedition",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Diplomatie",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Migration",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Recycling",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Söldner",
+    "hint": "Person",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Händler",
+    "hint": "Person",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Forscher",
+    "hint": "Person",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Hobel",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Krähe",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Halm",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Reue",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Klippe",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Spinnwebe",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Storch",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zange",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wickel",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zorn",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Heide",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Reiher",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Spanne",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Moosbeere",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Treue",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Mulde",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fessel",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Nacktschnecke",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Flechte",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sünde",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kluft",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sichel",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sperling",
+    "hint": "Tier",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Efeu",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hoffnung",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ebene",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Handschuh",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Blütenkelch",
+    "hint": "Organisch",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sühne",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Grotte",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Zepter",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Marder",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Lichtung",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Stengel",
+    "hint": "Organisch",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Armilla",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Felshöhle",
+    "hint": "Platz",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kraut",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Peitsche",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Meerkatze",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ergebung",
+    "hint": "Konzept",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Lauch",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Brosche",
+    "hint": "Objekt",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Gnade",
+    "hint": "Konzept",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kammer",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Disteln",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Stab",
+    "hint": "Objekt",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Drache",
+    "hint": "Tier",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Gewöhnlich",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zeltstadt",
+    "hint": "Platz",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Gelatine",
+    "hint": "Organisch",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Baldrian",
+    "hint": "Organisch",
+    "difficulty": "medium"
+  }
+]

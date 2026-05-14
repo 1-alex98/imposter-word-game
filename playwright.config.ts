@@ -1,0 +1,24 @@
+import { defineConfig, devices } from '@playwright/test';
+
+export default defineConfig({
+  testDir: './tests/e2e',
+  fullyParallel: true,
+  forbidOnly: !!process.env.CI,
+  retries: process.env.CI ? 2 : 0,
+  reporter: 'list',
+  use: {
+    baseURL: 'http://localhost:4173',
+    trace: 'on-first-retry',
+    testIdAttribute: 'data-test',
+  },
+  projects: [
+    { name: 'chromium', use: { ...devices['Desktop Chrome'] } },
+    { name: 'webkit', use: { ...devices['Desktop Safari'] } },
+  ],
+  webServer: {
+    command: 'npm run build && npm run preview -- --port 4173 --host 127.0.0.1',
+    url: 'http://localhost:4173/imposter_game/',
+    reuseExistingServer: !process.env.CI,
+    timeout: 120_000,
+  },
+});

@@ -1,0 +1,63 @@
+{
+  "app": {
+    "title": "Imposter-Spiel"
+  },
+  "version": {
+    "title": "Versionskonflikt",
+    "message": "Dieses Spiel wurde mit einer anderen App-Version gestartet — bitte neu laden, um fortzufahren.",
+    "refresh": "Neu laden"
+  },
+  "host": {
+    "title": "Spieler hinzufügen",
+    "namePlaceholder": "Vorname",
+    "addPlayer": "Spieler hinzufügen",
+    "removePlayer": "Entfernen",
+    "generate": "Link erstellen",
+    "language": "Sprache",
+    "difficulty": "Schwierigkeit",
+    "difficulties": {
+      "easy": "Leicht",
+      "medium": "Mittel"
+    },
+    "hints": "Hinweis für Imposter anzeigen",
+    "errors": {
+      "empty": "Name darf nicht leer sein",
+      "duplicate": "Namen müssen eindeutig sein",
+      "minCount": "Mindestens 4 Spieler erforderlich",
+      "maxCount": "Höchstens 12 Spieler"
+    }
+  },
+  "player": {
+    "pickName": "Tippe deinen Namen",
+    "youAre": "Du bist",
+    "showRole": "Wort / Rolle anzeigen",
+    "showRoleAgain": "Wort erneut anzeigen",
+    "hide": "Verbergen",
+    "imposter": "Du bist der Imposter",
+    "yourWord": "Dein Wort",
+    "hint": "Hinweis",
+    "changeName": "Namen ändern",
+    "haveFun": "Viel Spaß!",
+    "revealImposter": "Imposter aufdecken",
+    "revealConfirmTitle": "Imposter aufdecken?",
+    "revealConfirmMessage": "Die Runde hat gerade erst begonnen — willst du wirklich schon aufdecken, wer der Imposter ist?",
+    "revealConfirmYes": "Aufdecken",
+    "revealConfirmNo": "Weiterspielen",
+    "imposterIs": "Der Imposter ist",
+    "nextRound": "Nächste Runde",
+    "newGame": "Neues Spiel starten",
+    "round": "Runde {n}",
+    "shareTitle": "Spiel teilen",
+    "copyLink": "Link kopieren",
+    "linkCopied": "Link kopiert",
+    "copyFailed": "Kopieren fehlgeschlagen — bitte Link manuell auswählen",
+    "share": "Teilen",
+    "shareSubject": "Spiel mit beim Imposter-Spiel",
+    "shareText": "Tippe auf den Link, um beim Spiel mitzumachen.",
+    "showQr": "QR anzeigen",
+    "qrDialogTitle": "Zum Mitmachen scannen",
+    "close": "Schließen",
+    "wordLoadError": "Wortliste konnte nicht geladen werden – bitte Verbindung prüfen.",
+    "retry": "Erneut versuchen"
+  }
+}

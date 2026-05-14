@@ -1,0 +1,63 @@
+{
+  "app": {
+    "title": "Imposter Game"
+  },
+  "version": {
+    "title": "Version mismatch",
+    "message": "This game was started on a different app version — refresh to continue.",
+    "refresh": "Refresh"
+  },
+  "host": {
+    "title": "Add players",
+    "namePlaceholder": "First name",
+    "addPlayer": "Add player",
+    "removePlayer": "Remove",
+    "generate": "Generate link",
+    "language": "Language",
+    "difficulty": "Difficulty",
+    "difficulties": {
+      "easy": "Easy",
+      "medium": "Medium"
+    },
+    "hints": "Show hint to imposter",
+    "errors": {
+      "empty": "Name cannot be empty",
+      "duplicate": "Names must be unique",
+      "minCount": "At least 4 players required",
+      "maxCount": "At most 12 players"
+    }
+  },
+  "player": {
+    "pickName": "Tap your name",
+    "youAre": "You are",
+    "showRole": "Show my word / role",
+    "showRoleAgain": "Show my word again",
+    "hide": "Hide",
+    "imposter": "You are the imposter",
+    "yourWord": "Your word",
+    "hint": "Hint",
+    "changeName": "Change my name",
+    "haveFun": "Have fun playing!",
+    "revealImposter": "Reveal imposter",
+    "revealConfirmTitle": "Reveal the imposter?",
+    "revealConfirmMessage": "The round just started — are you sure you want to reveal who the imposter is?",
+    "revealConfirmYes": "Reveal",
+    "revealConfirmNo": "Keep playing",
+    "imposterIs": "The imposter is",
+    "nextRound": "Next round",
+    "newGame": "Start a new game",
+    "round": "Round {n}",
+    "shareTitle": "Share this game",
+    "copyLink": "Copy link",
+    "linkCopied": "Link copied",
+    "copyFailed": "Could not copy — select the link manually",
+    "share": "Share",
+    "shareSubject": "Join my Imposter game",
+    "shareText": "Tap the link to join the game.",
+    "showQr": "Show QR",
+    "qrDialogTitle": "Scan to join",
+    "close": "Close",
+    "wordLoadError": "Could not load word list — check your connection.",
+    "retry": "Retry"
+  }
+}
