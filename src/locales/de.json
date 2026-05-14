@@ -59,5 +59,18 @@
     "close": "Schließen",
     "wordLoadError": "Wortliste konnte nicht geladen werden – bitte Verbindung prüfen.",
     "retry": "Erneut versuchen"
+  },
+  "help": {
+    "open": "Spielanleitung",
+    "title": "So wird gespielt",
+    "intro": "Eine Person ist der Imposter und kennt das Geheimwort nicht. Alle anderen schon.",
+    "steps": [
+      "Host trägt die Vornamen ein und teilt den Link (Kopieren oder QR).",
+      "Jeder öffnet den Link, tippt seinen Namen und dann Rolle anzeigen.",
+      "Reihum sagt jeder ein Wort, das das Geheimwort beschreibt — ohne es zu nennen. So lange weiter, bis jemand angeklagt wird oder der Imposter das Wort rein ruft.",
+      "Anklagen per Handzeichen. Ist es der Imposter, bekommt er einen letzten Rateversuch: trifft er, gewinnt der Imposter; daneben, gewinnen die Unschuldigen.",
+      "Tippe auf Imposter aufdecken zur Bestätigung, dann nächste Runde."
+    ],
+    "close": "Verstanden"
   }
 }

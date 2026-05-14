@@ -591,7 +591,7 @@ Disallow indexing per SPEC §2.
 
 ### 5.4 GH Pages deploy (user-driven, not agent)
 
-Hand the build artifact to GH Pages.
+Hand the build artifact to GH Pages. Use GH Actions.
 
 **Acceptance criteria:**
 
@@ -599,6 +599,7 @@ Hand the build artifact to GH Pages.
 - Manifest and service worker scopes resolve correctly under the repo subpath.
 - Public URL reachable and PWA-installable from a real mobile device.
 - Desync + version-mismatch smoke tests pass against the deployed build.
+- GH pipeline runs correctly see using gh cli.
 
 **Tests:**
 

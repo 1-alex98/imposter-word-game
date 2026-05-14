@@ -70,16 +70,16 @@ function onGenerate() {
 </script>
 
 <template>
-  <v-container class="pa-4" data-test="host-setup">
-    <v-row justify="center">
+  <v-container class="pa-2" data-test="host-setup">
+    <v-row justify="center" no-gutters>
       <v-col cols="12" md="8">
-        <v-card class="pa-4">
-          <v-card-title>{{ t('host.title') }}</v-card-title>
-          <v-card-text>
+        <v-card class="pa-3">
+          <v-card-title class="pa-0">{{ t('host.title') }}</v-card-title>
+          <v-card-text class="px-0 pt-2 pb-0">
             <div
               v-for="(_, i) in names"
               :key="i"
-              class="d-flex align-center mb-2"
+              class="d-flex align-center mb-1"
               :data-test="`name-row-${i}`"
             >
               <v-text-field
@@ -92,7 +92,7 @@ function onGenerate() {
               />
               <v-btn
                 v-if="names.length > 4"
-                icon="mdi-close"
+                icon="mdi-account-remove"
                 variant="text"
                 size="small"
                 class="ml-2"
@@ -118,13 +118,14 @@ function onGenerate() {
               {{ errorMessage(validation.formError) }}
             </div>
 
-            <v-divider class="my-4" />
+            <v-divider class="my-3" />
 
             <div class="d-flex flex-wrap ga-4 align-center">
               <v-select
                 :model-value="lang"
                 :items="languageOptions"
                 :label="t('host.language')"
+                prepend-inner-icon="mdi-translate"
                 density="comfortable"
                 hide-details
                 style="min-width: 160px"
@@ -135,6 +136,7 @@ function onGenerate() {
                 v-model="difficulty"
                 :items="difficultyOptions"
                 :label="t('host.difficulty')"
+                prepend-inner-icon="mdi-speedometer"
                 density="comfortable"
                 hide-details
                 style="min-width: 160px"
@@ -143,6 +145,7 @@ function onGenerate() {
               <v-switch
                 v-model="hintsEnabled"
                 :label="t('host.hints')"
+                prepend-icon="mdi-lightbulb-on-outline"
                 color="primary"
                 density="comfortable"
                 hide-details
@@ -150,11 +153,12 @@ function onGenerate() {
               />
             </div>
           </v-card-text>
-          <v-card-actions>
+          <v-card-actions class="px-0 pt-3 pb-0">
             <v-spacer />
             <v-btn
               color="primary"
               variant="elevated"
+              append-icon="mdi-link-variant"
               data-test="generate"
               @click="onGenerate"
             >

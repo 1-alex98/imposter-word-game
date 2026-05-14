@@ -3,7 +3,9 @@ import { computed, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
 import QRCode from './QRCode.vue';
 
-const props = defineProps<{ url: string }>();
+const props = withDefaults(defineProps<{ url: string; qrSize?: number }>(), {
+  qrSize: 220,
+});
 const { t } = useI18n();
 
 const COPY_FEEDBACK_MS = 1500;
@@ -100,7 +102,7 @@ async function onCopy() {
     />
 
     <div class="d-flex justify-center mt-2">
-      <QRCode :value="url" :size="220" />
+      <QRCode :value="url" :size="props.qrSize" />
     </div>
   </div>
 </template>

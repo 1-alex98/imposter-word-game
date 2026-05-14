@@ -5,6 +5,7 @@ import { useTheme } from 'vuetify';
 import VersionMismatch from './components/VersionMismatch.vue';
 import RoundBadge from './components/RoundBadge.vue';
 import PlayerBadge from './components/PlayerBadge.vue';
+import HelpButton from './components/HelpButton.vue';
 import { useVersionGuard } from './composables/useVersionGuard';
 import { useGameSession } from './composables/useGameSession';
 import { setLocale } from './i18n';
@@ -51,8 +52,15 @@ watch(
   <v-app>
     <VersionMismatch v-if="mismatch" />
     <template v-else>
-      <PlayerBadge v-if="showPlayerBadge && chosenName" :name="chosenName" />
-      <RoundBadge v-if="showRoundBadge" :round="round" />
+      <HelpButton />
+      <div
+        v-if="showRoundBadge || showPlayerBadge"
+        class="game-header d-flex align-center px-3 pt-2 pb-1"
+      >
+        <PlayerBadge v-if="showPlayerBadge && chosenName" :name="chosenName" />
+        <div class="flex-grow-1" />
+        <RoundBadge v-if="showRoundBadge" :round="round" />
+      </div>
       <v-main>
         <router-view />
       </v-main>

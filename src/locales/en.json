@@ -59,5 +59,18 @@
     "close": "Close",
     "wordLoadError": "Could not load word list — check your connection.",
     "retry": "Retry"
+  },
+  "help": {
+    "open": "How to play",
+    "title": "How to play",
+    "intro": "One player is the imposter — they don't know the secret word. Everyone else does.",
+    "steps": [
+      "Host enters first names and shares the link (copy or QR).",
+      "Each player opens the link and taps their name, then show role.",
+      "Take turns: each player says one word describing the secret word — without naming it. Loop until someone is accused, or the imposter shouts the word.",
+      "Accuse by show of hands. If it's the imposter, they get one last guess at the word: right = imposter wins, wrong = innocents win.",
+      "Tap reveal imposter to confirm, then next round."
+    ],
+    "close": "Got it"
   }
 }

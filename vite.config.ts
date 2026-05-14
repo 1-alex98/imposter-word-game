@@ -23,7 +23,7 @@ function buildVersion(): string {
 const VERSION = buildVersion();
 
 export default defineConfig({
-  base: '/imposter_game/',
+  base: '/imposter-word-game/',
   resolve: {
     alias: { '@': path.resolve(__dirname, 'src') },
   },
@@ -35,18 +35,73 @@ export default defineConfig({
     vuetify({ autoImport: true }),
     VitePWA({
       registerType: 'autoUpdate',
+      includeAssets: [
+        'favicon.svg',
+        'favicon.ico',
+        'favicon-16.png',
+        'favicon-32.png',
+        'apple-touch-icon.png',
+        'robots.txt',
+      ],
       workbox: {
         skipWaiting: true,
         clientsClaim: true,
+        // App-shell (precached HTML/JS/CSS) — NetworkFirst on navigations so deployments
+        // are picked up immediately when the user is online (SPEC §7.2).
+        navigateFallback: '/imposter-word-game/index.html',
+        navigateFallbackDenylist: [/^\/api\//],
+        runtimeCaching: [
+          {
+            // Word lists land via dynamic import → `assets/words.*-<hash>.js`. The hash already
+            // includes the file contents, so plain CacheFirst would be safe — but we also key
+            // the cache by the build-time version (__APP_VERSION__) so a redeploy can't reuse
+            // a stale entry from a previous version.
+            urlPattern: /\/assets\/words\..*\.js$/,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: `words-${VERSION}`,
+              expiration: { maxEntries: 16, maxAgeSeconds: 60 * 60 * 24 * 30 },
+            },
+          },
+          {
+            urlPattern: /\.(?:js|css|html)$/,
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'app-shell',
+              networkTimeoutSeconds: 4,
+              expiration: { maxEntries: 64, maxAgeSeconds: 60 * 60 * 24 * 30 },
+            },
+          },
+        ],
       },
       manifest: {
         name: 'Imposter Game',
         short_name: 'Imposter',
-        start_url: '/imposter_game/',
+        start_url: '/imposter-word-game/',
+        scope: '/imposter-word-game/',
         display: 'standalone',
         theme_color: '#1976d2',
         background_color: '#ffffff',
-        icons: [],
+        icons: [
+          {
+            src: 'pwa-192.png',
+            sizes: '192x192',
+            type: 'image/png',
+            purpose: 'any',
+          },
+          {
+            src: 'pwa-512.png',
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'any',
+          },
+          {
+            src: 'pwa-maskable-512.png',
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'maskable',
+          },
+        ],
       },
     }),
   ],

@@ -8,6 +8,7 @@ import { loadWords } from '@/content/loadWords';
 import { filterByDifficulty } from '@/core/words';
 import type { WordEntry } from '@/content/types';
 import ShareControls from '@/components/ShareControls.vue';
+import RoundTransition from '@/components/RoundTransition.vue';
 
 type Stage = 'pre-reveal' | 'reveal' | 'play' | 'imposter-revealed';
 
@@ -36,6 +37,9 @@ const stage = ref<Stage>('pre-reveal');
 const revealTimerId = ref<ReturnType<typeof setTimeout> | null>(null);
 const qrDialogOpen = ref<boolean>(false);
 const revealConfirmOpen = ref<boolean>(false);
+const transitionOpen = ref<boolean>(false);
+const transitionRound = ref<number>(round.value);
+const pickMenuOpen = ref<boolean>(false);
 
 const wordList = ref<WordEntry[] | null>(null);
 const wordLoadError = ref<boolean>(false);
@@ -137,6 +141,12 @@ function confirmRevealImposter() {
 function nextRound() {
   advanceRound();
   stage.value = 'pre-reveal';
+  transitionRound.value = round.value;
+  transitionOpen.value = true;
+}
+
+function onTransitionDone() {
+  transitionOpen.value = false;
 }
 
 function newGame() {
@@ -175,22 +185,16 @@ function newGame() {
 
     <!-- Name pick -->
     <template v-else-if="state && !chosenName">
-      <v-row justify="center">
+      <v-row justify="center" no-gutters>
         <v-col cols="12" md="8">
-          <v-card class="pa-6" data-test="share-card">
-            <v-card-title class="text-h5">{{ t('player.shareTitle') }}</v-card-title>
-            <v-card-text>
-              <ShareControls :url="shareUrl" />
-            </v-card-text>
-          </v-card>
-          <v-card class="pa-6 mt-4">
-            <v-card-title class="text-h4">{{ t('player.pickName') }}</v-card-title>
-            <v-card-text>
-              <div class="d-flex flex-wrap ga-3">
+          <v-card class="pa-3" data-test="pick-card">
+            <v-card-title class="text-h5 pa-0">{{ t('player.pickName') }}</v-card-title>
+            <v-card-text class="px-0 pt-3 pb-0">
+              <div class="d-flex flex-wrap ga-2 justify-center">
                 <v-btn
                   v-for="(name, i) in state.names"
                   :key="i"
-                  size="x-large"
+                  size="large"
                   variant="outlined"
                   :data-test="`pick-name-${i}`"
                   @click="pickName(name)"
@@ -199,6 +203,23 @@ function newGame() {
                 </v-btn>
               </div>
             </v-card-text>
+            <v-card-actions class="px-0 pt-2 pb-0">
+              <v-spacer />
+              <v-btn
+                icon="mdi-dots-vertical"
+                variant="text"
+                size="small"
+                :aria-label="t('player.newGame')"
+                data-test="pick-overflow-menu"
+                @click="pickMenuOpen = true"
+              />
+            </v-card-actions>
+          </v-card>
+          <v-card class="pa-3 mt-2" data-test="share-card">
+            <v-card-title class="text-subtitle-1 pa-0">{{ t('player.shareTitle') }}</v-card-title>
+            <v-card-text class="px-0 pt-2 pb-0">
+              <ShareControls :url="shareUrl" :qr-size="140" />
+            </v-card-text>
           </v-card>
         </v-col>
       </v-row>
@@ -206,9 +227,9 @@ function newGame() {
 
     <!-- In-game -->
     <template v-else-if="state && chosenName && role">
-      <v-row justify="center" class="mt-12">
+      <v-row justify="center" class="mt-4" no-gutters>
         <v-col cols="12" md="8">
-          <v-card class="pa-6" data-test="player-card">
+          <v-card class="pa-4" data-test="player-card">
             <v-card-title
               v-if="round === 1 && !roleViewedThisSession"
               class="text-h4"
@@ -381,6 +402,31 @@ function newGame() {
             {{ t('player.close') }}
           </v-btn>
         </v-card-actions>
+      </v-card>
+    </v-dialog>
+
+    <RoundTransition
+      :round="transitionRound"
+      :show="transitionOpen"
+      @done="onTransitionDone"
+    />
+
+    <v-dialog
+      v-if="pickMenuOpen"
+      v-model="pickMenuOpen"
+      max-width="320"
+      data-test="pick-menu-dialog"
+    >
+      <v-card class="pa-2">
+        <v-list>
+          <v-list-item
+            prepend-icon="mdi-restart"
+            data-test="pick-new-game"
+            @click="newGame"
+          >
+            <v-list-item-title>{{ t('player.newGame') }}</v-list-item-title>
+          </v-list-item>
+        </v-list>
       </v-card>
     </v-dialog>
 

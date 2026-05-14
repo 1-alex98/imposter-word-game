@@ -13,18 +13,15 @@ const { t } = useI18n();
 
 <style scoped>
 .round-badge {
-  position: fixed;
-  top: 0.75rem;
-  right: 0.75rem;
-  z-index: 1000;
-  padding: 0.5rem 1.25rem;
+  padding: 0.4rem 1rem;
   border-radius: 999px;
   background: rgba(0, 0, 0, 0.7);
   color: #fff;
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   letter-spacing: 0.02em;
   pointer-events: none;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
 }
 </style>
