@@ -1,12 +1,12 @@
 import { test, expect } from '@playwright/test';
 
 test('host setup page renders', async ({ page }) => {
-  await page.goto('/imposter-word-game/');
+  await page.goto('/');
   await expect(page.getByTestId('host-setup')).toBeVisible();
 });
 
 test('host can generate a link, lands on player view', async ({ page }) => {
-  await page.goto('/imposter-word-game/');
+  await page.goto('/');
   const names = ['Anna', 'Björn', 'Carl', 'Dora'];
   for (let i = 0; i < names.length; i++) {
     await page.getByTestId(`name-input-${i}`).locator('input').fill(names[i]);
@@ -19,7 +19,7 @@ test('host can generate a link, lands on player view', async ({ page }) => {
 test('copy-link button copies the generated URL', async ({ page, context, browserName }) => {
   test.skip(browserName !== 'chromium', 'clipboard permission only stable on Chromium');
   await context.grantPermissions(['clipboard-read', 'clipboard-write']);
-  await page.goto('/imposter-word-game/');
+  await page.goto('/');
 
   const names = ['Anna', 'Björn', 'Carl', 'Dora'];
   for (let i = 0; i < names.length; i++) {
@@ -38,7 +38,7 @@ test('copy-link button copies the generated URL', async ({ page, context, browse
 test('language selection round-trips through URL and applies before player view', async ({
   page,
 }) => {
-  await page.goto('/imposter-word-game/');
+  await page.goto('/');
 
   // Select German via the language picker — Vuetify v-select uses a list overlay.
   await page.getByTestId('lang-select').click();
@@ -63,7 +63,7 @@ test('language selection round-trips through URL and applies before player view'
 });
 
 test('mid-game QR action is round-1 only', async ({ page }) => {
-  await page.goto('/imposter-word-game/');
+  await page.goto('/');
   const names = ['Anna', 'Björn', 'Carl', 'Dora'];
   for (let i = 0; i < names.length; i++) {
     await page.getByTestId(`name-input-${i}`).locator('input').fill(names[i]);
@@ -97,7 +97,7 @@ test('version mismatch is blocking', async ({ page }) => {
   };
   const b64 = Buffer.from(JSON.stringify(bad), 'utf8').toString('base64')
     .replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
-  await page.goto(`/imposter-word-game/play?g=${b64}`);
+  await page.goto(`/play?g=${b64}`);
   await expect(page.getByTestId('version-mismatch')).toBeVisible();
   await expect(page.getByTestId('player-view')).toHaveCount(0);
 });

@@ -50,13 +50,13 @@ for (const vp of VIEWPORTS) {
     test.use({ viewport: { width: vp.width, height: vp.height } });
 
     test('host setup fits without scrolling (4 names, no keyboard)', async ({ page }) => {
-      await page.goto('/imposter-word-game/');
+      await page.goto('/');
       await expect(page.getByTestId('host-setup')).toBeVisible();
       await assertNoVerticalScroll(page, `host-setup ${vp.name}`);
     });
 
     test('name pick fits without scrolling (4 names)', async ({ page }) => {
-      await page.goto('/imposter-word-game/');
+      await page.goto('/');
       await fillNames(page, ['Anna', 'BjÃ¶rn', 'Carl', 'Dora']);
       await page.getByTestId('generate').click();
       await expect(page.getByTestId('pick-card')).toBeVisible();
@@ -64,13 +64,13 @@ for (const vp of VIEWPORTS) {
     });
 
     test('in-game pre-reveal fits without scrolling', async ({ page }) => {
-      await page.goto('/imposter-word-game/');
+      await page.goto('/');
       await generateAndPick(page, ['Anna', 'BjÃ¶rn', 'Carl', 'Dora']);
       await assertNoVerticalScroll(page, `pre-reveal ${vp.name}`);
     });
 
     test('in-game reveal fits without scrolling', async ({ page }) => {
-      await page.goto('/imposter-word-game/');
+      await page.goto('/');
       await generateAndPick(page, ['Anna', 'BjÃ¶rn', 'Carl', 'Dora']);
       await page.getByTestId('show-role').click();
       await expect(page.getByTestId('stage-reveal')).toBeVisible();
@@ -78,7 +78,7 @@ for (const vp of VIEWPORTS) {
     });
 
     test('in-game play (after hide) fits without scrolling', async ({ page }) => {
-      await page.goto('/imposter-word-game/');
+      await page.goto('/');
       await generateAndPick(page, ['Anna', 'BjÃ¶rn', 'Carl', 'Dora']);
       await page.getByTestId('show-role').click();
       await page.getByTestId('hide-role').click();
@@ -93,7 +93,7 @@ test.describe('viewport 360x640 â€” 12 names pick screen', () => {
   test.use({ viewport: { width: 360, height: 640 } });
 
   test('name pick with 12 names fits at 360Ã—640', async ({ page }) => {
-    await page.goto('/imposter-word-game/');
+    await page.goto('/');
     const names = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L'];
     await fillNames(page, names);
     await page.getByTestId('generate').click();

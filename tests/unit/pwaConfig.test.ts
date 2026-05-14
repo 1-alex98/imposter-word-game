@@ -41,7 +41,7 @@ describe('PWA / manifest config (stories 5.1 + 5.2)', () => {
     expect(VITE_CONFIG).toMatch(/theme_color:\s*'#1976d2'/);
     expect(VITE_CONFIG).toMatch(/background_color:\s*'#ffffff'/);
     expect(VITE_CONFIG).toMatch(/display:\s*'standalone'/);
-    expect(VITE_CONFIG).toMatch(/start_url:\s*'\/imposter-word-game\/'/);
+    expect(VITE_CONFIG).toMatch(/start_url:\s*'\/'/);
   });
 });
 

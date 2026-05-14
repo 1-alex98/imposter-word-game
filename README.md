@@ -14,11 +14,11 @@ Static, no-backend imposter party game. Hosted on GitHub Pages.
 
 ## Deploy
 
-GitHub Pages, served under the repo subpath (`/imposter-word-game/`). **Deploy is user-run, not agent-run.**
+GitHub Pages, served under the repo subpath (`/`). **Deploy is user-run, not agent-run.**
 
 1. `npm run build`
 2. Publish `dist/` to the `gh-pages` branch (e.g. with `gh-pages -d dist` or any preferred tool).
 
-Vite `base` is set to `/imposter-word-game/`; manifest and service-worker scopes resolve under that prefix.
+Vite `base` is set to `/`; manifest and service-worker scopes resolve under that prefix.
 
 See [SPEC.md](SPEC.md) and [PLAN.md](PLAN.md) for design and roadmap.

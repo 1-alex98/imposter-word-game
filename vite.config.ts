@@ -23,7 +23,7 @@ function buildVersion(): string {
 const VERSION = buildVersion();
 
 export default defineConfig({
-  base: '/imposter-word-game/',
+  base: '/',
   resolve: {
     alias: { '@': path.resolve(__dirname, 'src') },
   },
@@ -48,7 +48,7 @@ export default defineConfig({
         clientsClaim: true,
         // App-shell (precached HTML/JS/CSS) — NetworkFirst on navigations so deployments
         // are picked up immediately when the user is online (SPEC §7.2).
-        navigateFallback: '/imposter-word-game/index.html',
+        navigateFallback: '/index.html',
         navigateFallbackDenylist: [/^\/api\//],
         runtimeCaching: [
           {
@@ -77,8 +77,8 @@ export default defineConfig({
       manifest: {
         name: 'Imposter Game',
         short_name: 'Imposter',
-        start_url: '/imposter-word-game/',
-        scope: '/imposter-word-game/',
+        start_url: '/',
+        scope: '/',
         display: 'standalone',
         theme_color: '#1976d2',
         background_color: '#ffffff',
