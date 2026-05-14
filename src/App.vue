@@ -67,3 +67,20 @@ watch(
     </template>
   </v-app>
 </template>
+
+<style>
+/* On very narrow phones, let button labels wrap instead of overflowing. */
+@media (max-width: 360px) {
+  .v-btn:not(.v-btn--icon) {
+    height: auto;
+    min-height: var(--v-btn-height);
+    padding-block: 6px;
+  }
+  .v-btn:not(.v-btn--icon) .v-btn__content {
+    white-space: normal;
+    text-align: center;
+    line-height: 1.2;
+    max-width: 100%;
+  }
+}
+</style>
