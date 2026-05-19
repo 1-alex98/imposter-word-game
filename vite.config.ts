@@ -4,7 +4,8 @@ import vuetify from 'vite-plugin-vuetify';
 import { VitePWA } from 'vite-plugin-pwa';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
-import { readFileSync, readdirSync, existsSync } from 'node:fs';
+import { readFileSync, readdirSync, existsSync, copyFileSync } from 'node:fs';
+import type { Plugin } from 'vite';
 
 function buildVersion(): string {
   const parts: string[] = [];
@@ -21,6 +22,26 @@ function buildVersion(): string {
 }
 
 const VERSION = buildVersion();
+
+// GitHub Pages has no server-side rewrite. A first-time visit to a vue-router
+// path like `/play?g=...` would 404 before the SPA can boot (and before the
+// service worker is installed). Emit `404.html` as a copy of the built
+// `index.html` so GH Pages serves the SPA shell on unknown paths; vue-router
+// then handles the route client-side.
+function emitSpa404(): Plugin {
+  return {
+    name: 'emit-spa-404',
+    apply: 'build',
+    closeBundle() {
+      const outDir = path.resolve(__dirname, 'dist');
+      const indexHtml = path.join(outDir, 'index.html');
+      const notFoundHtml = path.join(outDir, '404.html');
+      if (existsSync(indexHtml)) {
+        copyFileSync(indexHtml, notFoundHtml);
+      }
+    },
+  };
+}
 
 export default defineConfig({
   base: '/',
@@ -104,5 +125,6 @@ export default defineConfig({
         ],
       },
     }),
+    emitSpa404(),
   ],
 });
