@@ -45,6 +45,11 @@ function emitSpa404(): Plugin {
 
 export default defineConfig({
   base: '/',
+  // Bind to all interfaces (0.0.0.0/::) so the dev/preview server is reachable
+  // from outside the dev container (VS Code port forwarding / host browser).
+  // Vite defaults to loopback only (::1), which is unreachable from the host.
+  server: { host: true },
+  preview: { host: true },
   resolve: {
     alias: { '@': path.resolve(__dirname, 'src') },
   },

@@ -1,0 +1,14 @@
+# Normalize line endings to LF for all text files.
+# Prevents CRLF churn when checking out on Windows/WSL dev containers.
+* text=auto eol=lf
+
+# Explicit binary types (never modify).
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
