@@ -975,11 +975,6 @@
     "difficulty": "easy"
   },
   {
-    "word": "Mirror",
-    "hint": "object",
-    "difficulty": "easy"
-  },
-  {
     "word": "Canteen",
     "hint": "object",
     "difficulty": "easy"
@@ -1100,11 +1095,6 @@
     "difficulty": "easy"
   },
   {
-    "word": "Parrot",
-    "hint": "animal",
-    "difficulty": "easy"
-  },
-  {
     "word": "Hamster",
     "hint": "animal",
     "difficulty": "easy"
@@ -1126,11 +1116,6 @@
   },
   {
     "word": "Spider",
-    "hint": "animal",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Butterfly",
     "hint": "animal",
     "difficulty": "easy"
   },
@@ -1480,11 +1465,6 @@
     "difficulty": "medium"
   },
   {
-    "word": "Campfire",
-    "hint": "warm",
-    "difficulty": "easy"
-  },
-  {
     "word": "Ice",
     "hint": "cold",
     "difficulty": "easy"
@@ -1615,11 +1595,6 @@
     "difficulty": "easy"
   },
   {
-    "word": "Fog",
-    "hint": "hazy",
-    "difficulty": "easy"
-  },
-  {
     "word": "Dew",
     "hint": "morning",
     "difficulty": "easy"
@@ -1690,11 +1665,6 @@
     "difficulty": "medium"
   },
   {
-    "word": "Anvil",
-    "hint": "heavy",
-    "difficulty": "medium"
-  },
-  {
     "word": "Furnace",
     "hint": "burning",
     "difficulty": "medium"
@@ -1746,11 +1716,6 @@
   },
   {
     "word": "Torch",
-    "hint": "luminous",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Lantern",
     "hint": "luminous",
     "difficulty": "medium"
   },
@@ -1890,11 +1855,6 @@
     "difficulty": "easy"
   },
   {
-    "word": "Bucket",
-    "hint": "object",
-    "difficulty": "easy"
-  },
-  {
     "word": "Broom",
     "hint": "object",
     "difficulty": "easy"
@@ -1925,22 +1885,7 @@
     "difficulty": "easy"
   },
   {
-    "word": "Ladder",
-    "hint": "object",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Barrel",
-    "hint": "object",
-    "difficulty": "easy"
-  },
-  {
     "word": "Crate",
-    "hint": "object",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Bag",
     "hint": "object",
     "difficulty": "easy"
   },
@@ -2150,16 +2095,6 @@
     "difficulty": "easy"
   },
   {
-    "word": "Map",
-    "hint": "object",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Compass",
-    "hint": "object",
-    "difficulty": "easy"
-  },
-  {
     "word": "Globe",
     "hint": "object",
     "difficulty": "easy"
@@ -2185,17 +2120,7 @@
     "difficulty": "easy"
   },
   {
-    "word": "Ball",
-    "hint": "object",
-    "difficulty": "easy"
-  },
-  {
     "word": "Balloon",
-    "hint": "object",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Kite",
     "hint": "object",
     "difficulty": "easy"
   },
@@ -2206,16 +2131,6 @@
   },
   {
     "word": "Slide",
-    "hint": "object",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Trampoline",
-    "hint": "object",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Tent",
     "hint": "object",
     "difficulty": "easy"
   },
@@ -2295,11 +2210,6 @@
     "difficulty": "easy"
   },
   {
-    "word": "Cliff",
-    "hint": "nature",
-    "difficulty": "easy"
-  },
-  {
     "word": "Valley",
     "hint": "nature",
     "difficulty": "easy"
@@ -2320,21 +2230,6 @@
     "difficulty": "easy"
   },
   {
-    "word": "Waterfall",
-    "hint": "nature",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Swamp",
-    "hint": "nature",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Meadow",
-    "hint": "nature",
-    "difficulty": "easy"
-  },
-  {
     "word": "Bush",
     "hint": "nature",
     "difficulty": "easy"
@@ -2351,11 +2246,6 @@
   },
   {
     "word": "Mushroom",
-    "hint": "organic",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Cactus",
     "hint": "organic",
     "difficulty": "easy"
   },
@@ -2470,21 +2360,6 @@
     "difficulty": "easy"
   },
   {
-    "word": "Walrus",
-    "hint": "living",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Moose",
-    "hint": "living",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Otter",
-    "hint": "living",
-    "difficulty": "easy"
-  },
-  {
     "word": "Seal",
     "hint": "living",
     "difficulty": "easy"
@@ -2495,47 +2370,12 @@
     "difficulty": "easy"
   },
   {
-    "word": "Gorilla",
-    "hint": "living",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Chimpanzee",
-    "hint": "living",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Panda",
-    "hint": "living",
-    "difficulty": "easy"
-  },
-  {
     "word": "Koala",
     "hint": "living",
     "difficulty": "easy"
   },
   {
-    "word": "Sloth",
-    "hint": "living",
-    "difficulty": "easy"
-  },
-  {
     "word": "Armadillo",
-    "hint": "living",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Hedgehog",
-    "hint": "living",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Platypus",
-    "hint": "living",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Flamingo",
     "hint": "living",
     "difficulty": "easy"
   },
@@ -2600,22 +2440,12 @@
     "difficulty": "easy"
   },
   {
-    "word": "Cobra",
-    "hint": "living",
-    "difficulty": "easy"
-  },
-  {
     "word": "Python",
     "hint": "living",
     "difficulty": "easy"
   },
   {
     "word": "Gecko",
-    "hint": "living",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Chameleon",
     "hint": "living",
     "difficulty": "easy"
   },
@@ -2795,11 +2625,6 @@
     "difficulty": "medium"
   },
   {
-    "word": "Lighthouse",
-    "hint": "place",
-    "difficulty": "easy"
-  },
-  {
     "word": "Barn",
     "hint": "place",
     "difficulty": "easy"
@@ -2830,32 +2655,12 @@
     "difficulty": "easy"
   },
   {
-    "word": "Alley",
-    "hint": "place",
-    "difficulty": "easy"
-  },
-  {
     "word": "Plaza",
     "hint": "place",
     "difficulty": "easy"
   },
   {
-    "word": "Courtyard",
-    "hint": "place",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Rooftop",
-    "hint": "place",
-    "difficulty": "easy"
-  },
-  {
     "word": "Basement",
-    "hint": "place",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Attic",
     "hint": "place",
     "difficulty": "easy"
   },
@@ -2940,32 +2745,7 @@
     "difficulty": "easy"
   },
   {
-    "word": "Volcano",
-    "hint": "nature",
-    "difficulty": "easy"
-  },
-  {
     "word": "Geyser",
-    "hint": "nature",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Canyon",
-    "hint": "nature",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Ravine",
-    "hint": "nature",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Gorge",
-    "hint": "nature",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Dune",
     "hint": "nature",
     "difficulty": "easy"
   },
@@ -3005,11 +2785,6 @@
     "difficulty": "easy"
   },
   {
-    "word": "Reef",
-    "hint": "nature",
-    "difficulty": "easy"
-  },
-  {
     "word": "Fjord",
     "hint": "nature",
     "difficulty": "easy"
@@ -3045,17 +2820,7 @@
     "difficulty": "easy"
   },
   {
-    "word": "Cavern",
-    "hint": "nature",
-    "difficulty": "easy"
-  },
-  {
     "word": "Sinkhole",
-    "hint": "nature",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Crater",
     "hint": "nature",
     "difficulty": "easy"
   },
@@ -3115,11 +2880,6 @@
     "difficulty": "easy"
   },
   {
-    "word": "Gorilla",
-    "hint": "living",
-    "difficulty": "easy"
-  },
-  {
     "word": "Baboon",
     "hint": "living",
     "difficulty": "easy"
@@ -3143,11 +2903,6 @@
     "word": "Macaque",
     "hint": "living",
     "difficulty": "medium"
-  },
-  {
-    "word": "Spoon",
-    "hint": "object",
-    "difficulty": "easy"
   },
   {
     "word": "Ladle",
@@ -3290,16 +3045,6 @@
     "difficulty": "easy"
   },
   {
-    "word": "Binoculars",
-    "hint": "object",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Microscope",
-    "hint": "object",
-    "difficulty": "easy"
-  },
-  {
     "word": "Telescope",
     "hint": "object",
     "difficulty": "easy"
@@ -3375,17 +3120,7 @@
     "difficulty": "easy"
   },
   {
-    "word": "Pulley",
-    "hint": "object",
-    "difficulty": "easy"
-  },
-  {
     "word": "Winch",
-    "hint": "object",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Crane",
     "hint": "object",
     "difficulty": "easy"
   },
@@ -3411,11 +3146,6 @@
   },
   {
     "word": "Paintbrush",
-    "hint": "object",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Chisel",
     "hint": "object",
     "difficulty": "easy"
   },
@@ -3666,11 +3396,6 @@
   },
   {
     "word": "Beaker",
-    "hint": "object",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Flask",
     "hint": "object",
     "difficulty": "medium"
   },

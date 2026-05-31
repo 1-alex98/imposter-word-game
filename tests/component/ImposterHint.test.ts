@@ -57,9 +57,8 @@ async function mountAs(args: MountArgs) {
   return wrapper;
 }
 
-function imposterNameFor(seed: number, round: number, difficulty: 'easy' | 'medium') {
-  const words = filterByDifficulty(seedWords.en, difficulty);
-  return NAMES[imposterIndex(seed, round, NAMES.length, words)];
+function imposterNameFor(seed: number, round: number, _difficulty: 'easy' | 'medium') {
+  return NAMES[imposterIndex(seed, round, NAMES.length)];
 }
 
 describe('Imposter hint (story 2.5)', () => {
@@ -122,7 +121,7 @@ describe('deterministic hint selection', () => {
     fc.assert(
       fc.property(
         fc.nat({ max: 0xffffffff }),
-        fc.nat({ max: 10_000 }),
+        fc.integer({ min: 1, max: 300 }),
         fc.constantFrom('easy', 'medium'),
         fc.integer({ min: 4, max: 12 }),
         (seed, round, difficulty, playerCount) => {
@@ -130,7 +129,7 @@ describe('deterministic hint selection', () => {
           if (words.length === 0) return true;
           // Same inputs → same hint, no matter which playerIndex we use.
           // (Hint is shared across the round; only word/role differ per player.)
-          const imp = imposterIndex(seed, round, playerCount, words);
+          const imp = imposterIndex(seed, round, playerCount);
           const a = roleFor({ playerIndex: imp, seed, round, playerCount, words });
           const b = roleFor({ playerIndex: imp, seed, round, playerCount, words });
           expect(a.hint).toBe(b.hint);

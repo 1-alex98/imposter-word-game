@@ -166,7 +166,21 @@ describe('PlayerView', () => {
     await wrapper.find('[data-test="reveal-imposter"]').trigger('click');
     await wrapper.find('[data-test="next-round"]').trigger('click');
     expect(wrapper.find('[data-test="stage-pre-reveal"]').exists()).toBe(true);
-    expect(window.sessionStorage.getItem('imposter:round:12345')).toBe('2');
+    // round is persisted in the URL (survives a phone-lock tab eviction), not sessionStorage
+    expect(new URLSearchParams(window.location.search).get('r')).toBe('2');
+    expect(window.sessionStorage.getItem('imposter:round:12345')).toBeNull();
+  });
+
+  it('restores the round from the URL on reload (phone-lock recovery)', async () => {
+    // Simulate reopening a tab whose URL already advanced to round 3, with
+    // empty sessionStorage (as after the OS evicts a backgrounded tab).
+    const payload = urlPayload();
+    setLocationSearch(`?g=${payload}&r=3`);
+    window.sessionStorage.clear();
+    const session = useGameSession();
+    session.reload();
+    await flushPromises();
+    expect(session.round.value).toBe(3);
   });
 
   it('two simulated devices agree on the imposter at round 2', async () => {

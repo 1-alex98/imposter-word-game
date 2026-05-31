@@ -66,7 +66,7 @@ describe('Reveal screen pulls word + hint from the seed list (story 3.1)', () =>
       it(`innocent sees a ${tier} word from the ${lang} seed list`, async () => {
         const seed = 7777;
         const pool = filterByDifficulty(seedWords[lang], tier);
-        const impIdx = imposterIndex(seed, 1, NAMES.length, pool);
+        const impIdx = imposterIndex(seed, 1, NAMES.length);
         const innocentIdx = impIdx === 0 ? 1 : 0;
         const expected = roleFor({
           playerIndex: innocentIdx,

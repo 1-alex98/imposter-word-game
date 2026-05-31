@@ -87,7 +87,7 @@ const role = computed(() => {
 
 const imposterName = computed(() => {
   if (!state.value) return '';
-  const idx = imposterIndex(state.value.seed, round.value, state.value.names.length, words.value);
+  const idx = imposterIndex(state.value.seed, round.value, state.value.names.length);
   return state.value.names[idx] ?? '';
 });
 

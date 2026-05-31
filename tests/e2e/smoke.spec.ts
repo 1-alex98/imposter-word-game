@@ -85,6 +85,37 @@ test('mid-game QR action is round-1 only', async ({ page }) => {
   await expect(page.getByTestId('show-qr')).toHaveCount(0);
 });
 
+test('round survives reload even when sessionStorage is wiped (phone-lock recovery)', async ({
+  page,
+}) => {
+  await page.goto('/');
+  const names = ['Anna', 'Björn', 'Carl', 'Dora'];
+  for (let i = 0; i < names.length; i++) {
+    await page.getByTestId(`name-input-${i}`).locator('input').fill(names[i]);
+  }
+  await page.getByTestId('generate').click();
+  await page.getByTestId('pick-name-0').click();
+
+  // Advance to round 2.
+  await page.getByTestId('show-role').click();
+  await page.getByTestId('hide-role').click();
+  await page.getByTestId('reveal-imposter').click();
+  await page.getByTestId('reveal-confirm-yes').click();
+  await page.getByTestId('next-round').click();
+  await expect(page.getByTestId('round-badge')).toContainText('2');
+
+  // The round is encoded in the URL...
+  expect(new URL(page.url()).searchParams.get('r')).toBe('2');
+
+  // ...so even after the OS evicts the tab (sessionStorage gone) a reload keeps round 2.
+  // The name pick lives in sessionStorage and is lost, so the player re-taps their name —
+  // but the round is recovered from the URL rather than resetting to 1.
+  await page.evaluate(() => sessionStorage.clear());
+  await page.reload();
+  await page.getByTestId('pick-name-0').click();
+  await expect(page.getByTestId('round-badge')).toContainText('2');
+});
+
 test('version mismatch is blocking', async ({ page }) => {
   // Hand-craft a URL whose decoded version does not match the build.
   const bad = {
