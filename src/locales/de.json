@@ -60,6 +60,27 @@
     "wordLoadError": "Wortliste konnte nicht geladen werden – bitte Verbindung prüfen.",
     "retry": "Erneut versuchen"
   },
+  "impressum": {
+    "link": "Impressum",
+    "title": "Impressum",
+    "provider": "Angaben gemäß § 5 DDG",
+    "contact": "Kontakt",
+    "back": "Zurück"
+  },
+  "datenschutz": {
+    "link": "Datenschutz",
+    "title": "Datenschutzerklärung",
+    "responsibleTitle": "Verantwortlicher",
+    "hostingTitle": "Hosting (GitHub Pages)",
+    "hostingBody": "Diese Website wird auf GitHub Pages gehostet, einem Dienst der GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. Beim Aufruf der Seite überträgt dein Browser technisch notwendige Daten – insbesondere deine IP-Adresse – an GitHub, damit die Seite ausgeliefert werden kann. Diese Verarbeitung erfolgt auf Grundlage unseres berechtigten Interesses an einem sicheren Betrieb (Art. 6 Abs. 1 lit. f DSGVO). Die Übermittlung in die USA ist durch die Standardvertragsklauseln der EU-Kommission abgesichert. Weitere Informationen findest du in der Datenschutzerklärung von GitHub.",
+    "noTrackingTitle": "Keine Cookies, kein Tracking",
+    "noTrackingBody": "Diese Website setzt keine Cookies, verwendet keine Analyse- oder Tracking-Dienste und erhebt selbst keine personenbezogenen Daten. Alle Spieldaten werden ausschließlich in deinem Browser und im geteilten Link verarbeitet und niemals an einen Server gesendet.",
+    "rightsTitle": "Deine Rechte",
+    "rightsBody": "Du hast das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung deiner personenbezogenen Daten sowie auf Datenübertragbarkeit und Widerspruch. Wende dich dazu an die oben genannte Adresse.",
+    "complaintTitle": "Beschwerderecht",
+    "complaintBody": "Du hast das Recht, dich bei einer Datenschutz-Aufsichtsbehörde über die Verarbeitung deiner personenbezogenen Daten zu beschweren.",
+    "back": "Zurück"
+  },
   "help": {
     "open": "Spielanleitung",
     "title": "So wird gespielt",

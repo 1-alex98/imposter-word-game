@@ -25,6 +25,8 @@ function makeHostRouter() {
     routes: [
       { path: '/', name: 'host', component: HostSetup },
       { path: '/play', name: 'play', component: { template: '<div>play</div>' } },
+      { path: '/impressum', name: 'impressum', component: { template: '<div>impressum</div>' } },
+      { path: '/datenschutz', name: 'datenschutz', component: { template: '<div>datenschutz</div>' } },
     ],
   });
 }

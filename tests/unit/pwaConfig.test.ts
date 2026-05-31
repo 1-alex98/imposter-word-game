@@ -46,10 +46,12 @@ describe('PWA / manifest config (stories 5.1 + 5.2)', () => {
 });
 
 describe('build outputs', () => {
-  it('robots.txt is present in public/', () => {
+  it('robots.txt is present in public/ and allows indexing', () => {
+    // The site is intentionally crawlable (basic SEO) — robots.txt must NOT block everything.
     const robots = readFileSync(join(__dirname, '../../public/robots.txt'), 'utf8');
     expect(robots).toMatch(/User-agent:\s*\*/);
-    expect(robots).toMatch(/Disallow:\s*\//);
+    expect(robots).toMatch(/Allow:\s*\//);
+    expect(robots).not.toMatch(/Disallow:\s*\/\s*$/m);
   });
 
   it('PWA icons are present in public/', () => {

@@ -60,6 +60,27 @@
     "wordLoadError": "Could not load word list — check your connection.",
     "retry": "Retry"
   },
+  "impressum": {
+    "link": "Imprint",
+    "title": "Imprint",
+    "provider": "Information pursuant to § 5 DDG",
+    "contact": "Contact",
+    "back": "Back"
+  },
+  "datenschutz": {
+    "link": "Privacy",
+    "title": "Privacy policy",
+    "responsibleTitle": "Controller",
+    "hostingTitle": "Hosting (GitHub Pages)",
+    "hostingBody": "This site is hosted on GitHub Pages, a service of GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. When you open the page, your browser transmits technically necessary data — in particular your IP address — to GitHub so the page can be delivered. This processing is based on our legitimate interest in operating the site securely (Art. 6(1)(f) GDPR). The transfer to the USA is covered by the EU Commission's Standard Contractual Clauses. See GitHub's own privacy statement for details.",
+    "noTrackingTitle": "No cookies, no tracking",
+    "noTrackingBody": "This site sets no cookies, uses no analytics or tracking services, and collects no personal data itself. All game data is processed solely in your browser and in the shared link, and is never sent to a server.",
+    "rightsTitle": "Your rights",
+    "rightsBody": "You have the right to access, rectification, erasure and restriction of processing of your personal data, as well as the rights to data portability and to object. To exercise them, contact the address above.",
+    "complaintTitle": "Right to complain",
+    "complaintBody": "You have the right to lodge a complaint about the processing of your personal data with a data protection supervisory authority.",
+    "back": "Back"
+  },
   "help": {
     "open": "How to play",
     "title": "How to play",

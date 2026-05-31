@@ -166,6 +166,23 @@ function onGenerate() {
             </v-btn>
           </v-card-actions>
         </v-card>
+        <div class="text-center mt-3">
+          <router-link
+            :to="{ name: 'impressum' }"
+            class="text-caption text-medium-emphasis text-decoration-none"
+            data-test="impressum-link"
+          >
+            {{ t('impressum.link') }}
+          </router-link>
+          <span class="text-caption text-medium-emphasis mx-2">·</span>
+          <router-link
+            :to="{ name: 'datenschutz' }"
+            class="text-caption text-medium-emphasis text-decoration-none"
+            data-test="datenschutz-link"
+          >
+            {{ t('datenschutz.link') }}
+          </router-link>
+        </div>
       </v-col>
     </v-row>
   </v-container>

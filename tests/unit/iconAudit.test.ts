@@ -81,6 +81,8 @@ const REQUIRED_ACTIONS: ReadonlyArray<{
   { dataTest: 'pick-new-game', action: 'new-game', icon: 'mdi-restart' },
   { dataTest: 'add-player', action: 'add-player', icon: 'mdi-plus' },
   { dataTest: 'generate', action: 'generate', icon: 'mdi-link-variant' },
+  { dataTest: 'impressum-back', action: 'back', icon: 'mdi-arrow-left' },
+  { dataTest: 'datenschutz-back', action: 'back', icon: 'mdi-arrow-left' },
   { dataTest: 'version-refresh', action: 'refresh', icon: 'mdi-refresh' },
   { dataTest: 'qr-dialog-close', action: 'close-dialog', icon: 'mdi-close' },
   { dataTest: 'help-dialog-close', action: 'close-dialog', icon: 'mdi-close' },
