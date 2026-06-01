@@ -71,6 +71,7 @@ const REQUIRED_ACTIONS: ReadonlyArray<{
   { dataTest: 'hide-role', action: 'hide-role', icon: 'mdi-eye-off' },
   { dataTest: 'reveal-imposter', action: 'reveal-imposter', icon: 'mdi-account-search' },
   { dataTest: 'next-round', action: 'next-round', icon: 'mdi-arrow-right' },
+  { dataTest: 'next-round-play', action: 'next-round', icon: 'mdi-arrow-right' },
   { dataTest: 'new-game', action: 'new-game', icon: 'mdi-restart' },
   { dataTest: 'lang-select', action: 'language', icon: 'mdi-translate' },
   { dataTest: 'difficulty-select', action: 'difficulty', icon: 'mdi-speedometer' },

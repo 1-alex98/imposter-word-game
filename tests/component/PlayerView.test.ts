@@ -171,6 +171,39 @@ describe('PlayerView', () => {
     expect(window.sessionStorage.getItem('imposter:round:12345')).toBeNull();
   });
 
+  it('skip-to-next-round within 60s of round start opens a confirmation dialog', async () => {
+    const wrapper = await mountWithPayload(urlPayload());
+    await wrapper.find('[data-test="pick-name-0"]').trigger('click');
+    await wrapper.find('[data-test="show-role"]').trigger('click');
+    await wrapper.find('[data-test="hide-role"]').trigger('click');
+    await wrapper.find('[data-test="next-round-play"]').trigger('click');
+    await flushPromises();
+    // v-dialog teleports to document.body, so query there.
+    expect(document.body.querySelector('[data-test="next-round-confirm-dialog"]')).not.toBeNull();
+    // Still on the play stage — the round didn't advance yet.
+    expect(new URLSearchParams(window.location.search).get('r')).not.toBe('2');
+
+    // Confirm proceeds to the next round.
+    const yes = document.body.querySelector<HTMLElement>('[data-test="next-round-confirm-yes"]');
+    yes?.click();
+    await flushPromises();
+    expect(wrapper.find('[data-test="stage-pre-reveal"]').exists()).toBe(true);
+    expect(new URLSearchParams(window.location.search).get('r')).toBe('2');
+  });
+
+  it('skip-to-next-round after 60s skips the confirmation dialog', async () => {
+    const wrapper = await mountWithPayload(urlPayload());
+    await wrapper.find('[data-test="pick-name-0"]').trigger('click');
+    await wrapper.find('[data-test="show-role"]').trigger('click');
+    await wrapper.find('[data-test="hide-role"]').trigger('click');
+    await skipRevealGate();
+    await wrapper.find('[data-test="next-round-play"]').trigger('click');
+    await flushPromises();
+    expect(document.body.querySelector('[data-test="next-round-confirm-dialog"]')).toBeNull();
+    expect(wrapper.find('[data-test="stage-pre-reveal"]').exists()).toBe(true);
+    expect(new URLSearchParams(window.location.search).get('r')).toBe('2');
+  });
+
   it('restores the round from the URL on reload (phone-lock recovery)', async () => {
     // Simulate reopening a tab whose URL already advanced to round 3, with
     // empty sessionStorage (as after the OS evicts a backgrounded tab).

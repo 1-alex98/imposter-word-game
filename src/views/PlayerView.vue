@@ -31,12 +31,15 @@ const {
   reload,
 } = useGameSession();
 
-const REVEAL_CONFIRM_THRESHOLD_MS = 60_000;
+// "Round just started" window — guards both early imposter reveals and early
+// skips to the next round.
+const ROUND_FRESH_THRESHOLD_MS = 60_000;
 
 const stage = ref<Stage>('pre-reveal');
 const revealTimerId = ref<ReturnType<typeof setTimeout> | null>(null);
 const qrDialogOpen = ref<boolean>(false);
 const revealConfirmOpen = ref<boolean>(false);
+const nextRoundConfirmOpen = ref<boolean>(false);
 const transitionOpen = ref<boolean>(false);
 const transitionRound = ref<number>(round.value);
 const pickMenuOpen = ref<boolean>(false);
@@ -126,7 +129,7 @@ function hideRole() {
 
 function revealImposter() {
   // Guard against accidental early reveals — confirm if the round is fresh.
-  if (Date.now() - roundStartedAt.value < REVEAL_CONFIRM_THRESHOLD_MS) {
+  if (Date.now() - roundStartedAt.value < ROUND_FRESH_THRESHOLD_MS) {
     revealConfirmOpen.value = true;
     return;
   }
@@ -136,6 +139,21 @@ function revealImposter() {
 function confirmRevealImposter() {
   revealConfirmOpen.value = false;
   stage.value = 'imposter-revealed';
+}
+
+// Direct skip-to-next-round from the play stage — guard against accidental
+// early skips the same way we guard early reveals.
+function requestNextRound() {
+  if (Date.now() - roundStartedAt.value < ROUND_FRESH_THRESHOLD_MS) {
+    nextRoundConfirmOpen.value = true;
+    return;
+  }
+  nextRound();
+}
+
+function confirmNextRound() {
+  nextRoundConfirmOpen.value = false;
+  nextRound();
 }
 
 function nextRound() {
@@ -307,6 +325,17 @@ function newGame() {
                 >
                   {{ t('player.revealImposter') }}
                 </v-btn>
+                <v-btn
+                  v-if="roleViewedThisSession"
+                  color="primary"
+                  size="large"
+                  variant="elevated"
+                  append-icon="mdi-arrow-right"
+                  data-test="next-round-play"
+                  @click="requestNextRound"
+                >
+                  {{ t('player.nextRound') }}
+                </v-btn>
               </div>
             </v-card-text>
 
@@ -455,6 +484,36 @@ function newGame() {
             @click="confirmRevealImposter"
           >
             {{ t('player.revealConfirmYes') }}
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog>
+
+    <v-dialog
+      v-if="nextRoundConfirmOpen"
+      v-model="nextRoundConfirmOpen"
+      max-width="420"
+      data-test="next-round-confirm-dialog"
+    >
+      <v-card class="pa-4">
+        <v-card-title>{{ t('player.nextRoundConfirmTitle') }}</v-card-title>
+        <v-card-text>{{ t('player.nextRoundConfirmMessage') }}</v-card-text>
+        <v-card-actions>
+          <v-spacer />
+          <v-btn
+            variant="text"
+            data-test="next-round-confirm-cancel"
+            @click="nextRoundConfirmOpen = false"
+          >
+            {{ t('player.nextRoundConfirmNo') }}
+          </v-btn>
+          <v-btn
+            color="primary"
+            variant="elevated"
+            data-test="next-round-confirm-yes"
+            @click="confirmNextRound"
+          >
+            {{ t('player.nextRoundConfirmYes') }}
           </v-btn>
         </v-card-actions>
       </v-card>

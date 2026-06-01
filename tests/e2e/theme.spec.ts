@@ -2,10 +2,10 @@ import { test, expect } from '@playwright/test';
 
 // Story 4.1 — every screen renders with the expected Vuetify theme colors,
 // sampled via getComputedStyle on a primary-coloured element.
-// Light: primary #1976d2 → rgb(25, 118, 210). Dark: primary #2196f3 → rgb(33, 150, 243).
+// Light: primary #009688 → rgb(0, 150, 136). Dark: primary #26a69a → rgb(38, 166, 154).
 
-const LIGHT_PRIMARY = 'rgb(25, 118, 210)';
-const DARK_PRIMARY = 'rgb(33, 150, 243)';
+const LIGHT_PRIMARY = 'rgb(0, 150, 136)';
+const DARK_PRIMARY = 'rgb(38, 166, 154)';
 
 test.describe('Vuetify theme (story 4.1)', () => {
   test.use({ colorScheme: 'light' });
