@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "generate:icons": "node scripts/generate-icons.mjs",
+    "review:words": "vite-node scripts/review-words.ts",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
@@ -23,6 +24,7 @@
     "vuetify": "^3.7.6"
   },
   "devDependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.3.159",
     "@eslint/js": "^9.39.4",
     "@playwright/test": "^1.49.1",
     "@resvg/resvg-js": "^2.6.2",

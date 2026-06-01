@@ -17,17 +17,12 @@
   {
     "word": "Vampir",
     "hint": "Fantasy",
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "word": "Werwolf",
     "hint": "Fantasy",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Mumie",
-    "hint": "Fantasy",
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "word": "Zombie",
@@ -40,17 +35,7 @@
     "difficulty": "easy"
   },
   {
-    "word": "Kobold",
-    "hint": "Fantasy",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Golem",
-    "hint": "Fantasy",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Zaubertrank",
+    "word": "Zauber",
     "hint": "Fantasy",
     "difficulty": "easy"
   },
@@ -81,7 +66,7 @@
   },
   {
     "word": "Rabe",
-    "hint": "Fantasy",
+    "hint": "Tiere",
     "difficulty": "easy"
   },
   {
@@ -120,23 +105,18 @@
     "difficulty": "easy"
   },
   {
-    "word": "Gnom",
+    "word": "Hexe",
     "hint": "Fantasy",
     "difficulty": "easy"
   },
   {
-    "word": "Hexenkessel",
-    "hint": "Fantasy",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Zauberbuch",
-    "hint": "Fantasy",
+    "word": "Buch",
+    "hint": "Freizeit",
     "difficulty": "easy"
   },
   {
     "word": "Blitz",
-    "hint": "Fantasy",
+    "hint": "Wetter",
     "difficulty": "easy"
   },
   {
@@ -250,7 +230,7 @@
     "difficulty": "easy"
   },
   {
-    "word": "Blumentopf",
+    "word": "Blume",
     "hint": "Alltag",
     "difficulty": "easy"
   },
@@ -270,7 +250,7 @@
     "difficulty": "easy"
   },
   {
-    "word": "Briefumschlag",
+    "word": "Brief",
     "hint": "Alltag",
     "difficulty": "easy"
   },
@@ -282,7 +262,7 @@
   {
     "word": "Klebeband",
     "hint": "Alltag",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Nagel",
@@ -316,16 +296,6 @@
   },
   {
     "word": "Hobel",
-    "hint": "Werkzeug",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Meißel",
-    "hint": "Werkzeug",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Schraubstock",
     "hint": "Werkzeug",
     "difficulty": "medium"
   },
@@ -381,7 +351,7 @@
   },
   {
     "word": "Lippenstift",
-    "hint": "Hygiene",
+    "hint": "Kosmetik",
     "difficulty": "easy"
   },
   {
@@ -455,7 +425,7 @@
     "difficulty": "easy"
   },
   {
-    "word": "Klassenraum",
+    "word": "Klassenzimmer",
     "hint": "Schule",
     "difficulty": "easy"
   },
@@ -480,7 +450,7 @@
     "difficulty": "easy"
   },
   {
-    "word": "Tintenstift",
+    "word": "Füller",
     "hint": "Schule",
     "difficulty": "easy"
   },
@@ -750,11 +720,6 @@
     "difficulty": "easy"
   },
   {
-    "word": "Schreiner",
-    "hint": "Beruf",
-    "difficulty": "medium"
-  },
-  {
     "word": "Schornsteinfeger",
     "hint": "Beruf",
     "difficulty": "easy"
@@ -1006,7 +971,7 @@
   },
   {
     "word": "Auto",
-    "hint": "Fahrzeug",
+    "hint": "Verkehr",
     "difficulty": "easy"
   },
   {
@@ -1042,17 +1007,17 @@
   {
     "word": "Stadt",
     "hint": "Geografie",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Arbeit",
-    "hint": "Beruf",
-    "difficulty": "medium"
+    "hint": "Alltag",
+    "difficulty": "easy"
   },
   {
     "word": "Stunde",
     "hint": "Zeit",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Unternehmen",
@@ -1067,31 +1032,26 @@
   {
     "word": "Woche",
     "hint": "Zeit",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Million",
-    "hint": "Finanzen",
-    "difficulty": "medium"
+    "hint": "Mathematik",
+    "difficulty": "easy"
   },
   {
     "word": "Artikel",
     "hint": "Medien",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Film",
-    "hint": "Medien",
+    "hint": "Freizeit",
     "difficulty": "easy"
   },
   {
     "word": "Internet",
     "hint": "Technologie",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Buch",
-    "hint": "Medien",
     "difficulty": "easy"
   },
   {
@@ -1101,7 +1061,7 @@
   },
   {
     "word": "Mädchen",
-    "hint": "Person",
+    "hint": "Familie",
     "difficulty": "easy"
   },
   {
@@ -1111,7 +1071,7 @@
   },
   {
     "word": "Freund",
-    "hint": "Beziehung",
+    "hint": "Alltag",
     "difficulty": "easy"
   },
   {
@@ -1122,17 +1082,17 @@
   {
     "word": "März",
     "hint": "Kalender",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Preis",
     "hint": "Wirtschaft",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Tod",
-    "hint": "Natur",
-    "difficulty": "medium"
+    "hint": "Leben",
+    "difficulty": "easy"
   },
   {
     "word": "Video",
@@ -1142,32 +1102,32 @@
   {
     "word": "November",
     "hint": "Kalender",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "April",
     "hint": "Kalender",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Raum",
     "hint": "Gebäude",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Juli",
     "hint": "Kalender",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Juni",
     "hint": "Kalender",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Oktober",
     "hint": "Kalender",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Sommer",
@@ -1177,7 +1137,7 @@
   {
     "word": "Titel",
     "hint": "Medien",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Tochter",
@@ -1197,12 +1157,12 @@
   {
     "word": "Sprache",
     "hint": "Kommunikation",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Band",
     "hint": "Musik",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Job",
@@ -1212,7 +1172,7 @@
   {
     "word": "Höhe",
     "hint": "Natur",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Klasse",
@@ -1221,12 +1181,12 @@
   },
   {
     "word": "Gesicht",
-    "hint": "Körperteil",
+    "hint": "Körper",
     "difficulty": "easy"
   },
   {
     "word": "Herz",
-    "hint": "Körperteil",
+    "hint": "Körper",
     "difficulty": "easy"
   },
   {
@@ -1236,7 +1196,7 @@
   },
   {
     "word": "König",
-    "hint": "Person",
+    "hint": "Geschichte",
     "difficulty": "easy"
   },
   {
@@ -1247,7 +1207,7 @@
   {
     "word": "Boden",
     "hint": "Natur",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Bruder",
@@ -1261,23 +1221,23 @@
   },
   {
     "word": "Kreis",
-    "hint": "Form",
+    "hint": "Mathematik",
     "difficulty": "easy"
   },
   {
     "word": "Körper",
-    "hint": "Mensch",
+    "hint": "Gesundheit",
     "difficulty": "easy"
   },
   {
     "word": "Nachricht",
     "hint": "Kommunikation",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Verein",
-    "hint": "Organisation",
-    "difficulty": "medium"
+    "hint": "Freizeit",
+    "difficulty": "easy"
   },
   {
     "word": "Licht",
@@ -1287,7 +1247,7 @@
   {
     "word": "Markt",
     "hint": "Wirtschaft",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Schüler",
@@ -1306,43 +1266,43 @@
   },
   {
     "word": "Punkt",
-    "hint": "Form",
-    "difficulty": "medium"
+    "hint": "Mathematik",
+    "difficulty": "easy"
   },
   {
     "word": "Freundin",
-    "hint": "Person",
+    "hint": "Alltag",
     "difficulty": "easy"
   },
   {
     "word": "Programm",
     "hint": "Medien",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Saison",
     "hint": "Zeit",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Dezember",
-    "hint": "Monat",
+    "hint": "Kalender",
     "difficulty": "easy"
   },
   {
     "word": "Januar",
-    "hint": "Monat",
+    "hint": "Kalender",
     "difficulty": "easy"
   },
   {
     "word": "Februar",
-    "hint": "Monat",
+    "hint": "Kalender",
     "difficulty": "easy"
   },
   {
     "word": "Firma",
     "hint": "Wirtschaft",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Ausbildung",
@@ -1352,36 +1312,36 @@
   {
     "word": "Betrieb",
     "hint": "Wirtschaft",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Lehre",
-    "hint": "Beruf",
+    "hint": "Bildung",
     "difficulty": "medium"
   },
   {
     "word": "Studium",
-    "hint": "Beruf",
+    "hint": "Bildung",
     "difficulty": "medium"
   },
   {
     "word": "Nase",
-    "hint": "Körperteil",
+    "hint": "Körper",
     "difficulty": "easy"
   },
   {
     "word": "Lunge",
-    "hint": "Körperteil",
+    "hint": "Körper",
     "difficulty": "easy"
   },
   {
     "word": "Königin",
-    "hint": "Person",
+    "hint": "Geschichte",
     "difficulty": "easy"
   },
   {
     "word": "Prinz",
-    "hint": "Person",
+    "hint": "Geschichte",
     "difficulty": "easy"
   },
   {
@@ -1431,18 +1391,18 @@
   },
   {
     "word": "Dreieck",
-    "hint": "Form",
+    "hint": "Mathematik",
     "difficulty": "easy"
   },
   {
     "word": "Quadrat",
-    "hint": "Form",
+    "hint": "Mathematik",
     "difficulty": "easy"
   },
   {
     "word": "Linie",
-    "hint": "Form",
-    "difficulty": "medium"
+    "hint": "Mathematik",
+    "difficulty": "easy"
   },
   {
     "word": "Seele",
@@ -1450,24 +1410,14 @@
     "difficulty": "medium"
   },
   {
-    "word": "Meldung",
-    "hint": "Kommunikation",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Mitteilung",
-    "hint": "Kommunikation",
-    "difficulty": "medium"
-  },
-  {
     "word": "Klub",
-    "hint": "Organisation",
-    "difficulty": "medium"
+    "hint": "Freizeit",
+    "difficulty": "easy"
   },
   {
     "word": "Gruppe",
-    "hint": "Organisation",
-    "difficulty": "medium"
+    "hint": "Alltag",
+    "difficulty": "easy"
   },
   {
     "word": "Schatten",
@@ -1481,7 +1431,7 @@
   },
   {
     "word": "Laden",
-    "hint": "Wirtschaft",
+    "hint": "Einkaufen",
     "difficulty": "easy"
   },
   {
@@ -1517,7 +1467,7 @@
   {
     "word": "Aufgabe",
     "hint": "Arbeit",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Bericht",
@@ -1526,22 +1476,22 @@
   },
   {
     "word": "Nachbar",
-    "hint": "Person",
+    "hint": "Alltag",
     "difficulty": "easy"
   },
   {
     "word": "Periode",
-    "hint": "Zeit",
+    "hint": "Kalender",
     "difficulty": "medium"
   },
   {
     "word": "Quartal",
-    "hint": "Zeit",
+    "hint": "Büro",
     "difficulty": "medium"
   },
   {
     "word": "App",
-    "hint": "Medien",
+    "hint": "Technik",
     "difficulty": "easy"
   },
   {
@@ -1551,177 +1501,177 @@
   },
   {
     "word": "Herbst",
-    "hint": "Jahreszeit",
+    "hint": "Kalender",
     "difficulty": "easy"
   },
   {
     "word": "Frühling",
-    "hint": "Jahreszeit",
+    "hint": "Kalender",
     "difficulty": "easy"
   },
   {
     "word": "Montag",
-    "hint": "Wochentag",
+    "hint": "Kalender",
     "difficulty": "easy"
   },
   {
     "word": "Freitag",
-    "hint": "Wochentag",
+    "hint": "Kalender",
     "difficulty": "easy"
   },
   {
     "word": "Sonntag",
-    "hint": "Wochentag",
+    "hint": "Kalender",
     "difficulty": "easy"
   },
   {
     "word": "Hund",
-    "hint": "Tier",
+    "hint": "Zuhause",
     "difficulty": "easy"
   },
   {
     "word": "Katze",
-    "hint": "Tier",
+    "hint": "Zuhause",
     "difficulty": "easy"
   },
   {
     "word": "Vogel",
-    "hint": "Tier",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Pferd",
-    "hint": "Tier",
+    "hint": "Bauernhof",
     "difficulty": "easy"
   },
   {
     "word": "Fisch",
-    "hint": "Tier",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Küche",
-    "hint": "Zimmer",
+    "hint": "Wohnung",
     "difficulty": "easy"
   },
   {
     "word": "Schlafzimmer",
-    "hint": "Zimmer",
+    "hint": "Wohnung",
     "difficulty": "easy"
   },
   {
     "word": "Badezimmer",
-    "hint": "Zimmer",
+    "hint": "Wohnung",
     "difficulty": "easy"
   },
   {
     "word": "Wohnzimmer",
-    "hint": "Zimmer",
+    "hint": "Wohnung",
     "difficulty": "easy"
   },
   {
     "word": "Keller",
-    "hint": "Zimmer",
+    "hint": "Wohnung",
     "difficulty": "easy"
   },
   {
     "word": "Fahrrad",
-    "hint": "Fahrzeug",
+    "hint": "Verkehr",
     "difficulty": "easy"
   },
   {
     "word": "Bus",
-    "hint": "Fahrzeug",
+    "hint": "Verkehr",
     "difficulty": "easy"
   },
   {
     "word": "Zug",
-    "hint": "Fahrzeug",
+    "hint": "Verkehr",
     "difficulty": "easy"
   },
   {
     "word": "Flugzeug",
-    "hint": "Fahrzeug",
+    "hint": "Verkehr",
     "difficulty": "easy"
   },
   {
     "word": "Apfel",
-    "hint": "Obst",
+    "hint": "Supermarkt",
     "difficulty": "easy"
   },
   {
     "word": "Banane",
-    "hint": "Obst",
+    "hint": "Supermarkt",
     "difficulty": "easy"
   },
   {
     "word": "Erdbeere",
-    "hint": "Obst",
+    "hint": "Supermarkt",
     "difficulty": "easy"
   },
   {
     "word": "Traube",
-    "hint": "Obst",
+    "hint": "Supermarkt",
     "difficulty": "easy"
   },
   {
     "word": "Orange",
-    "hint": "Obst",
+    "hint": "Supermarkt",
     "difficulty": "easy"
   },
   {
     "word": "Karotte",
-    "hint": "Gemüse",
+    "hint": "Supermarkt",
     "difficulty": "easy"
   },
   {
     "word": "Tomate",
-    "hint": "Gemüse",
+    "hint": "Supermarkt",
     "difficulty": "easy"
   },
   {
     "word": "Kartoffel",
-    "hint": "Gemüse",
+    "hint": "Supermarkt",
     "difficulty": "easy"
   },
   {
     "word": "Salat",
-    "hint": "Gemüse",
+    "hint": "Küche",
     "difficulty": "easy"
   },
   {
     "word": "Zwiebel",
-    "hint": "Gemüse",
-    "difficulty": "medium"
+    "hint": "Küche",
+    "difficulty": "easy"
   },
   {
     "word": "Arzt",
-    "hint": "Beruf",
+    "hint": "Gesundheit",
     "difficulty": "easy"
   },
   {
     "word": "Polizist",
-    "hint": "Beruf",
+    "hint": "Stadt",
     "difficulty": "easy"
   },
   {
     "word": "Koch",
-    "hint": "Beruf",
+    "hint": "Restaurant",
     "difficulty": "easy"
   },
   {
     "word": "Pilot",
-    "hint": "Beruf",
+    "hint": "Flughafen",
     "difficulty": "easy"
   },
   {
     "word": "Ingenieur",
-    "hint": "Beruf",
+    "hint": "Technik",
     "difficulty": "medium"
   },
   {
     "word": "Anwalt",
-    "hint": "Beruf",
+    "hint": "Gericht",
     "difficulty": "medium"
   },
   {
@@ -1761,112 +1711,112 @@
   },
   {
     "word": "Tisch",
-    "hint": "Möbel",
+    "hint": "Wohnung",
     "difficulty": "easy"
   },
   {
     "word": "Stuhl",
-    "hint": "Möbel",
+    "hint": "Wohnung",
     "difficulty": "easy"
   },
   {
     "word": "Bett",
-    "hint": "Möbel",
+    "hint": "Wohnung",
     "difficulty": "easy"
   },
   {
     "word": "Schrank",
-    "hint": "Möbel",
+    "hint": "Wohnung",
     "difficulty": "easy"
   },
   {
     "word": "Sofa",
-    "hint": "Möbel",
+    "hint": "Wohnung",
     "difficulty": "easy"
   },
   {
     "word": "Regal",
-    "hint": "Möbel",
+    "hint": "Wohnung",
     "difficulty": "easy"
   },
   {
     "word": "Gitarre",
-    "hint": "Instrument",
+    "hint": "Musik",
     "difficulty": "easy"
   },
   {
     "word": "Klavier",
-    "hint": "Instrument",
+    "hint": "Musik",
     "difficulty": "easy"
   },
   {
     "word": "Schlagzeug",
-    "hint": "Instrument",
+    "hint": "Musik",
     "difficulty": "easy"
   },
   {
     "word": "Geige",
-    "hint": "Instrument",
+    "hint": "Musik",
     "difficulty": "easy"
   },
   {
     "word": "Flöte",
-    "hint": "Instrument",
+    "hint": "Musik",
     "difficulty": "easy"
   },
   {
     "word": "Trompete",
-    "hint": "Instrument",
-    "difficulty": "medium"
+    "hint": "Musik",
+    "difficulty": "easy"
   },
   {
     "word": "Rot",
-    "hint": "Farbe",
+    "hint": "Kunst",
     "difficulty": "easy"
   },
   {
     "word": "Blau",
-    "hint": "Farbe",
+    "hint": "Kunst",
     "difficulty": "easy"
   },
   {
     "word": "Grün",
-    "hint": "Farbe",
+    "hint": "Kunst",
     "difficulty": "easy"
   },
   {
     "word": "Gelb",
-    "hint": "Farbe",
+    "hint": "Kunst",
     "difficulty": "easy"
   },
   {
     "word": "Lila",
-    "hint": "Farbe",
+    "hint": "Kunst",
     "difficulty": "easy"
   },
   {
     "word": "Krankenhaus",
-    "hint": "Gebäude",
+    "hint": "Stadt",
     "difficulty": "easy"
   },
   {
     "word": "Rathaus",
-    "hint": "Gebäude",
-    "difficulty": "medium"
+    "hint": "Stadt",
+    "difficulty": "easy"
   },
   {
     "word": "Bahnhof",
-    "hint": "Gebäude",
+    "hint": "Stadt",
     "difficulty": "easy"
   },
   {
     "word": "Museum",
-    "hint": "Gebäude",
+    "hint": "Stadt",
     "difficulty": "easy"
   },
   {
     "word": "Handy",
-    "hint": "Technik",
+    "hint": "Alltag",
     "difficulty": "easy"
   },
   {
@@ -1892,81 +1842,81 @@
   {
     "word": "Tastatur",
     "hint": "Technik",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Regen",
-    "hint": "Wetter",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Schnee",
-    "hint": "Wetter",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Sturm",
-    "hint": "Wetter",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Nebel",
-    "hint": "Wetter",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Hitze",
-    "hint": "Wetter",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Frost",
-    "hint": "Wetter",
-    "difficulty": "medium"
+    "hint": "Natur",
+    "difficulty": "easy"
   },
   {
     "word": "Tante",
-    "hint": "Familie",
+    "hint": "Alltag",
     "difficulty": "easy"
   },
   {
     "word": "Opa",
-    "hint": "Familie",
+    "hint": "Alltag",
     "difficulty": "easy"
   },
   {
     "word": "Oma",
-    "hint": "Familie",
+    "hint": "Alltag",
     "difficulty": "easy"
   },
   {
     "word": "Neffe",
-    "hint": "Familie",
+    "hint": "Alltag",
     "difficulty": "medium"
   },
   {
     "word": "Laufen",
-    "hint": "Sport",
+    "hint": "Freizeit",
     "difficulty": "easy"
   },
   {
     "word": "Volleyball",
-    "hint": "Sport",
+    "hint": "Freizeit",
     "difficulty": "easy"
   },
   {
     "word": "Boxen",
-    "hint": "Sport",
+    "hint": "Freizeit",
     "difficulty": "easy"
   },
   {
     "word": "Turnen",
-    "hint": "Sport",
+    "hint": "Schule",
     "difficulty": "easy"
   },
   {
     "word": "Radfahren",
-    "hint": "Sport",
+    "hint": "Freizeit",
     "difficulty": "easy"
   },
   {
@@ -1991,21 +1941,16 @@
   },
   {
     "word": "Sonne",
-    "hint": "Natur",
+    "hint": "Weltall",
     "difficulty": "easy"
   },
   {
     "word": "Mond",
-    "hint": "Natur",
+    "hint": "Weltall",
     "difficulty": "easy"
   },
   {
     "word": "Stern",
-    "hint": "Natur",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Blume",
     "hint": "Natur",
     "difficulty": "easy"
   },
@@ -2027,7 +1972,7 @@
   {
     "word": "Welle",
     "hint": "Natur",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Brot",
@@ -2071,67 +2016,67 @@
   },
   {
     "word": "Saft",
-    "hint": "Getränk",
+    "hint": "Gastronomie",
     "difficulty": "easy"
   },
   {
     "word": "Milch",
-    "hint": "Getränk",
+    "hint": "Gastronomie",
     "difficulty": "easy"
   },
   {
     "word": "Kaffee",
-    "hint": "Getränk",
+    "hint": "Gastronomie",
     "difficulty": "easy"
   },
   {
     "word": "Tee",
-    "hint": "Getränk",
+    "hint": "Gastronomie",
     "difficulty": "easy"
   },
   {
     "word": "Limonade",
-    "hint": "Getränk",
+    "hint": "Gastronomie",
     "difficulty": "easy"
   },
   {
     "word": "Hemd",
-    "hint": "Kleidung",
+    "hint": "Mode",
     "difficulty": "easy"
   },
   {
     "word": "Hose",
-    "hint": "Kleidung",
+    "hint": "Mode",
     "difficulty": "easy"
   },
   {
     "word": "Jacke",
-    "hint": "Kleidung",
+    "hint": "Mode",
     "difficulty": "easy"
   },
   {
     "word": "Schuhe",
-    "hint": "Kleidung",
+    "hint": "Mode",
     "difficulty": "easy"
   },
   {
     "word": "Mütze",
-    "hint": "Kleidung",
+    "hint": "Mode",
     "difficulty": "easy"
   },
   {
     "word": "Socken",
-    "hint": "Kleidung",
+    "hint": "Mode",
     "difficulty": "easy"
   },
   {
     "word": "Kleid",
-    "hint": "Kleidung",
+    "hint": "Mode",
     "difficulty": "easy"
   },
   {
     "word": "Pullover",
-    "hint": "Kleidung",
+    "hint": "Mode",
     "difficulty": "easy"
   },
   {
@@ -2162,51 +2107,51 @@
   {
     "word": "Note",
     "hint": "Schule",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Fuß",
-    "hint": "Körperteil",
+    "hint": "Mensch",
     "difficulty": "easy"
   },
   {
     "word": "Ohr",
-    "hint": "Körperteil",
+    "hint": "Mensch",
     "difficulty": "easy"
   },
   {
     "word": "Mund",
-    "hint": "Körperteil",
+    "hint": "Mensch",
     "difficulty": "easy"
   },
   {
     "word": "Arm",
-    "hint": "Körperteil",
+    "hint": "Mensch",
     "difficulty": "easy"
   },
   {
     "word": "Bein",
-    "hint": "Körperteil",
+    "hint": "Mensch",
     "difficulty": "easy"
   },
   {
     "word": "Schulter",
-    "hint": "Körperteil",
+    "hint": "Mensch",
     "difficulty": "easy"
   },
   {
     "word": "Bauch",
-    "hint": "Körperteil",
+    "hint": "Mensch",
     "difficulty": "easy"
   },
   {
     "word": "Rücken",
-    "hint": "Körperteil",
+    "hint": "Mensch",
     "difficulty": "easy"
   },
   {
     "word": "Knie",
-    "hint": "Körperteil",
+    "hint": "Mensch",
     "difficulty": "easy"
   },
   {
@@ -2237,17 +2182,17 @@
   {
     "word": "Tunnel",
     "hint": "Stadt",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Viertel",
     "hint": "Stadt",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Hafen",
     "hint": "Stadt",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Ferien",
@@ -2286,27 +2231,27 @@
   },
   {
     "word": "Zeuge",
-    "hint": "Recht",
+    "hint": "Justiz",
     "difficulty": "medium"
   },
   {
     "word": "Vertrag",
-    "hint": "Recht",
+    "hint": "Justiz",
     "difficulty": "medium"
   },
   {
     "word": "Gesetz",
-    "hint": "Recht",
+    "hint": "Justiz",
     "difficulty": "medium"
   },
   {
     "word": "Strafe",
-    "hint": "Recht",
+    "hint": "Justiz",
     "difficulty": "medium"
   },
   {
     "word": "Gericht",
-    "hint": "Recht",
+    "hint": "Justiz",
     "difficulty": "medium"
   },
   {
@@ -2341,57 +2286,57 @@
   },
   {
     "word": "Fuchs",
-    "hint": "Tier",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Wolf",
-    "hint": "Tier",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Bär",
-    "hint": "Tier",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Affe",
-    "hint": "Tier",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Elefant",
-    "hint": "Tier",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Löwe",
-    "hint": "Tier",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Tiger",
-    "hint": "Tier",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Schlange",
-    "hint": "Tier",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Frosch",
-    "hint": "Tier",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Schmetterling",
-    "hint": "Tier",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Biene",
-    "hint": "Tier",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
@@ -2407,7 +2352,7 @@
   {
     "word": "Kollege",
     "hint": "Arbeit",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Chef",
@@ -2422,7 +2367,7 @@
   {
     "word": "Termin",
     "hint": "Arbeit",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Gehalt",
@@ -2431,32 +2376,32 @@
   },
   {
     "word": "Rose",
-    "hint": "Pflanze",
+    "hint": "Garten",
     "difficulty": "easy"
   },
   {
     "word": "Tulpe",
-    "hint": "Pflanze",
+    "hint": "Garten",
     "difficulty": "easy"
   },
   {
     "word": "Kaktus",
-    "hint": "Pflanze",
+    "hint": "Garten",
     "difficulty": "easy"
   },
   {
     "word": "Eiche",
-    "hint": "Pflanze",
-    "difficulty": "medium"
+    "hint": "Garten",
+    "difficulty": "easy"
   },
   {
     "word": "Geburtstag",
-    "hint": "Feier",
+    "hint": "Familie",
     "difficulty": "easy"
   },
   {
     "word": "Hochzeit",
-    "hint": "Feier",
+    "hint": "Familie",
     "difficulty": "easy"
   },
   {
@@ -2476,18 +2421,18 @@
   },
   {
     "word": "Party",
-    "hint": "Feier",
+    "hint": "Familie",
     "difficulty": "easy"
   },
   {
     "word": "Fest",
-    "hint": "Feier",
+    "hint": "Familie",
     "difficulty": "easy"
   },
   {
     "word": "Einladung",
     "hint": "Feier",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Geschenk",
@@ -2547,12 +2492,12 @@
   {
     "word": "Mechaniker",
     "hint": "Beruf",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Elektriker",
     "hint": "Beruf",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Verkäufer",
@@ -2631,22 +2576,22 @@
   },
   {
     "word": "Kühlschrank",
-    "hint": "Technik",
+    "hint": "Haushalt",
     "difficulty": "easy"
   },
   {
     "word": "Waschmaschine",
-    "hint": "Technik",
+    "hint": "Haushalt",
     "difficulty": "easy"
   },
   {
     "word": "Mikrowelle",
-    "hint": "Technik",
+    "hint": "Haushalt",
     "difficulty": "easy"
   },
   {
     "word": "Staubsauger",
-    "hint": "Technik",
+    "hint": "Haushalt",
     "difficulty": "easy"
   },
   {
@@ -2662,7 +2607,7 @@
   {
     "word": "Bildschirm",
     "hint": "Technik",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Fernbedienung",
@@ -2672,7 +2617,7 @@
   {
     "word": "Batterie",
     "hint": "Technik",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Kabel",
@@ -2687,7 +2632,7 @@
   {
     "word": "Drama",
     "hint": "Film",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Komödie",
@@ -2742,7 +2687,7 @@
   {
     "word": "Kapitel",
     "hint": "Literatur",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Bibliothek",
@@ -2756,88 +2701,88 @@
   },
   {
     "word": "Deutschland",
-    "hint": "Land",
+    "hint": "Geografie",
     "difficulty": "easy"
   },
   {
     "word": "Frankreich",
-    "hint": "Land",
+    "hint": "Geografie",
     "difficulty": "easy"
   },
   {
     "word": "Spanien",
-    "hint": "Land",
+    "hint": "Geografie",
     "difficulty": "easy"
   },
   {
     "word": "Italien",
-    "hint": "Land",
+    "hint": "Geografie",
     "difficulty": "easy"
   },
   {
     "word": "Japan",
-    "hint": "Land",
+    "hint": "Geografie",
     "difficulty": "easy"
   },
   {
     "word": "Brasilien",
-    "hint": "Land",
+    "hint": "Geografie",
     "difficulty": "easy"
   },
   {
     "word": "Kanada",
-    "hint": "Land",
+    "hint": "Geografie",
     "difficulty": "easy"
   },
   {
     "word": "Australien",
-    "hint": "Land",
+    "hint": "Geografie",
     "difficulty": "easy"
   },
   {
     "word": "Ägypten",
-    "hint": "Land",
+    "hint": "Geografie",
     "difficulty": "easy"
   },
   {
     "word": "Mexiko",
-    "hint": "Land",
+    "hint": "Geografie",
     "difficulty": "easy"
   },
   {
     "word": "Berlin",
-    "hint": "Stadt",
+    "hint": "Geografie",
     "difficulty": "easy"
   },
   {
     "word": "Paris",
-    "hint": "Stadt",
+    "hint": "Geografie",
     "difficulty": "easy"
   },
   {
     "word": "Tokyo",
-    "hint": "Stadt",
+    "hint": "Geografie",
     "difficulty": "easy"
   },
   {
     "word": "London",
-    "hint": "Stadt",
+    "hint": "Geografie",
     "difficulty": "easy"
   },
   {
     "word": "Rom",
-    "hint": "Stadt",
+    "hint": "Geografie",
     "difficulty": "easy"
   },
   {
     "word": "Wien",
-    "hint": "Stadt",
+    "hint": "Geografie",
     "difficulty": "easy"
   },
   {
     "word": "Zürich",
-    "hint": "Stadt",
-    "difficulty": "medium"
+    "hint": "Geografie",
+    "difficulty": "easy"
   },
   {
     "word": "Freude",
@@ -2867,7 +2812,7 @@
   {
     "word": "Stolz",
     "hint": "Gefühl",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Neid",
@@ -2882,7 +2827,7 @@
   {
     "word": "Überraschung",
     "hint": "Gefühl",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Einsamkeit",
@@ -2891,92 +2836,92 @@
   },
   {
     "word": "Hammer",
-    "hint": "Werkzeug",
+    "hint": "Heimwerken",
     "difficulty": "easy"
   },
   {
     "word": "Säge",
-    "hint": "Werkzeug",
+    "hint": "Heimwerken",
     "difficulty": "easy"
   },
   {
-    "word": "Schrauber",
-    "hint": "Werkzeug",
+    "word": "Schraubenzieher",
+    "hint": "Heimwerken",
     "difficulty": "easy"
   },
   {
     "word": "Bohrer",
-    "hint": "Werkzeug",
+    "hint": "Heimwerken",
     "difficulty": "easy"
   },
   {
     "word": "Zange",
-    "hint": "Werkzeug",
+    "hint": "Heimwerken",
     "difficulty": "easy"
   },
   {
     "word": "Pinsel",
-    "hint": "Werkzeug",
+    "hint": "Heimwerken",
     "difficulty": "easy"
   },
   {
     "word": "Pfanne",
-    "hint": "Küche",
+    "hint": "Kochen",
     "difficulty": "easy"
   },
   {
     "word": "Topf",
-    "hint": "Küche",
+    "hint": "Kochen",
     "difficulty": "easy"
   },
   {
     "word": "Messer",
-    "hint": "Küche",
+    "hint": "Kochen",
     "difficulty": "easy"
   },
   {
     "word": "Gabel",
-    "hint": "Küche",
+    "hint": "Essen",
     "difficulty": "easy"
   },
   {
     "word": "Löffel",
-    "hint": "Küche",
+    "hint": "Essen",
     "difficulty": "easy"
   },
   {
     "word": "Teller",
-    "hint": "Küche",
+    "hint": "Essen",
     "difficulty": "easy"
   },
   {
     "word": "Tasse",
-    "hint": "Küche",
+    "hint": "Frühstück",
     "difficulty": "easy"
   },
   {
     "word": "Glas",
-    "hint": "Küche",
+    "hint": "Essen",
     "difficulty": "easy"
   },
   {
     "word": "Schüssel",
-    "hint": "Küche",
+    "hint": "Kochen",
     "difficulty": "easy"
   },
   {
     "word": "Schneidebrett",
-    "hint": "Küche",
-    "difficulty": "medium"
+    "hint": "Kochen",
+    "difficulty": "easy"
   },
   {
     "word": "Ofen",
-    "hint": "Küche",
+    "hint": "Kochen",
     "difficulty": "easy"
   },
   {
     "word": "Herd",
-    "hint": "Küche",
+    "hint": "Kochen",
     "difficulty": "easy"
   },
   {
@@ -2990,18 +2935,18 @@
     "difficulty": "easy"
   },
   {
-    "word": "Passport",
+    "word": "Reisepass",
     "hint": "Urlaub",
     "difficulty": "easy"
   },
   {
-    "word": "Ticket",
+    "word": "Fahrkarte",
     "hint": "Urlaub",
     "difficulty": "easy"
   },
   {
     "word": "Karte",
-    "hint": "Urlaub",
+    "hint": "Reisen",
     "difficulty": "easy"
   },
   {
@@ -3015,9 +2960,9 @@
     "difficulty": "medium"
   },
   {
-    "word": "Souvenirs",
+    "word": "Souvenir",
     "hint": "Urlaub",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Führung",
@@ -3026,117 +2971,117 @@
   },
   {
     "word": "Adler",
-    "hint": "Vogel",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Pinguin",
-    "hint": "Vogel",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Eule",
-    "hint": "Vogel",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Schwan",
-    "hint": "Vogel",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Spatz",
-    "hint": "Vogel",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Amsel",
-    "hint": "Vogel",
-    "difficulty": "medium"
+    "hint": "Natur",
+    "difficulty": "easy"
   },
   {
     "word": "Burg",
-    "hint": "Gebäude",
+    "hint": "Architektur",
     "difficulty": "easy"
   },
   {
     "word": "Turm",
-    "hint": "Gebäude",
+    "hint": "Architektur",
     "difficulty": "easy"
   },
   {
     "word": "Schloss",
-    "hint": "Gebäude",
+    "hint": "Architektur",
     "difficulty": "easy"
   },
   {
     "word": "Stadion",
-    "hint": "Gebäude",
+    "hint": "Sport",
     "difficulty": "easy"
   },
   {
     "word": "Supermarkt",
-    "hint": "Gebäude",
+    "hint": "Einkaufen",
     "difficulty": "easy"
   },
   {
     "word": "Apotheke",
-    "hint": "Gebäude",
+    "hint": "Gesundheit",
     "difficulty": "easy"
   },
   {
     "word": "Tankstelle",
-    "hint": "Gebäude",
+    "hint": "Verkehr",
     "difficulty": "easy"
   },
   {
     "word": "Freibad",
-    "hint": "Gebäude",
+    "hint": "Freizeit",
     "difficulty": "easy"
   },
   {
     "word": "Schwimmbad",
-    "hint": "Gebäude",
+    "hint": "Freizeit",
     "difficulty": "easy"
   },
   {
     "word": "Delfin",
-    "hint": "Meerestier",
+    "hint": "Meer",
     "difficulty": "easy"
   },
   {
     "word": "Hai",
-    "hint": "Meerestier",
+    "hint": "Meer",
     "difficulty": "easy"
   },
   {
     "word": "Krabbe",
-    "hint": "Meerestier",
+    "hint": "Meer",
     "difficulty": "easy"
   },
   {
     "word": "Tintenfisch",
-    "hint": "Meerestier",
+    "hint": "Meer",
     "difficulty": "easy"
   },
   {
     "word": "Seepferdchen",
-    "hint": "Meerestier",
+    "hint": "Meer",
     "difficulty": "easy"
   },
   {
     "word": "Wal",
-    "hint": "Meerestier",
+    "hint": "Meer",
     "difficulty": "easy"
   },
   {
     "word": "Robbe",
-    "hint": "Meerestier",
-    "difficulty": "medium"
+    "hint": "Meer",
+    "difficulty": "easy"
   },
   {
     "word": "Muschel",
-    "hint": "Meerestier",
+    "hint": "Meer",
     "difficulty": "easy"
   },
   {
@@ -3176,17 +3121,17 @@
   },
   {
     "word": "Rakete",
-    "hint": "Wissenschaft",
+    "hint": "Weltraum",
     "difficulty": "easy"
   },
   {
     "word": "Planet",
-    "hint": "Wissenschaft",
+    "hint": "Weltraum",
     "difficulty": "easy"
   },
   {
     "word": "Galaxis",
-    "hint": "Wissenschaft",
+    "hint": "Weltraum",
     "difficulty": "medium"
   },
   {
@@ -3276,8 +3221,8 @@
   },
   {
     "word": "Rezept",
-    "hint": "Gesundheit",
-    "difficulty": "medium"
+    "hint": "Arztpraxis",
+    "difficulty": "easy"
   },
   {
     "word": "Schlüssel",
@@ -3295,7 +3240,7 @@
     "difficulty": "easy"
   },
   {
-    "word": "Geldbörse",
+    "word": "Geldbeutel",
     "hint": "Alltag",
     "difficulty": "easy"
   },
@@ -3315,13 +3260,8 @@
     "difficulty": "easy"
   },
   {
-    "word": "Briefkasten",
-    "hint": "Alltag",
-    "difficulty": "easy"
-  },
-  {
     "word": "Mülltonne",
-    "hint": "Alltag",
+    "hint": "Zuhause",
     "difficulty": "easy"
   },
   {
@@ -3346,7 +3286,7 @@
   },
   {
     "word": "Astronaut",
-    "hint": "Zukunft",
+    "hint": "Weltraum",
     "difficulty": "easy"
   },
   {
@@ -3356,8 +3296,8 @@
   },
   {
     "word": "Drohne",
-    "hint": "Zukunft",
-    "difficulty": "medium"
+    "hint": "Technik",
+    "difficulty": "easy"
   },
   {
     "word": "Algorithmus",
@@ -3366,18 +3306,18 @@
   },
   {
     "word": "Sensor",
-    "hint": "Zukunft",
-    "difficulty": "medium"
+    "hint": "Technik",
+    "difficulty": "easy"
   },
   {
     "word": "Netzwerk",
-    "hint": "Zukunft",
-    "difficulty": "medium"
+    "hint": "Technik",
+    "difficulty": "easy"
   },
   {
     "word": "Daten",
-    "hint": "Zukunft",
-    "difficulty": "medium"
+    "hint": "Technik",
+    "difficulty": "easy"
   },
   {
     "word": "Drachen",
@@ -3405,44 +3345,34 @@
     "difficulty": "easy"
   },
   {
-    "word": "Hexe",
-    "hint": "Fantasy",
-    "difficulty": "easy"
-  },
-  {
     "word": "Zauberstab",
-    "hint": "Fantasy",
+    "hint": "Fantasie",
     "difficulty": "easy"
   },
   {
     "word": "Einhorn",
-    "hint": "Fantasy",
+    "hint": "Fantasie",
     "difficulty": "easy"
   },
   {
     "word": "Troll",
-    "hint": "Fantasy",
+    "hint": "Fantasie",
     "difficulty": "easy"
   },
   {
-    "word": "Magier",
-    "hint": "Fantasy",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Nixe",
-    "hint": "Fantasy",
+    "word": "Meerjungfrau",
+    "hint": "Fantasie",
     "difficulty": "easy"
   },
   {
     "word": "Oger",
-    "hint": "Fantasy",
+    "hint": "Fantasie",
     "difficulty": "easy"
   },
   {
     "word": "Satellit",
-    "hint": "Zukunft",
-    "difficulty": "medium"
+    "hint": "Weltraum",
+    "difficulty": "easy"
   },
   {
     "word": "Laser",
@@ -3451,7 +3381,7 @@
   },
   {
     "word": "Chip",
-    "hint": "Zukunft",
+    "hint": "Technik",
     "difficulty": "easy"
   },
   {
@@ -3461,22 +3391,22 @@
   },
   {
     "word": "Station",
-    "hint": "Zukunft",
+    "hint": "Verkehr",
     "difficulty": "easy"
   },
   {
     "word": "Portal",
-    "hint": "Zukunft",
+    "hint": "Fantasie",
     "difficulty": "medium"
   },
   {
     "word": "Scanner",
-    "hint": "Zukunft",
+    "hint": "Technik",
     "difficulty": "easy"
   },
   {
     "word": "Code",
-    "hint": "Zukunft",
+    "hint": "Technik",
     "difficulty": "easy"
   },
   {
@@ -3507,7 +3437,7 @@
   {
     "word": "Revolution",
     "hint": "Geschichte",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Kaiser",
@@ -3517,12 +3447,12 @@
   {
     "word": "Krieger",
     "hint": "Geschichte",
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
     "word": "Sklave",
     "hint": "Geschichte",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Münze",
@@ -3532,62 +3462,62 @@
   {
     "word": "Schrift",
     "hint": "Geschichte",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Schwert",
-    "hint": "Waffe",
+    "hint": "Kampf",
     "difficulty": "easy"
   },
   {
     "word": "Schild",
-    "hint": "Waffe",
+    "hint": "Kampf",
     "difficulty": "easy"
   },
   {
     "word": "Bogen",
-    "hint": "Waffe",
+    "hint": "Kampf",
     "difficulty": "easy"
   },
   {
     "word": "Lanze",
-    "hint": "Waffe",
+    "hint": "Kampf",
     "difficulty": "medium"
   },
   {
     "word": "Axt",
-    "hint": "Waffe",
+    "hint": "Kampf",
     "difficulty": "easy"
   },
   {
     "word": "Dolch",
-    "hint": "Waffe",
-    "difficulty": "easy"
+    "hint": "Kampf",
+    "difficulty": "medium"
   },
   {
     "word": "Keule",
-    "hint": "Waffe",
-    "difficulty": "easy"
+    "hint": "Kampf",
+    "difficulty": "medium"
   },
   {
     "word": "Katapult",
-    "hint": "Waffe",
+    "hint": "Kampf",
     "difficulty": "medium"
   },
   {
     "word": "Speer",
-    "hint": "Waffe",
+    "hint": "Kampf",
     "difficulty": "easy"
   },
   {
     "word": "Rüstung",
-    "hint": "Waffe",
+    "hint": "Kampf",
     "difficulty": "medium"
   },
   {
     "word": "Gipfel",
     "hint": "Abenteuer",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Expedition",
@@ -3625,11 +3555,6 @@
     "difficulty": "easy"
   },
   {
-    "word": "Schatztruhe",
-    "hint": "Abenteuer",
-    "difficulty": "easy"
-  },
-  {
     "word": "Pirat",
     "hint": "Abenteuer",
     "difficulty": "easy"
@@ -3656,12 +3581,12 @@
   },
   {
     "word": "Leiter",
-    "hint": "Werkzeug",
+    "hint": "Heimwerken",
     "difficulty": "easy"
   },
   {
     "word": "Eimer",
-    "hint": "Werkzeug",
+    "hint": "Heimwerken",
     "difficulty": "easy"
   },
   {
@@ -3697,7 +3622,7 @@
   {
     "word": "Stimme",
     "hint": "Kommunikation",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Wochenende",
@@ -3707,22 +3632,17 @@
   {
     "word": "Falle",
     "hint": "Jagd",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Schritt",
-    "hint": "Bewegung",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Angebot",
     "hint": "Handel",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Gefahr",
     "hint": "Sicherheit",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Natur",
@@ -3733,11 +3653,6 @@
     "word": "Mannschaft",
     "hint": "Sport",
     "difficulty": "easy"
-  },
-  {
-    "word": "Ordnung",
-    "hint": "Haushalt",
-    "difficulty": "medium"
   },
   {
     "word": "Samstag",
@@ -3752,7 +3667,7 @@
   {
     "word": "Runde",
     "hint": "Sport",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Bank",
@@ -3762,7 +3677,7 @@
   {
     "word": "Gebäude",
     "hint": "Architektur",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Gold",
@@ -3772,7 +3687,7 @@
   {
     "word": "Sieg",
     "hint": "Sport",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Universität",
@@ -3782,27 +3697,17 @@
   {
     "word": "Besuch",
     "hint": "Soziales",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Zeichen",
-    "hint": "Kommunikation",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Auswahl",
-    "hint": "Handel",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Grenze",
     "hint": "Geographie",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Meister",
     "hint": "Beruf",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Tier",
@@ -3827,22 +3732,22 @@
   {
     "word": "Patient",
     "hint": "Gesundheit",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Kilometer",
     "hint": "Maß",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Trainer",
     "hint": "Sport",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Gespräch",
     "hint": "Kommunikation",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Tor",
@@ -3851,8 +3756,8 @@
   },
   {
     "word": "Soldat",
-    "hint": "Beruf",
-    "difficulty": "medium"
+    "hint": "Militär",
+    "difficulty": "easy"
   },
   {
     "word": "Rennen",
@@ -3862,12 +3767,12 @@
   {
     "word": "Sekunde",
     "hint": "Zeit",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Halle",
     "hint": "Gebäude",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Telefon",
@@ -3892,12 +3797,12 @@
   {
     "word": "Verkehr",
     "hint": "Straße",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Armee",
     "hint": "Militär",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Blut",
@@ -3907,7 +3812,7 @@
   {
     "word": "Bürgermeister",
     "hint": "Beruf",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Farbe",
@@ -3937,7 +3842,7 @@
   {
     "word": "Traum",
     "hint": "Schlaf",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Fernsehen",
@@ -3947,17 +3852,17 @@
   {
     "word": "Finale",
     "hint": "Sport",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "General",
     "hint": "Militär",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Karriere",
     "hint": "Beruf",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Strom",
@@ -3967,42 +3872,32 @@
   {
     "word": "Waffe",
     "hint": "Militär",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Brief",
-    "hint": "Kommunikation",
     "difficulty": "easy"
   },
   {
     "word": "Modell",
     "hint": "Kunst",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Produkt",
     "hint": "Handel",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Angriff",
     "hint": "Militär",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Material",
-    "hint": "Handwerk",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Unfall",
     "hint": "Ereignis",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Ausstellung",
     "hint": "Kultur",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Geschäft",
@@ -4077,7 +3972,7 @@
   {
     "word": "Kurs",
     "hint": "Bildung",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Lager",
@@ -4347,7 +4242,7 @@
   {
     "word": "Dach",
     "hint": "Gebäude",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Gewicht",
@@ -4452,7 +4347,7 @@
   {
     "word": "Autobahn",
     "hint": "Verkehr",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Bauer",
@@ -4482,7 +4377,7 @@
   {
     "word": "Krankenwagen",
     "hint": "Fahrzeug",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Giraffe",
@@ -4492,7 +4387,7 @@
   {
     "word": "Traktor",
     "hint": "Fahrzeug",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Butter",
@@ -4501,357 +4396,342 @@
   },
   {
     "word": "Griff",
-    "hint": "Objekt",
-    "difficulty": "medium"
+    "hint": "Heimwerken",
+    "difficulty": "easy"
   },
   {
     "word": "Kraut",
-    "hint": "Organisch",
+    "hint": "Garten",
     "difficulty": "easy"
   },
   {
     "word": "Stiel",
-    "hint": "Organisch",
+    "hint": "Garten",
     "difficulty": "easy"
   },
   {
     "word": "Kälte",
-    "hint": "Konzept",
+    "hint": "Wetter",
     "difficulty": "easy"
   },
   {
     "word": "Becher",
-    "hint": "Objekt",
+    "hint": "Küche",
     "difficulty": "easy"
   },
   {
     "word": "Wiese",
-    "hint": "Platz",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
-    "word": "Stengel",
-    "hint": "Organisch",
+    "word": "Stängel",
+    "hint": "Garten",
     "difficulty": "easy"
   },
   {
     "word": "Unkraut",
-    "hint": "Organisch",
+    "hint": "Garten",
     "difficulty": "easy"
   },
   {
     "word": "Ast",
-    "hint": "Organisch",
+    "hint": "Wald",
     "difficulty": "easy"
   },
   {
     "word": "Hoffnung",
-    "hint": "Konzept",
-    "difficulty": "medium"
+    "hint": "Gefühl",
+    "difficulty": "easy"
   },
   {
     "word": "Finsternis",
-    "hint": "Konzept",
+    "hint": "Atmosphäre",
     "difficulty": "medium"
   },
   {
     "word": "Moor",
-    "hint": "Platz",
+    "hint": "Natur",
     "difficulty": "medium"
   },
   {
     "word": "Riegel",
-    "hint": "Objekt",
-    "difficulty": "medium"
+    "hint": "Sicherheit",
+    "difficulty": "easy"
   },
   {
     "word": "Spaten",
-    "hint": "Objekt",
+    "hint": "Garten",
     "difficulty": "easy"
   },
   {
     "word": "Knospe",
-    "hint": "Organisch",
+    "hint": "Garten",
     "difficulty": "easy"
   },
   {
     "word": "Weizen",
-    "hint": "Organisch",
+    "hint": "Landwirtschaft",
     "difficulty": "easy"
   },
   {
     "word": "Wurzel",
-    "hint": "Organisch",
+    "hint": "Garten",
     "difficulty": "easy"
   },
   {
     "word": "Blatt",
-    "hint": "Organisch",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Bach",
-    "hint": "Platz",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Krug",
-    "hint": "Objekt",
+    "hint": "Küche",
     "difficulty": "easy"
   },
   {
     "word": "Dorn",
-    "hint": "Organisch",
+    "hint": "Garten",
     "difficulty": "easy"
   },
   {
     "word": "Stamm",
-    "hint": "Organisch",
+    "hint": "Wald",
     "difficulty": "easy"
   },
   {
     "word": "Pracht",
-    "hint": "Konzept",
+    "hint": "Atmosphäre",
     "difficulty": "medium"
   },
   {
     "word": "Hirsch",
-    "hint": "Tier",
-    "difficulty": "medium"
+    "hint": "Wald",
+    "difficulty": "easy"
   },
   {
     "word": "Rinde",
-    "hint": "Organisch",
-    "difficulty": "medium"
+    "hint": "Wald",
+    "difficulty": "easy"
   },
   {
     "word": "Schlucht",
-    "hint": "Platz",
+    "hint": "Natur",
     "difficulty": "medium"
   },
   {
     "word": "Weisheit",
-    "hint": "Konzept",
+    "hint": "Philosophie",
     "difficulty": "medium"
   },
   {
     "word": "Melancholie",
-    "hint": "Konzept",
+    "hint": "Gefühl",
     "difficulty": "medium"
   },
   {
     "word": "Kelch",
-    "hint": "Objekt",
+    "hint": "Kirche",
     "difficulty": "medium"
   },
   {
     "word": "Fasan",
-    "hint": "Tier",
+    "hint": "Wald",
     "difficulty": "easy"
   },
   {
     "word": "Samen",
-    "hint": "Organisch",
+    "hint": "Garten",
     "difficulty": "easy"
   },
   {
     "word": "Mut",
-    "hint": "Konzept",
+    "hint": "Gefühl",
     "difficulty": "easy"
   },
   {
     "word": "Hügel",
-    "hint": "Platz",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Pilz",
-    "hint": "Organisch",
+    "hint": "Wald",
     "difficulty": "easy"
   },
   {
     "word": "Quelle",
-    "hint": "Platz",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Strauch",
-    "hint": "Organisch",
+    "hint": "Garten",
     "difficulty": "easy"
   },
   {
     "word": "Wahrheit",
-    "hint": "Konzept",
+    "hint": "Philosophie",
     "difficulty": "easy"
   },
   {
     "word": "Gott",
-    "hint": "Konzept",
+    "hint": "Religion",
     "difficulty": "easy"
   },
   {
     "word": "Frucht",
-    "hint": "Organisch",
+    "hint": "Küche",
     "difficulty": "easy"
   },
   {
-    "word": "Farne",
-    "hint": "Organisch",
-    "difficulty": "medium"
+    "word": "Farn",
+    "hint": "Wald",
+    "difficulty": "easy"
   },
   {
     "word": "Ehre",
-    "hint": "Konzept",
-    "difficulty": "medium"
+    "hint": "Gesellschaft",
+    "difficulty": "easy"
   },
   {
     "word": "Schacht",
-    "hint": "Platz",
+    "hint": "Bergbau",
     "difficulty": "medium"
   },
   {
     "word": "Helm",
-    "hint": "Objekt",
-    "difficulty": "medium"
+    "hint": "Schutzausrüstung",
+    "difficulty": "easy"
   },
   {
     "word": "Schöpfung",
-    "hint": "Konzept",
+    "hint": "Religion",
     "difficulty": "medium"
   },
   {
     "word": "Hals",
-    "hint": "Organisch",
-    "difficulty": "medium"
+    "hint": "Körper",
+    "difficulty": "easy"
   },
   {
     "word": "Bestimmung",
-    "hint": "Konzept",
+    "hint": "Philosophie",
     "difficulty": "medium"
   },
   {
     "word": "Kapelle",
-    "hint": "Platz",
-    "difficulty": "medium"
+    "hint": "Religion",
+    "difficulty": "easy"
   },
   {
     "word": "Kern",
-    "hint": "Organisch",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Leuchter",
-    "hint": "Objekt",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Auerhahn",
-    "hint": "Tier",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Mausoleum",
-    "hint": "Platz",
-    "difficulty": "medium"
+    "hint": "Küche",
+    "difficulty": "easy"
   },
   {
     "word": "Öl",
-    "hint": "Organisch",
+    "hint": "Küche",
     "difficulty": "easy"
   },
   {
     "word": "Segen",
-    "hint": "Konzept",
+    "hint": "Religion",
     "difficulty": "easy"
   },
   {
     "word": "Grille",
-    "hint": "Tier",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Leder",
-    "hint": "Organisch",
-    "difficulty": "medium"
+    "hint": "Handwerk",
+    "difficulty": "easy"
   },
   {
     "word": "Satteltasche",
-    "hint": "Objekt",
+    "hint": "Reiten",
     "difficulty": "medium"
   },
   {
     "word": "Sperber",
-    "hint": "Tier",
+    "hint": "Wald",
     "difficulty": "medium"
   },
   {
     "word": "Metall",
-    "hint": "Organisch",
-    "difficulty": "medium"
+    "hint": "Handwerk",
+    "difficulty": "easy"
   },
   {
     "word": "Eidechse",
-    "hint": "Tier",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Tinte",
-    "hint": "Organisch",
-    "difficulty": "medium"
+    "hint": "Schule",
+    "difficulty": "easy"
   },
   {
     "word": "Degen",
-    "hint": "Objekt",
+    "hint": "Fechten",
     "difficulty": "medium"
   },
   {
     "word": "Aprikose",
-    "hint": "Organisch",
+    "hint": "Küche",
     "difficulty": "easy"
   },
   {
     "word": "Spule",
-    "hint": "Objekt",
+    "hint": "Handwerk",
     "difficulty": "easy"
   },
   {
     "word": "Melisse",
-    "hint": "Organisch",
+    "hint": "Küche",
     "difficulty": "medium"
   },
   {
     "word": "Bienenstock",
-    "hint": "Platz",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Stille",
-    "hint": "Konzept",
+    "hint": "Atmosphäre",
     "difficulty": "easy"
   },
   {
     "word": "Keim",
-    "hint": "Organisch",
+    "hint": "Garten",
     "difficulty": "easy"
   },
   {
     "word": "Freundschaft",
-    "hint": "Konzept",
-    "difficulty": "medium"
+    "hint": "Gesellschaft",
+    "difficulty": "easy"
   },
   {
     "word": "Verwirrung",
-    "hint": "Konzept",
-    "difficulty": "medium"
+    "hint": "Gefühl",
+    "difficulty": "easy"
   },
   {
     "word": "Sumpf",
-    "hint": "Platz",
-    "difficulty": "medium"
+    "hint": "Natur",
+    "difficulty": "easy"
   },
   {
     "word": "Luchs",
-    "hint": "Tier",
+    "hint": "Wald",
     "difficulty": "medium"
   },
   {
@@ -4861,8 +4741,8 @@
   },
   {
     "word": "Lastwagen",
-    "hint": "Fahrzeug",
-    "difficulty": "medium"
+    "hint": "Straße",
+    "difficulty": "easy"
   },
   {
     "word": "Honig",
@@ -4870,123 +4750,118 @@
     "difficulty": "easy"
   },
   {
-    "word": "Kerzenständer",
-    "hint": "Objekt",
-    "difficulty": "easy"
-  },
-  {
     "word": "Friedhof",
-    "hint": "Ort",
+    "hint": "Trauer",
     "difficulty": "easy"
   },
   {
     "word": "Schwalbe",
-    "hint": "Tier",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Bremse",
-    "hint": "Konzept",
-    "difficulty": "medium"
+    "hint": "Fahrzeug",
+    "difficulty": "easy"
   },
   {
     "word": "Echo",
-    "hint": "Konzept",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Minze",
-    "hint": "Organisch",
+    "hint": "Küche",
     "difficulty": "easy"
   },
   {
     "word": "Diamant",
-    "hint": "Objekt",
+    "hint": "Schmuck",
     "difficulty": "easy"
   },
   {
     "word": "Regenbogen",
-    "hint": "Konzept",
+    "hint": "Wetter",
     "difficulty": "easy"
   },
   {
     "word": "Zitrone",
-    "hint": "Organisch",
+    "hint": "Küche",
     "difficulty": "easy"
   },
   {
     "word": "Labyrinth",
-    "hint": "Platz",
+    "hint": "Rätsel",
     "difficulty": "medium"
   },
   {
     "word": "Netz",
-    "hint": "Objekt",
-    "difficulty": "medium"
+    "hint": "Fischerei",
+    "difficulty": "easy"
   },
   {
     "word": "Dämmerung",
-    "hint": "Konzept",
-    "difficulty": "medium"
+    "hint": "Natur",
+    "difficulty": "easy"
   },
   {
     "word": "Zahnrad",
-    "hint": "Objekt",
-    "difficulty": "medium"
+    "hint": "Technik",
+    "difficulty": "easy"
   },
   {
     "word": "Kolibri",
-    "hint": "Tier",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Donner",
-    "hint": "Konzept",
+    "hint": "Wetter",
     "difficulty": "easy"
   },
   {
     "word": "Basilikum",
-    "hint": "Organisch",
+    "hint": "Küche",
     "difficulty": "easy"
   },
   {
     "word": "Salamander",
-    "hint": "Tier",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Kette",
-    "hint": "Objekt",
+    "hint": "Schmuck",
     "difficulty": "easy"
   },
   {
     "word": "Korn",
-    "hint": "Organisch",
+    "hint": "Landwirtschaft",
     "difficulty": "easy"
   },
   {
     "word": "Meteor",
-    "hint": "Konzept",
+    "hint": "Weltall",
     "difficulty": "easy"
   },
   {
     "word": "Klippe",
-    "hint": "Platz",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Sperling",
-    "hint": "Tier",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Nelke",
-    "hint": "Organisch",
+    "hint": "Garten",
     "difficulty": "easy"
   },
   {
     "word": "Moos",
-    "hint": "Organisch",
+    "hint": "Wald",
     "difficulty": "easy"
   },
   {
@@ -4996,128 +4871,108 @@
   },
   {
     "word": "Pendel",
-    "hint": "Objekt",
-    "difficulty": "medium"
+    "hint": "Physik",
+    "difficulty": "easy"
   },
   {
     "word": "Gewalt",
-    "hint": "Konzept",
+    "hint": "Gesellschaft",
     "difficulty": "medium"
   },
   {
     "word": "Staub",
-    "hint": "Konzept",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Monolith",
-    "hint": "Objekt",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Strudel",
-    "hint": "Platz",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Symmetrie",
-    "hint": "Konzept",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Flechte",
-    "hint": "Organisch",
+    "hint": "Haushalt",
     "difficulty": "easy"
   },
   {
+    "word": "Strudel",
+    "hint": "Natur",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Symmetrie",
+    "hint": "Mathematik",
+    "difficulty": "medium"
+  },
+  {
     "word": "Thymian",
-    "hint": "Organisch",
+    "hint": "Küche",
     "difficulty": "easy"
   },
   {
     "word": "Fledermaus",
-    "hint": "Tier",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Farn",
-    "hint": "Organisch",
+    "hint": "Nacht",
     "difficulty": "easy"
   },
   {
     "word": "Kolosseum",
-    "hint": "Platz",
+    "hint": "Geschichte",
     "difficulty": "medium"
   },
   {
     "word": "Prisma",
-    "hint": "Objekt",
+    "hint": "Physik",
     "difficulty": "medium"
   },
   {
     "word": "Tiefe",
-    "hint": "Konzept",
+    "hint": "Natur",
     "difficulty": "medium"
   },
   {
     "word": "Abgrund",
-    "hint": "Platz",
+    "hint": "Natur",
     "difficulty": "medium"
   },
   {
     "word": "Harmonie",
-    "hint": "Konzept",
+    "hint": "Musik",
     "difficulty": "medium"
   },
   {
     "word": "Ekstase",
-    "hint": "Konzept",
+    "hint": "Gefühl",
     "difficulty": "medium"
   },
   {
     "word": "Schakal",
-    "hint": "Tier",
+    "hint": "Wildnis",
     "difficulty": "medium"
   },
   {
     "word": "Hebel",
-    "hint": "Objekt",
+    "hint": "Heimwerken",
     "difficulty": "medium"
   },
   {
     "word": "Dunkelheit",
-    "hint": "Konzept",
-    "difficulty": "medium"
+    "hint": "Nacht",
+    "difficulty": "easy"
   },
   {
     "word": "Grat",
-    "hint": "Platz",
+    "hint": "Gebirge",
     "difficulty": "medium"
   },
   {
     "word": "Panther",
-    "hint": "Tier",
+    "hint": "Wildnis",
     "difficulty": "medium"
   },
   {
-    "word": "Trank",
-    "hint": "Getränk",
-    "difficulty": "easy"
-  },
-  {
     "word": "Gemüse",
-    "hint": "Essen",
+    "hint": "Supermarkt",
     "difficulty": "easy"
   },
   {
     "word": "Basilika",
-    "hint": "Ort",
+    "hint": "Architektur",
     "difficulty": "medium"
   },
   {
     "word": "Hubschrauber",
-    "hint": "Fahrzeug",
-    "difficulty": "medium"
+    "hint": "Luftfahrt",
+    "difficulty": "easy"
   },
   {
     "word": "Blizzard",
@@ -5126,28 +4981,28 @@
   },
   {
     "word": "Observatorium",
-    "hint": "Ort",
+    "hint": "Wissenschaft",
     "difficulty": "medium"
   },
   {
     "word": "Barometer",
-    "hint": "Objekt",
+    "hint": "Wissenschaft",
     "difficulty": "medium"
   },
   {
     "word": "Zollhaus",
-    "hint": "Ort",
+    "hint": "Grenze",
     "difficulty": "medium"
   },
   {
     "word": "Mandoline",
-    "hint": "Objekt",
+    "hint": "Musik",
     "difficulty": "medium"
   },
   {
     "word": "Motorrad",
-    "hint": "Fahrzeug",
-    "difficulty": "medium"
+    "hint": "Straße",
+    "difficulty": "easy"
   },
   {
     "word": "Ozean",
@@ -5156,22 +5011,22 @@
   },
   {
     "word": "Kathedrale",
-    "hint": "Ort",
+    "hint": "Architektur",
     "difficulty": "medium"
   },
   {
     "word": "Harfe",
-    "hint": "Objekt",
+    "hint": "Musik",
     "difficulty": "medium"
   },
   {
     "word": "Erdbeben",
     "hint": "Natur",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Festspielhaus",
-    "hint": "Ort",
+    "hint": "Kultur",
     "difficulty": "medium"
   },
   {
@@ -5181,37 +5036,37 @@
   },
   {
     "word": "Thermometer",
-    "hint": "Objekt",
-    "difficulty": "medium"
+    "hint": "Wissenschaft",
+    "difficulty": "easy"
   },
   {
     "word": "Flugplatz",
-    "hint": "Ort",
+    "hint": "Luftfahrt",
     "difficulty": "medium"
   },
   {
     "word": "Klarinette",
-    "hint": "Objekt",
+    "hint": "Musik",
     "difficulty": "medium"
   },
   {
     "word": "Antilope",
-    "hint": "Tier",
+    "hint": "Wildnis",
     "difficulty": "medium"
   },
   {
-    "word": "Nuß",
+    "word": "Nuss",
     "hint": "Essen",
     "difficulty": "easy"
   },
   {
     "word": "Tempel",
-    "hint": "Ort",
+    "hint": "Religion",
     "difficulty": "medium"
   },
   {
-    "word": "Unterseeboot",
-    "hint": "Fahrzeug",
+    "word": "U-Boot",
+    "hint": "Meer",
     "difficulty": "medium"
   },
   {
@@ -5221,67 +5076,62 @@
   },
   {
     "word": "Festung",
-    "hint": "Ort",
+    "hint": "Geschichte",
     "difficulty": "medium"
   },
   {
     "word": "Fernglas",
-    "hint": "Objekt",
-    "difficulty": "medium"
+    "hint": "Outdoor",
+    "difficulty": "easy"
   },
   {
     "word": "Leopard",
-    "hint": "Tier",
+    "hint": "Wildnis",
     "difficulty": "medium"
   },
   {
     "word": "Palast",
-    "hint": "Ort",
+    "hint": "Geschichte",
     "difficulty": "medium"
   },
   {
     "word": "Zeppelin",
-    "hint": "Fahrzeug",
+    "hint": "Luftfahrt",
     "difficulty": "medium"
   },
   {
     "word": "Violine",
-    "hint": "Objekt",
+    "hint": "Musik",
     "difficulty": "medium"
   },
   {
     "word": "Sextant",
-    "hint": "Objekt",
+    "hint": "Navigation",
     "difficulty": "medium"
   },
   {
     "word": "Oboe",
-    "hint": "Objekt",
+    "hint": "Musik",
     "difficulty": "medium"
   },
   {
     "word": "Zebra",
-    "hint": "Tier",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Elephant",
-    "hint": "Tier",
+    "hint": "Wildnis",
     "difficulty": "easy"
   },
   {
     "word": "Schokolade",
-    "hint": "Essen",
+    "hint": "Süßigkeiten",
     "difficulty": "easy"
   },
   {
     "word": "Toilette",
-    "hint": "Ort",
+    "hint": "Haushalt",
     "difficulty": "easy"
   },
   {
     "word": "Orangensaft",
-    "hint": "Getränk",
+    "hint": "Frühstück",
     "difficulty": "easy"
   },
   {
@@ -5292,97 +5142,92 @@
   {
     "word": "Regenwald",
     "hint": "Natur",
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
     "word": "Saxophon",
-    "hint": "Objekt",
-    "difficulty": "medium"
-  },
-  {
-    "word": "U-Boot",
-    "hint": "Fahrzeug",
+    "hint": "Musik",
     "difficulty": "medium"
   },
   {
     "word": "Wolkenkratzer",
-    "hint": "Ort",
-    "difficulty": "medium"
+    "hint": "Stadt",
+    "difficulty": "easy"
   },
   {
     "word": "Iglu",
-    "hint": "Ort",
-    "difficulty": "medium"
+    "hint": "Kälte",
+    "difficulty": "easy"
   },
   {
     "word": "Kakao",
-    "hint": "Getränk",
-    "difficulty": "medium"
+    "hint": "Frühstück",
+    "difficulty": "easy"
   },
   {
     "word": "Baguette",
-    "hint": "Essen",
-    "difficulty": "medium"
+    "hint": "Bäckerei",
+    "difficulty": "easy"
   },
   {
     "word": "Krokodil",
-    "hint": "Tier",
-    "difficulty": "medium"
+    "hint": "Wildnis",
+    "difficulty": "easy"
   },
   {
     "word": "Hut",
-    "hint": "Objekt",
+    "hint": "Mode",
     "difficulty": "easy"
   },
   {
     "word": "Känguru",
-    "hint": "Tier",
-    "difficulty": "medium"
+    "hint": "Wildnis",
+    "difficulty": "easy"
   },
   {
     "word": "Gorilla",
-    "hint": "Tier",
-    "difficulty": "medium"
+    "hint": "Wildnis",
+    "difficulty": "easy"
   },
   {
     "word": "Pfau",
-    "hint": "Tier",
+    "hint": "Wildnis",
     "difficulty": "medium"
   },
   {
     "word": "Segelboot",
-    "hint": "Fahrzeug",
-    "difficulty": "medium"
+    "hint": "Meer",
+    "difficulty": "easy"
   },
   {
     "word": "Windmühle",
-    "hint": "Ort",
-    "difficulty": "medium"
+    "hint": "Landschaft",
+    "difficulty": "easy"
   },
   {
     "word": "Kamin",
-    "hint": "Objekt",
+    "hint": "Zuhause",
     "difficulty": "medium"
   },
   {
     "word": "Fallschirm",
-    "hint": "Objekt",
+    "hint": "Luftfahrt",
     "difficulty": "medium"
   },
   {
     "word": "Feuerstelle",
-    "hint": "Objekt",
-    "difficulty": "medium"
+    "hint": "Camping",
+    "difficulty": "easy"
   },
   {
     "word": "Hängematte",
-    "hint": "Objekt",
-    "difficulty": "medium"
+    "hint": "Camping",
+    "difficulty": "easy"
   },
   {
     "word": "Terrasse",
-    "hint": "Ort",
-    "difficulty": "medium"
+    "hint": "Zuhause",
+    "difficulty": "easy"
   },
   {
     "word": "Feuchtgebiet",
@@ -5391,1017 +5236,972 @@
   },
   {
     "word": "Sanduhr",
-    "hint": "Objekt",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Kirsche",
-    "hint": "Essen",
+    "hint": "Zeit",
     "difficulty": "easy"
   },
   {
-    "word": "Trauben",
-    "hint": "Essen",
+    "word": "Kirsche",
+    "hint": "Garten",
     "difficulty": "easy"
   },
   {
     "word": "Kürbis",
-    "hint": "Essen",
+    "hint": "Garten",
     "difficulty": "easy"
   },
   {
     "word": "Möhre",
-    "hint": "Essen",
+    "hint": "Garten",
     "difficulty": "easy"
   },
   {
     "word": "Spinat",
-    "hint": "Essen",
+    "hint": "Garten",
     "difficulty": "easy"
   },
   {
     "word": "Würstchen",
-    "hint": "Essen",
+    "hint": "Grill",
     "difficulty": "easy"
   },
   {
     "word": "Hähnchen",
-    "hint": "Essen",
+    "hint": "Restaurant",
     "difficulty": "easy"
   },
   {
     "word": "Apfelsaft",
-    "hint": "Getränk",
+    "hint": "Frühstück",
     "difficulty": "easy"
   },
   {
     "word": "Eistee",
-    "hint": "Getränk",
+    "hint": "Sommer",
     "difficulty": "easy"
   },
   {
     "word": "Kaninchen",
-    "hint": "Tier",
+    "hint": "Bauernhof",
     "difficulty": "easy"
   },
   {
     "word": "Schnecke",
-    "hint": "Tier",
+    "hint": "Garten",
     "difficulty": "easy"
   },
   {
     "word": "Schmied",
-    "hint": "Konzept",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Ritterrüstung",
-    "hint": "Objekt",
+    "hint": "Handwerk",
     "difficulty": "medium"
   },
   {
     "word": "Leuchtrakete",
-    "hint": "Objekt",
+    "hint": "Notfall",
     "difficulty": "medium"
   },
   {
     "word": "Schatzkarte",
-    "hint": "Objekt",
-    "difficulty": "medium"
+    "hint": "Abenteuer",
+    "difficulty": "easy"
   },
   {
     "word": "Bumerang",
-    "hint": "Objekt",
-    "difficulty": "medium"
+    "hint": "Sport",
+    "difficulty": "easy"
   },
   {
     "word": "Kutsche",
-    "hint": "Fahrzeug",
+    "hint": "Geschichte",
     "difficulty": "medium"
   },
   {
-    "word": "Kanufahrt",
-    "hint": "Fahrzeug",
-    "difficulty": "medium"
+    "word": "Kanu",
+    "hint": "Fluss",
+    "difficulty": "easy"
   },
   {
     "word": "Schubkarre",
-    "hint": "Objekt",
-    "difficulty": "medium"
+    "hint": "Garten",
+    "difficulty": "easy"
   },
   {
     "word": "Heißluftballon",
-    "hint": "Fahrzeug",
+    "hint": "Luftfahrt",
     "difficulty": "medium"
   },
   {
     "word": "Tanker",
-    "hint": "Fahrzeug",
+    "hint": "Meer",
     "difficulty": "medium"
   },
   {
-    "word": "Rodschlitten",
-    "hint": "Fahrzeug",
-    "difficulty": "medium"
+    "word": "Schlitten",
+    "hint": "Winter",
+    "difficulty": "easy"
   },
   {
     "word": "Rolltreppe",
-    "hint": "Objekt",
-    "difficulty": "medium"
+    "hint": "Einkaufen",
+    "difficulty": "easy"
   },
   {
     "word": "Staudamm",
-    "hint": "Ort",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Leuchtbake",
-    "hint": "Objekt",
+    "hint": "Wasser",
     "difficulty": "medium"
   },
   {
     "word": "Qualle",
-    "hint": "Tier",
-    "difficulty": "medium"
+    "hint": "Meer",
+    "difficulty": "easy"
   },
   {
     "word": "Elch",
-    "hint": "Tier",
-    "difficulty": "medium"
+    "hint": "Wald",
+    "difficulty": "easy"
   },
   {
     "word": "Bison",
-    "hint": "Tier",
+    "hint": "Wildnis",
     "difficulty": "medium"
   },
   {
     "word": "Lama",
-    "hint": "Tier",
-    "difficulty": "medium"
+    "hint": "Südamerika",
+    "difficulty": "easy"
   },
   {
     "word": "Flamingo",
-    "hint": "Tier",
-    "difficulty": "medium"
+    "hint": "Wildnis",
+    "difficulty": "easy"
   },
   {
     "word": "Pelikan",
-    "hint": "Tier",
+    "hint": "Küste",
     "difficulty": "medium"
   },
   {
     "word": "Koala",
-    "hint": "Tier",
-    "difficulty": "medium"
+    "hint": "Wildnis",
+    "difficulty": "easy"
   },
   {
     "word": "Panda",
-    "hint": "Tier",
+    "hint": "Wildnis",
     "difficulty": "easy"
   },
   {
     "word": "Gepard",
-    "hint": "Tier",
+    "hint": "Savanne",
     "difficulty": "medium"
   },
   {
     "word": "Hyäne",
-    "hint": "Tier",
+    "hint": "Savanne",
     "difficulty": "medium"
   },
   {
     "word": "Nashorn",
-    "hint": "Tier",
-    "difficulty": "medium"
+    "hint": "Savanne",
+    "difficulty": "easy"
   },
   {
     "word": "Nilpferd",
-    "hint": "Tier",
-    "difficulty": "medium"
+    "hint": "Savanne",
+    "difficulty": "easy"
   },
   {
     "word": "Schimpanse",
-    "hint": "Tier",
+    "hint": "Dschungel",
     "difficulty": "medium"
   },
   {
     "word": "Sandsturm",
-    "hint": "Natur",
+    "hint": "Wüste",
     "difficulty": "medium"
   },
   {
     "word": "Monsun",
-    "hint": "Natur",
+    "hint": "Wetter",
     "difficulty": "medium"
   },
   {
     "word": "Wassermelone",
-    "hint": "Essen",
+    "hint": "Supermarkt",
     "difficulty": "easy"
   },
   {
     "word": "Birne",
-    "hint": "Essen",
+    "hint": "Supermarkt",
     "difficulty": "easy"
   },
   {
     "word": "Pfirsich",
-    "hint": "Essen",
+    "hint": "Supermarkt",
     "difficulty": "easy"
   },
   {
     "word": "Mango",
-    "hint": "Essen",
+    "hint": "Supermarkt",
     "difficulty": "easy"
   },
   {
     "word": "Ananas",
-    "hint": "Essen",
+    "hint": "Supermarkt",
     "difficulty": "easy"
   },
   {
     "word": "Spaghetti",
-    "hint": "Essen",
+    "hint": "Restaurant",
     "difficulty": "easy"
   },
   {
     "word": "Waffel",
-    "hint": "Essen",
+    "hint": "Markt",
     "difficulty": "easy"
   },
   {
     "word": "Pfannkuchen",
-    "hint": "Essen",
+    "hint": "Frühstück",
     "difficulty": "easy"
   },
   {
     "word": "Sushi",
-    "hint": "Essen",
+    "hint": "Restaurant",
     "difficulty": "easy"
   },
   {
     "word": "Taco",
-    "hint": "Essen",
+    "hint": "Restaurant",
     "difficulty": "easy"
   },
   {
     "word": "Burger",
-    "hint": "Essen",
+    "hint": "Restaurant",
     "difficulty": "easy"
   },
   {
     "word": "Sandwich",
-    "hint": "Essen",
+    "hint": "Mittagspause",
     "difficulty": "easy"
   },
   {
     "word": "Milchshake",
-    "hint": "Getränk",
+    "hint": "Café",
     "difficulty": "easy"
   },
   {
     "word": "Smoothie",
-    "hint": "Getränk",
+    "hint": "Café",
     "difficulty": "easy"
   },
   {
-    "word": "Iguana",
-    "hint": "Tier",
+    "word": "Leguan",
+    "hint": "Dschungel",
     "difficulty": "medium"
   },
   {
     "word": "Chamäleon",
-    "hint": "Tier",
+    "hint": "Dschungel",
     "difficulty": "medium"
   },
   {
     "word": "Stachelschwein",
-    "hint": "Tier",
+    "hint": "Wildnis",
     "difficulty": "medium"
   },
   {
     "word": "Faultier",
-    "hint": "Tier",
-    "difficulty": "medium"
+    "hint": "Dschungel",
+    "difficulty": "easy"
   },
   {
     "word": "Walross",
-    "hint": "Tier",
+    "hint": "Arktis",
     "difficulty": "medium"
   },
   {
     "word": "Warzenschwein",
-    "hint": "Tier",
+    "hint": "Savanne",
     "difficulty": "medium"
   },
   {
     "word": "Erdmännchen",
-    "hint": "Tier",
+    "hint": "Savanne",
     "difficulty": "medium"
   },
   {
     "word": "Strauß",
-    "hint": "Tier",
-    "difficulty": "medium"
+    "hint": "Savanne",
+    "difficulty": "easy"
   },
   {
     "word": "Jaguar",
-    "hint": "Tier",
+    "hint": "Dschungel",
     "difficulty": "medium"
   },
   {
-    "word": "Stingray",
-    "hint": "Tier",
+    "word": "Rochen",
+    "hint": "Meer",
     "difficulty": "medium"
   },
   {
     "word": "Socke",
-    "hint": "Objekt",
+    "hint": "Kleidung",
     "difficulty": "easy"
   },
   {
     "word": "Bürste",
-    "hint": "Objekt",
+    "hint": "Badezimmer",
     "difficulty": "easy"
   },
   {
     "word": "Gondel",
-    "hint": "Fahrzeug",
+    "hint": "Venedig",
     "difficulty": "medium"
   },
   {
     "word": "Taxi",
-    "hint": "Fahrzeug",
+    "hint": "Stadt",
     "difficulty": "easy"
   },
   {
     "word": "Roller",
-    "hint": "Fahrzeug",
+    "hint": "Stadt",
     "difficulty": "easy"
   },
   {
     "word": "Straßenbahn",
-    "hint": "Fahrzeug",
+    "hint": "Stadt",
     "difficulty": "easy"
   },
   {
     "word": "LKW",
-    "hint": "Fahrzeug",
+    "hint": "Straße",
     "difficulty": "easy"
   },
   {
     "word": "Zoo",
-    "hint": "Ort",
+    "hint": "Freizeit",
     "difficulty": "easy"
   },
   {
     "word": "Bauernhof",
-    "hint": "Ort",
+    "hint": "Landleben",
     "difficulty": "easy"
   },
   {
     "word": "Dachboden",
-    "hint": "Ort",
-    "difficulty": "medium"
+    "hint": "Zuhause",
+    "difficulty": "easy"
   },
   {
     "word": "Gewächshaus",
-    "hint": "Ort",
+    "hint": "Garten",
     "difficulty": "medium"
   },
   {
     "word": "Innenhof",
-    "hint": "Ort",
-    "difficulty": "medium"
+    "hint": "Gebäude",
+    "difficulty": "easy"
   },
   {
     "word": "Schrein",
-    "hint": "Ort",
+    "hint": "Religion",
     "difficulty": "medium"
   },
   {
     "word": "Riff",
-    "hint": "Natur",
+    "hint": "Meer",
     "difficulty": "medium"
   },
   {
     "word": "Krater",
-    "hint": "Natur",
+    "hint": "Vulkan",
     "difficulty": "medium"
   },
   {
     "word": "Düne",
-    "hint": "Natur",
+    "hint": "Wüste",
     "difficulty": "medium"
   },
   {
     "word": "Armbrust",
-    "hint": "Objekt",
+    "hint": "Mittelalter",
     "difficulty": "medium"
   },
   {
     "word": "Schleuder",
-    "hint": "Objekt",
+    "hint": "Mittelalter",
     "difficulty": "medium"
   },
   {
     "word": "Trampolin",
-    "hint": "Objekt",
-    "difficulty": "medium"
+    "hint": "Sport",
+    "difficulty": "easy"
   },
   {
     "word": "Periskop",
-    "hint": "Objekt",
+    "hint": "Marine",
     "difficulty": "medium"
   },
   {
     "word": "Schreibmaschine",
-    "hint": "Objekt",
-    "difficulty": "medium"
+    "hint": "Büro",
+    "difficulty": "easy"
   },
   {
     "word": "Abakus",
-    "hint": "Objekt",
+    "hint": "Mathematik",
     "difficulty": "medium"
   },
   {
     "word": "Vertrauen",
-    "hint": "Konzept",
+    "hint": "Beziehung",
     "difficulty": "medium"
   },
   {
     "word": "Eifersucht",
-    "hint": "Konzept",
+    "hint": "Beziehung",
     "difficulty": "medium"
   },
   {
     "word": "Sehnsucht",
-    "hint": "Konzept",
+    "hint": "Gefühl",
     "difficulty": "medium"
   },
   {
     "word": "Langeweile",
-    "hint": "Konzept",
+    "hint": "Gefühl",
     "difficulty": "easy"
   },
   {
     "word": "Begeisterung",
-    "hint": "Konzept",
+    "hint": "Gefühl",
     "difficulty": "medium"
   },
   {
     "word": "Singen",
-    "hint": "Konzept",
+    "hint": "Musik",
     "difficulty": "easy"
   },
   {
     "word": "Schlafen",
-    "hint": "Konzept",
+    "hint": "Nacht",
     "difficulty": "easy"
   },
   {
     "word": "Flüstern",
-    "hint": "Konzept",
+    "hint": "Geheimnis",
     "difficulty": "easy"
   },
   {
     "word": "Träumen",
-    "hint": "Konzept",
+    "hint": "Nacht",
     "difficulty": "easy"
   },
   {
     "word": "Zaubern",
-    "hint": "Konzept",
-    "difficulty": "medium"
+    "hint": "Fantasie",
+    "difficulty": "easy"
   },
   {
     "word": "Schmuggeln",
-    "hint": "Konzept",
+    "hint": "Kriminalität",
     "difficulty": "medium"
   },
   {
     "word": "Verhandeln",
-    "hint": "Konzept",
+    "hint": "Geschäft",
     "difficulty": "medium"
   },
   {
     "word": "Komponieren",
-    "hint": "Konzept",
+    "hint": "Musik",
     "difficulty": "medium"
   },
   {
     "word": "Navigieren",
-    "hint": "Konzept",
+    "hint": "Reise",
     "difficulty": "medium"
   },
   {
     "word": "Schmelzen",
-    "hint": "Konzept",
-    "difficulty": "medium"
+    "hint": "Hitze",
+    "difficulty": "easy"
   },
   {
     "word": "Explodieren",
-    "hint": "Konzept",
-    "difficulty": "medium"
+    "hint": "Gefahr",
+    "difficulty": "easy"
   },
   {
     "word": "Schweigen",
-    "hint": "Konzept",
+    "hint": "Geheimnis",
     "difficulty": "easy"
   },
   {
     "word": "Lügen",
-    "hint": "Konzept",
+    "hint": "Kriminalität",
     "difficulty": "easy"
   },
   {
     "word": "Malerei",
-    "hint": "Konzept",
+    "hint": "Kunst",
     "difficulty": "easy"
   },
   {
     "word": "Skulptur",
-    "hint": "Konzept",
+    "hint": "Kunst",
     "difficulty": "medium"
   },
   {
     "word": "Fotografie",
-    "hint": "Konzept",
-    "difficulty": "medium"
+    "hint": "Kunst",
+    "difficulty": "easy"
   },
   {
     "word": "Ballett",
-    "hint": "Konzept",
-    "difficulty": "medium"
+    "hint": "Kunst",
+    "difficulty": "easy"
   },
   {
     "word": "Oper",
-    "hint": "Konzept",
-    "difficulty": "medium"
+    "hint": "Kunst",
+    "difficulty": "easy"
   },
   {
     "word": "Graffiti",
-    "hint": "Konzept",
-    "difficulty": "medium"
+    "hint": "Kunst",
+    "difficulty": "easy"
   },
   {
     "word": "Karikatur",
-    "hint": "Konzept",
+    "hint": "Kunst",
     "difficulty": "medium"
   },
   {
     "word": "Origami",
-    "hint": "Konzept",
+    "hint": "Kunst",
     "difficulty": "medium"
   },
   {
     "word": "Kaleidoskop",
-    "hint": "Objekt",
+    "hint": "Spielzeug",
     "difficulty": "medium"
   },
   {
     "word": "Marionette",
-    "hint": "Objekt",
+    "hint": "Theater",
     "difficulty": "medium"
   },
   {
-    "word": "Dominosteine",
-    "hint": "Objekt",
+    "word": "Domino",
+    "hint": "Spieleabend",
     "difficulty": "easy"
   },
   {
     "word": "Würfel",
-    "hint": "Objekt",
+    "hint": "Spieleabend",
     "difficulty": "easy"
   },
   {
     "word": "Dartscheibe",
-    "hint": "Objekt",
-    "difficulty": "medium"
+    "hint": "Kneipe",
+    "difficulty": "easy"
   },
   {
     "word": "Schachbrett",
-    "hint": "Objekt",
+    "hint": "Spieleabend",
     "difficulty": "easy"
   },
   {
     "word": "Puzzlestück",
-    "hint": "Objekt",
+    "hint": "Spieleabend",
     "difficulty": "easy"
   },
   {
     "word": "Konfetti",
-    "hint": "Objekt",
+    "hint": "Feier",
     "difficulty": "easy"
   },
   {
     "word": "Glühbirne",
-    "hint": "Objekt",
+    "hint": "Zuhause",
     "difficulty": "easy"
   },
   {
     "word": "Steckdose",
-    "hint": "Objekt",
+    "hint": "Zuhause",
     "difficulty": "easy"
   },
   {
     "word": "Magnet",
-    "hint": "Objekt",
+    "hint": "Physik",
     "difficulty": "easy"
   },
   {
     "word": "Lupe",
-    "hint": "Objekt",
+    "hint": "Wissenschaft",
     "difficulty": "easy"
   },
   {
     "word": "Trichter",
-    "hint": "Objekt",
-    "difficulty": "medium"
+    "hint": "Küche",
+    "difficulty": "easy"
   },
   {
     "word": "Kreisel",
-    "hint": "Objekt",
+    "hint": "Spielen",
     "difficulty": "easy"
   },
   {
     "word": "Pfeife",
-    "hint": "Objekt",
+    "hint": "Musik",
     "difficulty": "easy"
   },
   {
     "word": "Mundharmonika",
-    "hint": "Objekt",
-    "difficulty": "medium"
+    "hint": "Musik",
+    "difficulty": "easy"
   },
   {
     "word": "Akkordeon",
-    "hint": "Objekt",
-    "difficulty": "medium"
+    "hint": "Musik",
+    "difficulty": "easy"
   },
   {
     "word": "Trommel",
-    "hint": "Objekt",
+    "hint": "Musik",
     "difficulty": "easy"
   },
   {
     "word": "Xylophon",
-    "hint": "Objekt",
+    "hint": "Musik",
     "difficulty": "medium"
   },
   {
     "word": "Monarchie",
-    "hint": "Konzept",
+    "hint": "Politik",
     "difficulty": "medium"
   },
   {
     "word": "Ritual",
-    "hint": "Konzept",
+    "hint": "Kultur",
     "difficulty": "medium"
   },
   {
     "word": "Tabu",
-    "hint": "Konzept",
+    "hint": "Gesellschaft",
     "difficulty": "medium"
   },
   {
     "word": "Aberglaube",
-    "hint": "Konzept",
+    "hint": "Volkskultur",
     "difficulty": "medium"
   },
   {
     "word": "Sage",
-    "hint": "Konzept",
+    "hint": "Literatur",
     "difficulty": "easy"
   },
   {
     "word": "Fabel",
-    "hint": "Konzept",
+    "hint": "Literatur",
     "difficulty": "easy"
   },
   {
     "word": "Detektiv",
-    "hint": "Person",
+    "hint": "Verbrechen",
     "difficulty": "easy"
   },
   {
     "word": "Dirigent",
-    "hint": "Person",
+    "hint": "Musik",
     "difficulty": "medium"
   },
   {
     "word": "Kapitän",
-    "hint": "Person",
+    "hint": "Meer",
     "difficulty": "easy"
   },
   {
     "word": "Sheriff",
-    "hint": "Person",
+    "hint": "Amerika",
     "difficulty": "easy"
   },
   {
     "word": "Einwanderer",
-    "hint": "Person",
+    "hint": "Gesellschaft",
     "difficulty": "medium"
   },
   {
     "word": "Nomade",
-    "hint": "Person",
+    "hint": "Reisen",
     "difficulty": "medium"
   },
   {
     "word": "Einsiedler",
-    "hint": "Person",
+    "hint": "Natur",
     "difficulty": "medium"
   },
   {
     "word": "Marmelade",
-    "hint": "Essen",
+    "hint": "Küche",
     "difficulty": "easy"
   },
   {
     "word": "Pommes",
-    "hint": "Essen",
+    "hint": "Küche",
     "difficulty": "easy"
   },
   {
     "word": "Joghurt",
-    "hint": "Essen",
+    "hint": "Küche",
     "difficulty": "easy"
   },
   {
     "word": "Brötchen",
-    "hint": "Essen",
+    "hint": "Küche",
     "difficulty": "easy"
   },
   {
     "word": "Müsli",
-    "hint": "Essen",
+    "hint": "Küche",
     "difficulty": "easy"
   },
   {
     "word": "Tukan",
-    "hint": "Tier",
+    "hint": "Regenwald",
     "difficulty": "medium"
   },
   {
     "word": "Flagge",
-    "hint": "Objekt",
+    "hint": "Politik",
     "difficulty": "easy"
   },
   {
     "word": "Wetterhahn",
-    "hint": "Objekt",
-    "difficulty": "medium"
+    "hint": "Architektur",
+    "difficulty": "easy"
   },
   {
     "word": "Steppe",
-    "hint": "Natur",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Torfmoor",
-    "hint": "Natur",
+    "hint": "Geografie",
     "difficulty": "medium"
   },
   {
     "word": "Glück",
-    "hint": "Konzept",
+    "hint": "Gefühle",
     "difficulty": "easy"
   },
   {
     "word": "Abenteuer",
-    "hint": "Konzept",
+    "hint": "Freizeit",
     "difficulty": "easy"
   },
   {
     "word": "Diplomatie",
-    "hint": "Konzept",
+    "hint": "Politik",
     "difficulty": "medium"
   },
   {
     "word": "Migration",
-    "hint": "Konzept",
+    "hint": "Gesellschaft",
     "difficulty": "medium"
   },
   {
     "word": "Recycling",
-    "hint": "Konzept",
+    "hint": "Umwelt",
     "difficulty": "medium"
   },
   {
     "word": "Söldner",
-    "hint": "Person",
+    "hint": "Krieg",
     "difficulty": "medium"
   },
   {
     "word": "Händler",
-    "hint": "Person",
-    "difficulty": "medium"
+    "hint": "Wirtschaft",
+    "difficulty": "easy"
   },
   {
     "word": "Forscher",
-    "hint": "Person",
-    "difficulty": "medium"
+    "hint": "Wissenschaft",
+    "difficulty": "easy"
   },
   {
     "word": "Krähe",
-    "hint": "Tier",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Halm",
-    "hint": "Organisch",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Reue",
-    "hint": "Konzept",
+    "hint": "Gefühle",
     "difficulty": "easy"
   },
   {
     "word": "Spinnwebe",
-    "hint": "Organisch",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Wickel",
-    "hint": "Organisch",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Zorn",
-    "hint": "Konzept",
+    "hint": "Gefühle",
     "difficulty": "easy"
   },
   {
     "word": "Heide",
-    "hint": "Platz",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Reiher",
-    "hint": "Tier",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
-    "word": "Spanne",
-    "hint": "Objekt",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Moosbeere",
-    "hint": "Organisch",
+    "word": "Cranberry",
+    "hint": "Küche",
     "difficulty": "easy"
   },
   {
     "word": "Treue",
-    "hint": "Konzept",
+    "hint": "Gefühle",
     "difficulty": "easy"
   },
   {
     "word": "Mulde",
-    "hint": "Platz",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Fessel",
-    "hint": "Objekt",
+    "hint": "Verbrechen",
     "difficulty": "easy"
   },
   {
     "word": "Nacktschnecke",
-    "hint": "Tier",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Sünde",
-    "hint": "Konzept",
+    "hint": "Religion",
     "difficulty": "easy"
   },
   {
     "word": "Kluft",
-    "hint": "Platz",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Sichel",
-    "hint": "Objekt",
+    "hint": "Landwirtschaft",
     "difficulty": "easy"
   },
   {
     "word": "Efeu",
-    "hint": "Organisch",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Ebene",
-    "hint": "Platz",
+    "hint": "Geografie",
     "difficulty": "easy"
   },
   {
-    "word": "Blütenkelch",
-    "hint": "Organisch",
-    "difficulty": "medium"
+    "word": "Blüte",
+    "hint": "Natur",
+    "difficulty": "easy"
   },
   {
     "word": "Sühne",
-    "hint": "Konzept",
+    "hint": "Religion",
     "difficulty": "medium"
   },
   {
     "word": "Grotte",
-    "hint": "Platz",
+    "hint": "Natur",
     "difficulty": "medium"
   },
   {
     "word": "Zepter",
-    "hint": "Objekt",
+    "hint": "Geschichte",
     "difficulty": "medium"
   },
   {
     "word": "Marder",
-    "hint": "Tier",
+    "hint": "Natur",
     "difficulty": "medium"
   },
   {
     "word": "Lichtung",
-    "hint": "Platz",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Armilla",
-    "hint": "Objekt",
-    "difficulty": "medium"
-  },
-  {
-    "word": "Felshöhle",
-    "hint": "Platz",
-    "difficulty": "medium"
+    "hint": "Natur",
+    "difficulty": "easy"
   },
   {
     "word": "Peitsche",
-    "hint": "Objekt",
+    "hint": "Geschichte",
     "difficulty": "medium"
   },
   {
     "word": "Meerkatze",
-    "hint": "Tier",
+    "hint": "Regenwald",
     "difficulty": "medium"
   },
   {
     "word": "Ergebung",
-    "hint": "Konzept",
+    "hint": "Krieg",
     "difficulty": "medium"
   },
   {
     "word": "Lauch",
-    "hint": "Organisch",
+    "hint": "Küche",
     "difficulty": "easy"
   },
   {
     "word": "Brosche",
-    "hint": "Objekt",
+    "hint": "Mode",
     "difficulty": "medium"
   },
   {
     "word": "Gnade",
-    "hint": "Konzept",
+    "hint": "Religion",
     "difficulty": "easy"
   },
   {
     "word": "Kammer",
-    "hint": "Platz",
+    "hint": "Architektur",
     "difficulty": "easy"
   },
   {
-    "word": "Disteln",
-    "hint": "Organisch",
+    "word": "Distel",
+    "hint": "Natur",
     "difficulty": "easy"
   },
   {
     "word": "Stab",
-    "hint": "Objekt",
-    "difficulty": "easy"
-  },
-  {
-    "word": "Gewöhnlich",
-    "hint": "Organisch",
+    "hint": "Sport",
     "difficulty": "easy"
   },
   {
     "word": "Zeltstadt",
-    "hint": "Platz",
+    "hint": "Reisen",
     "difficulty": "easy"
   },
   {
     "word": "Gelatine",
-    "hint": "Organisch",
+    "hint": "Küche",
     "difficulty": "easy"
   },
   {
     "word": "Baldrian",
-    "hint": "Organisch",
+    "hint": "Gesundheit",
     "difficulty": "medium"
   }
 ]
