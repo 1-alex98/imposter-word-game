@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, onMounted, ref } from 'vue';
+import { computed, onMounted, onUnmounted, ref, watch } from 'vue';
 import { useRouter } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import { useGameSession } from '@/composables/useGameSession';
@@ -37,6 +37,37 @@ const ROUND_FRESH_THRESHOLD_MS = 60_000;
 
 const stage = ref<Stage>('pre-reveal');
 const revealTimerId = ref<ReturnType<typeof setTimeout> | null>(null);
+
+// True while we're still inside the "round just started" window. Drives the
+// play-stage button emphasis: early on we push "Show my word again"; once the
+// window elapses (same threshold as the confirm dialogs) we shift emphasis to
+// the reveal / next-round buttons.
+const roundFresh = ref<boolean>(true);
+const freshTimerId = ref<ReturnType<typeof setTimeout> | null>(null);
+
+function scheduleFreshTimer() {
+  if (freshTimerId.value !== null) {
+    clearTimeout(freshTimerId.value);
+    freshTimerId.value = null;
+  }
+  const remaining = ROUND_FRESH_THRESHOLD_MS - (Date.now() - roundStartedAt.value);
+  if (remaining <= 0) {
+    roundFresh.value = false;
+    return;
+  }
+  roundFresh.value = true;
+  freshTimerId.value = setTimeout(() => {
+    roundFresh.value = false;
+    freshTimerId.value = null;
+  }, remaining);
+}
+
+// Re-arm whenever a new round starts (roundStartedAt is reset by advanceRound).
+watch(roundStartedAt, scheduleFreshTimer);
+onMounted(scheduleFreshTimer);
+onUnmounted(() => {
+  if (freshTimerId.value !== null) clearTimeout(freshTimerId.value);
+});
 const qrDialogOpen = ref<boolean>(false);
 const revealConfirmOpen = ref<boolean>(false);
 const nextRoundConfirmOpen = ref<boolean>(false);
@@ -306,7 +337,7 @@ function newGame() {
               <div class="text-h4 text-center">{{ t('player.haveFun') }}</div>
               <div class="d-flex flex-wrap justify-center ga-3 mt-10 mb-10">
                 <v-btn
-                  size="large"
+                  :size="roundFresh ? 'x-large' : 'small'"
                   variant="outlined"
                   prepend-icon="mdi-eye"
                   data-test="show-role-again"
@@ -317,7 +348,7 @@ function newGame() {
                 <v-btn
                   v-if="roleViewedThisSession"
                   color="secondary"
-                  size="large"
+                  :size="roundFresh ? 'small' : 'large'"
                   variant="elevated"
                   prepend-icon="mdi-account-search"
                   data-test="reveal-imposter"
@@ -328,7 +359,7 @@ function newGame() {
                 <v-btn
                   v-if="roleViewedThisSession"
                   color="primary"
-                  size="large"
+                  :size="roundFresh ? 'small' : 'large'"
                   variant="elevated"
                   append-icon="mdi-arrow-right"
                   data-test="next-round-play"
@@ -363,7 +394,7 @@ function newGame() {
 
             <v-card-actions>
               <v-btn
-                v-if="!roleViewedThisSession"
+                v-if="round === 1 && !roleViewedThisSession"
                 variant="text"
                 size="small"
                 prepend-icon="mdi-account-edit"

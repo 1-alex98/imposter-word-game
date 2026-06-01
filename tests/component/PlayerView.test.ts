@@ -255,4 +255,34 @@ describe('PlayerView', () => {
     expect(wrapper.find('[data-test="pick-name-0"]').exists()).toBe(true);
     expect(window.sessionStorage.getItem('imposter:name:12345')).toBeNull();
   });
+
+  it('hides change-name once the first word has been viewed', async () => {
+    const wrapper = await mountWithPayload(urlPayload());
+    await wrapper.find('[data-test="pick-name-0"]').trigger('click');
+    // Available before the first reveal...
+    expect(wrapper.find('[data-test="change-name"]').exists()).toBe(true);
+    await wrapper.find('[data-test="show-role"]').trigger('click');
+    await wrapper.find('[data-test="hide-role"]').trigger('click');
+    // ...and gone for good once the word has been seen.
+    expect(wrapper.find('[data-test="change-name"]').exists()).toBe(false);
+  });
+
+  it('emphasizes "show word again" while the round is fresh, then the action buttons', async () => {
+    const wrapper = await mountWithPayload(urlPayload());
+    await wrapper.find('[data-test="pick-name-0"]').trigger('click');
+    await wrapper.find('[data-test="show-role"]').trigger('click');
+    await wrapper.find('[data-test="hide-role"]').trigger('click');
+
+    // Fresh window: "show word again" is large, the action buttons are small.
+    expect(wrapper.find('[data-test="show-role-again"]').classes()).toContain('v-btn--size-x-large');
+    expect(wrapper.find('[data-test="reveal-imposter"]').classes()).toContain('v-btn--size-small');
+    expect(wrapper.find('[data-test="next-round-play"]').classes()).toContain('v-btn--size-small');
+
+    // After the fresh window elapses (60s) the emphasis flips.
+    vi.advanceTimersByTime(61_000);
+    await flushPromises();
+    expect(wrapper.find('[data-test="show-role-again"]').classes()).toContain('v-btn--size-small');
+    expect(wrapper.find('[data-test="reveal-imposter"]').classes()).toContain('v-btn--size-large');
+    expect(wrapper.find('[data-test="next-round-play"]').classes()).toContain('v-btn--size-large');
+  });
 });
