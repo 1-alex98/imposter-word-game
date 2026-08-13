@@ -12,7 +12,7 @@ import { setLocale } from './i18n';
 
 const route = useRoute();
 const { mismatch } = useVersionGuard();
-const { state, round, chosenName, roleViewedThisSession } = useGameSession();
+const { state, round, chosenName, roleViewedThisSession, setRound } = useGameSession();
 
 const theme = useTheme();
 let darkQuery: MediaQueryList | null = null;
@@ -59,7 +59,7 @@ watch(
       >
         <PlayerBadge v-if="showPlayerBadge && chosenName" :name="chosenName" />
         <div class="flex-grow-1" />
-        <RoundBadge v-if="showRoundBadge" :round="round" />
+        <RoundBadge v-if="showRoundBadge" :round="round" @update:round="setRound" />
       </div>
       <v-main>
         <router-view />
@@ -69,6 +69,14 @@ watch(
 </template>
 
 <style>
+/* Colourful app backdrop — a soft two-tone wash behind the themed surfaces. */
+.v-application {
+  background-image:
+    radial-gradient(circle at 12% 0%, rgba(var(--v-theme-primary), 0.22), transparent 55%),
+    radial-gradient(circle at 88% 100%, rgba(var(--v-theme-secondary), 0.2), transparent 55%);
+  background-attachment: fixed;
+}
+
 /* On very narrow phones, let button labels wrap instead of overflowing. */
 @media (max-width: 360px) {
   .v-btn:not(.v-btn--icon) {

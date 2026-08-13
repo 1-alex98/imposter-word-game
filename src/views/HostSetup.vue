@@ -74,7 +74,7 @@ function onGenerate() {
     <v-row justify="center" no-gutters>
       <v-col cols="12" md="8">
         <v-card class="pa-3">
-          <v-card-title class="pa-0">{{ t('host.title') }}</v-card-title>
+          <v-card-title class="pa-0 text-primary font-weight-bold">{{ t('host.title') }}</v-card-title>
           <v-card-text class="px-0 pt-2 pb-0">
             <div
               v-for="(_, i) in names"

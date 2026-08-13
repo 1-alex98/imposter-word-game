@@ -69,8 +69,10 @@ watch(
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.75);
-  color: #fff;
+  background:
+    radial-gradient(circle at 50% 40%, rgba(var(--v-theme-primary), 0.95), transparent 70%),
+    rgba(var(--v-theme-surface), 0.96);
+  color: rgb(var(--v-theme-on-primary));
   pointer-events: none;
 }
 

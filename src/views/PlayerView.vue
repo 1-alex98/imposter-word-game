@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, onMounted, ref } from 'vue';
+import { computed, onMounted, ref, watch } from 'vue';
 import { useRouter } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import { useGameSession } from '@/composables/useGameSession';
@@ -37,6 +37,7 @@ const stage = ref<Stage>('pre-reveal');
 const revealTimerId = ref<ReturnType<typeof setTimeout> | null>(null);
 const qrDialogOpen = ref<boolean>(false);
 const revealConfirmOpen = ref<boolean>(false);
+const nextRoundConfirmOpen = ref<boolean>(false);
 const transitionOpen = ref<boolean>(false);
 const transitionRound = ref<number>(round.value);
 const pickMenuOpen = ref<boolean>(false);
@@ -140,10 +141,32 @@ function confirmRevealImposter() {
 
 function nextRound() {
   advanceRound();
-  stage.value = 'pre-reveal';
-  transitionRound.value = round.value;
-  transitionOpen.value = true;
 }
+
+// Starting a round without revealing the imposter is a legitimate flow, but an
+// accidental tap seconds into a round would burn it — warn just like reveal does.
+function requestNextRound() {
+  if (Date.now() - roundStartedAt.value < REVEAL_CONFIRM_THRESHOLD_MS) {
+    nextRoundConfirmOpen.value = true;
+    return;
+  }
+  nextRound();
+}
+
+function confirmNextRound() {
+  nextRoundConfirmOpen.value = false;
+  nextRound();
+}
+
+// Any round change — Next round, or a jump via the round picker — resets the
+// player flow and plays the round animation.
+watch(round, (n, prev) => {
+  if (n === prev) return;
+  cancelTimer();
+  stage.value = 'pre-reveal';
+  transitionRound.value = n;
+  transitionOpen.value = true;
+});
 
 function onTransitionDone() {
   transitionOpen.value = false;
@@ -188,14 +211,15 @@ function newGame() {
       <v-row justify="center" no-gutters>
         <v-col cols="12" md="8">
           <v-card class="pa-3" data-test="pick-card">
-            <v-card-title class="text-h5 pa-0">{{ t('player.pickName') }}</v-card-title>
+            <v-card-title class="text-h5 pa-0 text-primary font-weight-bold">{{ t('player.pickName') }}</v-card-title>
             <v-card-text class="px-0 pt-3 pb-0">
               <div class="d-flex flex-wrap ga-2 justify-center">
                 <v-btn
                   v-for="(name, i) in state.names"
                   :key="i"
                   size="large"
-                  variant="outlined"
+                  color="primary"
+                  variant="tonal"
                   :data-test="`pick-name-${i}`"
                   @click="pickName(name)"
                 >
@@ -216,7 +240,7 @@ function newGame() {
             </v-card-actions>
           </v-card>
           <v-card class="pa-3 mt-2" data-test="share-card">
-            <v-card-title class="text-subtitle-1 pa-0">{{ t('player.shareTitle') }}</v-card-title>
+            <v-card-title class="text-subtitle-1 pa-0 text-secondary font-weight-bold">{{ t('player.shareTitle') }}</v-card-title>
             <v-card-text class="px-0 pt-2 pb-0">
               <ShareControls :url="shareUrl" :qr-size="140" />
             </v-card-text>
@@ -257,7 +281,7 @@ function newGame() {
             <!-- reveal -->
             <v-card-text v-else-if="stage === 'reveal'" data-test="stage-reveal">
               <div v-if="role.isImposter" class="text-center" data-test="role-imposter">
-                <div class="text-h3">{{ t('player.imposter') }}</div>
+                <div class="text-h3 text-tertiary font-weight-bold">{{ t('player.imposter') }}</div>
                 <div
                   v-if="state.hintsEnabled"
                   class="text-h6 text-medium-emphasis mt-4"
@@ -268,12 +292,13 @@ function newGame() {
               </div>
               <div v-else class="text-center" data-test="role-innocent">
                 <div class="text-h6 text-medium-emphasis">{{ t('player.yourWord') }}</div>
-                <div class="text-h2 mt-2">{{ role.word }}</div>
+                <div class="text-h2 mt-2 text-primary font-weight-bold">{{ role.word }}</div>
               </div>
               <div class="d-flex justify-center mt-10">
                 <v-btn
                   size="large"
-                  variant="outlined"
+                  color="secondary"
+                  variant="tonal"
                   prepend-icon="mdi-eye-off"
                   data-test="hide-role"
                   @click="hideRole"
@@ -285,11 +310,14 @@ function newGame() {
 
             <!-- play -->
             <v-card-text v-else-if="stage === 'play'" data-test="stage-play">
-              <div class="text-h4 text-center">{{ t('player.haveFun') }}</div>
-              <div class="d-flex flex-wrap justify-center ga-3 mt-10 mb-10">
+              <div class="text-h4 text-center text-primary font-weight-bold">
+                {{ t('player.haveFun') }}
+              </div>
+              <div class="d-flex flex-wrap justify-center ga-3 mt-8 mb-6">
                 <v-btn
+                  color="primary"
                   size="large"
-                  variant="outlined"
+                  variant="tonal"
                   prepend-icon="mdi-eye"
                   data-test="show-role-again"
                   @click="showRole"
@@ -298,7 +326,7 @@ function newGame() {
                 </v-btn>
                 <v-btn
                   v-if="roleViewedThisSession"
-                  color="secondary"
+                  color="tertiary"
                   size="large"
                   variant="elevated"
                   prepend-icon="mdi-account-search"
@@ -306,6 +334,16 @@ function newGame() {
                   @click="revealImposter"
                 >
                   {{ t('player.revealImposter') }}
+                </v-btn>
+                <v-btn
+                  color="primary"
+                  size="large"
+                  variant="elevated"
+                  append-icon="mdi-arrow-right"
+                  data-test="next-round-play"
+                  @click="requestNextRound"
+                >
+                  {{ t('player.nextRound') }}
                 </v-btn>
               </div>
             </v-card-text>
@@ -315,7 +353,7 @@ function newGame() {
               <div class="text-h5 text-medium-emphasis text-center">
                 {{ t('player.imposterIs') }}
               </div>
-              <div class="text-h2 text-center mt-2" data-test="imposter-name">
+              <div class="text-h2 text-center mt-2 text-tertiary font-weight-bold" data-test="imposter-name">
                 {{ imposterName }}
               </div>
               <div class="d-flex justify-center mt-10">
@@ -455,6 +493,36 @@ function newGame() {
             @click="confirmRevealImposter"
           >
             {{ t('player.revealConfirmYes') }}
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog>
+
+    <v-dialog
+      v-if="nextRoundConfirmOpen"
+      v-model="nextRoundConfirmOpen"
+      max-width="420"
+      data-test="next-round-confirm-dialog"
+    >
+      <v-card class="pa-4">
+        <v-card-title>{{ t('player.nextRoundConfirmTitle') }}</v-card-title>
+        <v-card-text>{{ t('player.nextRoundConfirmMessage') }}</v-card-text>
+        <v-card-actions>
+          <v-spacer />
+          <v-btn
+            variant="text"
+            data-test="next-round-confirm-cancel"
+            @click="nextRoundConfirmOpen = false"
+          >
+            {{ t('player.nextRoundConfirmNo') }}
+          </v-btn>
+          <v-btn
+            color="primary"
+            variant="elevated"
+            data-test="next-round-confirm-yes"
+            @click="confirmNextRound"
+          >
+            {{ t('player.nextRoundConfirmYes') }}
           </v-btn>
         </v-card-actions>
       </v-card>

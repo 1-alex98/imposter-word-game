@@ -57,7 +57,8 @@ const steps = computed<string[]>(() => {
   bottom: 0.75rem;
   right: 0.75rem;
   z-index: 1500;
-  background: rgba(0, 0, 0, 0.55);
-  color: #fff;
+  background: rgb(var(--v-theme-tertiary));
+  color: rgb(var(--v-theme-on-tertiary));
+  box-shadow: 0 2px 10px rgba(var(--v-theme-tertiary), 0.45);
 }
 </style>

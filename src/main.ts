@@ -19,6 +19,14 @@ const vuetify = createVuetify({
     defaultTheme: preferredThemeName(),
     themes: { light, dark },
   },
+  defaults: {
+    VCard: { rounded: 'xl' },
+    VBtn: { rounded: 'pill' },
+    VTextField: { color: 'primary' },
+    VSelect: { color: 'primary' },
+    VSwitch: { color: 'secondary', inset: true },
+    VChip: { rounded: 'pill' },
+  },
 });
 
 const app = createApp(App);

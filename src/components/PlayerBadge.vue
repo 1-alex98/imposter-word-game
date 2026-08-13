@@ -12,13 +12,13 @@ defineProps<{ name: string }>();
 .player-badge {
   padding: 0.4rem 1rem;
   border-radius: 999px;
-  background: rgba(0, 0, 0, 0.7);
-  color: #fff;
+  background: rgb(var(--v-theme-secondary));
+  color: rgb(var(--v-theme-on-secondary));
   font-weight: 700;
   font-size: 1.1rem;
   letter-spacing: 0.02em;
   pointer-events: none;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 10px rgba(var(--v-theme-secondary), 0.45);
   white-space: nowrap;
 }
 </style>

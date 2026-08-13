@@ -1,40 +1,49 @@
 import type { ThemeDefinition } from 'vuetify';
 
+// Single source of truth for the app palette (PLAN 4.1).
+// Material-Design-flavoured but deliberately vivid: this is a party game, so the
+// palette leans on a violet primary, a teal secondary and a warm tertiary accent.
 export const light: ThemeDefinition = {
   dark: false,
   colors: {
-    background: '#ffffff',
+    background: '#f4efff',
     surface: '#ffffff',
     'surface-bright': '#ffffff',
-    'surface-variant': '#f5f5f5',
-    'on-surface-variant': '#424242',
-    primary: '#1976d2',
-    'primary-darken-1': '#1565c0',
-    secondary: '#424242',
-    'secondary-darken-1': '#212121',
-    error: '#b00020',
-    info: '#2196f3',
-    success: '#4caf50',
-    warning: '#fb8c00',
+    'surface-variant': '#e9e0fb',
+    'on-surface-variant': '#4a4458',
+    primary: '#6c3fd1',
+    'primary-darken-1': '#5730ad',
+    secondary: '#00897b',
+    'secondary-darken-1': '#00695f',
+    tertiary: '#e85d2f',
+    'tertiary-darken-1': '#c44a20',
+    accent: '#ffb300',
+    error: '#d32f2f',
+    info: '#3b82f6',
+    success: '#2bb673',
+    warning: '#ffb300',
   },
 };
 
 export const dark: ThemeDefinition = {
   dark: true,
   colors: {
-    background: '#121212',
-    surface: '#1e1e1e',
-    'surface-bright': '#2c2c2c',
-    'surface-variant': '#2c2c2c',
-    'on-surface-variant': '#e0e0e0',
-    primary: '#2196f3',
-    'primary-darken-1': '#1976d2',
-    secondary: '#b0bec5',
-    'secondary-darken-1': '#90a4ae',
-    error: '#cf6679',
-    info: '#64b5f6',
-    success: '#66bb6a',
-    warning: '#ffa726',
+    background: '#141019',
+    surface: '#1d1826',
+    'surface-bright': '#2b2436',
+    'surface-variant': '#2b2436',
+    'on-surface-variant': '#ded4ef',
+    primary: '#b69cff',
+    'primary-darken-1': '#9b7bff',
+    secondary: '#4dd9c0',
+    'secondary-darken-1': '#28c2a6',
+    tertiary: '#ff9e7a',
+    'tertiary-darken-1': '#ff7f52',
+    accent: '#ffd166',
+    error: '#ff6b6b',
+    info: '#82b1ff',
+    success: '#5ddba4',
+    warning: '#ffd166',
   },
 };
 
